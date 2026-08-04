@@ -9,8 +9,8 @@ decomposition but study different populations.
 - `latam.tex` compiles the Latin American paper.
 - `tex/shared_decomposition.tex` contains the two-part accounting identity used
   by both papers.
-- `tex/global_aggregate_decomposition.tex` extends the identity across
-  countries and adds the between-country composition term.
+- `tex/shared_aggregate_decomposition.tex` extends the identity across
+  economies and adds the between-economy composition term.
 
 The global paper studies monthly wages of employees using annual ILOSTAT data.
 The Latin American paper studies monthly labor income of all employed workers
@@ -29,13 +29,18 @@ because the populations and remuneration concepts differ.
   estimates the national and aggregate decompositions.
 - `code/05_validate_global_decomposition.py` independently validates keys,
   population shares, component sums, sample selection, and exact additivity.
+- `code/06_lablac_decomposition.py` constructs comparable LABLAC endpoint
+  pairs and estimates the Latin American decompositions.
+- `code/07_validate_lablac_decomposition.py` validates the LABLAC samples,
+  reconstruction errors, component sums, and exact additivity.
 
 Raw inputs are stored under `data/raw/`. Processed ILOSTAT diagnostics are
-stored under `data/processed/ilostat/`, and the global decomposition outputs
-are stored under `data/processed/global_decomposition/`.
+stored under `data/processed/ilostat/`. The global and LABLAC decomposition
+outputs are stored under `data/processed/global_decomposition/` and
+`data/processed/lablac_decomposition/`, respectively.
 
 The ILOSTAT downloader requires the R package `Rilostat`. The Python scripts
-require `pandas` and `numpy`.
+require `pandas`, `numpy`, and `openpyxl`.
 
 ## Reproducing the global aggregate
 
@@ -50,6 +55,17 @@ python code/05_validate_global_decomposition.py
 The decomposition script generates
 `tables/global_sample_decomposition.tex`, which is included directly in the
 global manuscript. The validation script must finish with `status: PASS`.
+
+To reproduce the Latin American decomposition:
+
+```text
+python code/06_lablac_decomposition.py
+python code/07_validate_lablac_decomposition.py
+```
+
+The first script generates `tables/latam_sample_decomposition.tex`, which is
+included directly in the Latin American manuscript. Its validation script
+must also finish with `status: PASS`.
 
 The preferred estimate is an employment-weighted average of within-country
 changes with country weights held fixed. A second exact decomposition allows
@@ -66,5 +82,7 @@ document in Overleaf.
 ## Research design
 
 - `notes/two_paper_design.md` records the distinction between the two papers.
-- `notes/global_aggregate_method.md` records the aggregate estimand, quality
-  screen, preliminary results, sensitivities, and reproducible outputs.
+- `notes/global_aggregate_method.md` records the global aggregate estimand,
+  quality screen, results, sensitivities, and reproducible outputs.
+- `notes/latam_aggregate_method.md` records the LABLAC endpoint construction,
+  aggregate estimand, results, quality checks, and limitations.

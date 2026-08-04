@@ -1,0 +1,36 @@
+{
+  "outcome": "synthetic_mean_monthly_labor_income",
+  "unit": "2017 PPP dollars",
+  "quality_thresholds": {
+    "maximum_absolute_income_reconstruction_error": 0.05,
+    "maximum_absolute_worker_reconstruction_error": 0.03
+  },
+  "windows": [
+    {
+      "window": "2016-2019",
+      "country_source_series": 19,
+      "sources_with_both_endpoint_years": 13,
+      "sources_with_common_quarter": 13,
+      "sources_with_clean_common_quarter": 13,
+      "selected_countries": 13
+    },
+    {
+      "window": "2016-2023",
+      "country_source_series": 19,
+      "sources_with_both_endpoint_years": 9,
+      "sources_with_common_quarter": 9,
+      "sources_with_clean_common_quarter": 9,
+      "selected_countries": 9
+    },
+    {
+      "window": "2019-2023",
+      "country_source_series": 19,
+      "sources_with_both_endpoint_years": 9,
+      "sources_with_common_quarter": 9,
+      "sources_with_clean_common_quarter": 9,
+      "selected_countries": 9
+    }
+  ],
+  "maximum_absolute_country_residual": 1.9895196601282805e-13,
+  "maximum_absolute_aggregate_residual": 1.5987211554602254e-13
+}

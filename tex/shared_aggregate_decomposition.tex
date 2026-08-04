@@ -1,0 +1,51 @@
+\subsection{Aggregate decomposition across economies}
+
+Let \(q_{c,t}\) denote economy \(c\)'s share of the relevant population in the
+covered sample, and let \(p_{ce,t}\) denote education group \(e\)'s share
+within that economy. The sample-wide mean remuneration is
+\begin{equation}
+  R_t^{G}
+  =
+  \sum_c q_{c,t} R_{c,t},
+  \qquad
+  R_{c,t}
+  =
+  \sum_e p_{ce,t} r_{ce,t}.
+  \label{eq:global_wage_identity}
+\end{equation}
+Applying the symmetric decomposition first across economies and then within
+each economy gives
+\begin{align}
+  R_1^{G}-R_0^{G}
+  ={}&
+  \sum_c \bar{R}_c\left(q_{c,1}-q_{c,0}\right)
+  \nonumber\\
+  &+
+  \sum_c \bar{q}_c
+  \sum_e \bar{r}_{ce}\left(p_{ce,1}-p_{ce,0}\right)
+  \nonumber\\
+  &+
+  \sum_c \bar{q}_c
+  \sum_e \bar{p}_{ce}\left(r_{ce,1}-r_{ce,0}\right),
+  \label{eq:global_symmetric_decomposition}
+\end{align}
+where a bar denotes the arithmetic mean of the two endpoints. The first term
+is the between-economy composition component. The second is educational
+upgrading within economies, and the third is the remuneration change within
+economy--education cells. This hierarchical decomposition is exactly
+additive. The between-economy component should not be interpreted as worker
+migration because population weights also change with population,
+labor-force participation, employment, and survey coverage.
+
+The baseline aggregate fixes economy weights at
+\begin{equation}
+  q_c^{*}
+  =
+  \frac{N_{c,0}+N_{c,1}}
+       {\sum_j\left(N_{j,0}+N_{j,1}\right)}.
+  \label{eq:fixed_country_weights}
+\end{equation}
+With \(q_c^{*}\) held fixed, the between-economy component is zero and the
+sample-wide change separates into the original two components: educational
+upgrading and remuneration changes within education groups. Equal weights by
+economy and changing population weights are reported as robustness exercises.

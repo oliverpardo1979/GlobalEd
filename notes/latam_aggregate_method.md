@@ -1,0 +1,82 @@
+# Aggregate decomposition for the LABLAC sample
+
+## Estimand
+
+The outcome is a synthetic mean of monthly labor income across the low,
+middle, and high educational-attainment groups. Group means are measured in
+2017 purchasing-power-parity dollars and weighted by LABLAC's total-worker
+counts.
+
+This synthetic mean is used because LABLAC calculates monthly labor income
+among workers with coherent reported income, while the published worker
+counts cover all workers. The synthetic mean is exactly decomposable with the
+available group weights but does not reproduce the published total exactly.
+
+## Endpoint-pair construction
+
+Each comparison requires only the initial and final year. Within those years,
+the calculation retains the same observed quarters, survey, and Tableau series
+at both endpoints. Intervening years are not required.
+
+- 2016--2019 includes 13 economies. Paraguay is unavailable in 2016.
+- 2019--2023 includes 9 economies.
+- 2016--2023 includes the same 9 economies.
+
+The 2023 samples include Argentina, Bolivia, Brazil, Chile, Costa Rica, the
+Dominican Republic, El Salvador, Mexico, and Peru (Lima and Callao). Colombia,
+Ecuador, Paraguay, and Uruguay change Tableau series between the endpoints;
+Guatemala has no 2023 observation.
+
+For each education group, quarterly income means are aggregated using worker
+counts. Worker counts are averaged over the common quarters. Chile and
+Guatemala contribute fourth-quarter comparisons where quarterly coverage is
+not available at both endpoints.
+
+## Baseline aggregate
+
+The baseline fixes economy weights at the average number of workers observed
+at the two endpoints. With fixed weights, the aggregate change separates
+exactly into:
+
+1. educational upgrading within economies; and
+2. changes in labor income within economy--education cells.
+
+Changing worker weights add a between-economy composition component. Equal
+economy weights are retained as a sensitivity exercise.
+
+## Main results
+
+Between 2016 and 2019, the fixed-weight synthetic mean increases 1.2 percent.
+Educational upgrading contributes 3.6 percent of initial mean income, while
+changes in income within education groups subtract 2.4 percent.
+
+Between 2019 and 2023, the fixed-weight synthetic mean increases 1.2 percent.
+Educational upgrading contributes 4.1 percent, while within-group income
+changes subtract 2.9 percent. Over 2016--2023, the corresponding figures are
+2.3, 7.8, and -5.5 percent.
+
+Brazil and Mexico account for 66 percent of midpoint worker weight in
+2016--2019 and 78 percent in 2019--2023. Equal-economy estimates are therefore
+lower: 0.5 percent for 2016--2019 and -3.0 percent for 2019--2023.
+
+## Quality and limitations
+
+Across selected endpoint pairs, the maximum absolute difference between the
+synthetic and published income total is 4.4 percent. The maximum absolute
+worker-total reconstruction error is 0.4 percent. The decomposition itself is
+exactly additive because it is defined over the synthetic mean.
+
+Peru represents Lima and Callao rather than the country as a whole. The
+covered-economy aggregate is not a representative estimate for Latin America,
+and the decomposition does not identify causal returns to education.
+
+## Reproducible outputs
+
+- `code/00_audit_lablac.py`: audits the source aggregates.
+- `code/06_lablac_decomposition.py`: constructs endpoint pairs and estimates
+  country and aggregate decompositions.
+- `code/07_validate_lablac_decomposition.py`: independently checks keys,
+  reconstruction errors, shares, sample selection, and exact additivity.
+- `data/processed/lablac_decomposition/`: audit, country, education-group,
+  aggregate, coverage, and validation outputs.
+- `tables/latam_sample_decomposition.tex`: generated paper table.
