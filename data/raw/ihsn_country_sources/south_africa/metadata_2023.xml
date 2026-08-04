@@ -1,0 +1,4405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codeBook version="2.5" ID="zaf-statssa-lmdsa-2023-v1.1" xml-lang="en" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 https://ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+<docDscr>
+  <citation>
+    <titlStmt>
+      <IDNo>zaf-statssa-lmdsa-2023-v2</IDNo>
+      <titl>zaf-statssa-lmdsa-2023-v2</titl>
+    </titlStmt>
+    <prodStmt>
+      <producer abbr="" affiliation="University of Cape Town" role="Metadata producer">DataFirst</producer>
+      <prodDate date="2026-07">2026-07</prodDate>
+      <software version="v5">NADA</software>
+    </prodStmt>
+    <verStmt>
+      <version>Version 2</version>
+    </verStmt>
+  </citation>
+</docDscr>
+<stdyDscr>
+  <citation>
+    <titlStmt>
+      <titl>Labour Market Dynamics in South Africa 2023</titl>
+      <subTitl/>
+      <altTitl>LMDSA 2023</altTitl>
+      <parTitl/>
+      <IDNo>zaf-statssa-lmdsa-2023-v1.1</IDNo>
+    </titlStmt>
+    <rspStmt>
+      <AuthEnty affiliation="Government of South Africa">Statistics South Africa</AuthEnty>
+    </rspStmt>
+    <prodStmt>
+      <copyright/>
+      <software version="beta" date="2026-07-07">MetadataEditor</software>
+      <prodDate/>
+      <prodPlac/>
+    </prodStmt>
+    <distStmt>
+      <depDate date=""/>
+      <distDate date=""/>
+    </distStmt>
+    <serStmt>
+      <serName>Labour Force Survey</serName>
+      <serInfo><![CDATA[]]></serInfo>
+    </serStmt>
+    <verStmt>
+      <version date="2024">v1.1: Edited, anonymised dataset for public distribution</version>
+      <verResp/>
+      <notes><![CDATA[The previous version of LMDSA-2023 did not include variable or value labels. This version (lmdsa-2023-v1.1) has been revised to include both the variable and value labels.]]></notes>
+    </verStmt>
+    <biblCit format="DataCite"><![CDATA[Statistics South Africa. Labour Market Dynamics in South Africa 2023 [dataset]. Version 1.1. Pretoria: Statistics South Africa [producer], 2024. Cape Town: DataFirst [distributor], 2026.  DOI: https://doi.org/10.25828/0hyg-ff51]]></biblCit>
+    <notes><![CDATA[]]></notes>
+  </citation>
+  <studyAuthorization date="">
+    <authorizationStatement><![CDATA[]]></authorizationStatement>
+  </studyAuthorization>
+  <stdyInfo>
+    <studyBudget><![CDATA[]]></studyBudget>
+    <subject>
+                  
+                  
+    </subject>
+    <abstract><![CDATA[The Quarterly Labour Force Survey (QLFS) is a household-based sample survey conducted by Statistics South Africa that collects data on the labour market activities of individuals aged 15 years or older who live in South Africa. Since 2008, Statistics SA have produced an annual dataset based on the QLFS data, Labour Market Dynamics in South Africa (LMDSA). The LMDSA is constructed using data from all all four QLFS  in the year. The data also includes a number of variables (including income) that are not available in any of the QLFS datasets from 2010.]]></abstract>
+    <sumDscr>
+      <collDate date="2023-01" event="start" cycle=""/>
+      <collDate date="2023-12" event="end" cycle=""/>
+      <nation abbr="zaf">South Africa</nation>
+      <geogCover>The survey had national coverage.</geogCover>
+      <geogCoverNote/>
+      <geogUnit>The lowest level of geographic aggregation is  Province.</geogUnit>
+      <anlyUnit><![CDATA[Individuals]]></anlyUnit>
+      <universe><![CDATA[The QLFS sample covers the non-institutional population except for those in workers' hostels. However, persons living in private dwelling units within institutions are enumerated. For example, within a school compound, one would enumerate the schoolmaster's house and teachers' accommodation because these are private dwellings. Students living in a dormitory or school compound are excluded.]]></universe>
+      <dataKind>Survey data</dataKind>
+    </sumDscr>
+    <qualityStatement>
+      <standardsCompliance>
+        <complianceDescription/>
+      </standardsCompliance>
+      <otherQualityStatement/>
+    </qualityStatement>
+    <notes><![CDATA[Individuals: labour market activity, labour preferences, labour market history, demographic characteristics, marital status, employment status, education, grants, tax, income.]]></notes>
+    <exPostEvaluation completionDate="" type="">
+      <evaluationProcess/>
+      <outcomes/>
+    </exPostEvaluation>
+  </stdyInfo>
+  <method>
+    <dataColl>
+      <timeMeth/>
+      <frequenc/>
+      <sampProc><![CDATA[Information on sampling is available in the LMDSA metadata document provided by Statistics SA and made available with the data]]></sampProc>
+      <sampleFrame>
+        <sampleFrameName/>
+        <custodian/>
+        <universe/>
+        <frameUnit isPrimary="">
+          <unitType numberOfUnits=""/>
+        </frameUnit>
+        <updateProcedure/>
+      </sampleFrame>
+      <deviat/>
+      <collMode>Computer Assisted Personal Interview</collMode>
+      <resInstru><![CDATA[]]></resInstru>
+      <instrumentDevelopment type=""/>
+      <collSitu><![CDATA[]]></collSitu>
+      <actMin><![CDATA[Statistics South Africa collects data under the South African Statistics Act of 1999.]]></actMin>
+      <ConOps><![CDATA[]]></ConOps>
+      <weight><![CDATA[Information on survey weights is available in the LMDSA metadata document provided by Statistics SA and made available with the data]]></weight>
+      <cleanOps><![CDATA[]]></cleanOps>
+    </dataColl>
+    <notes><![CDATA[]]></notes>
+    <anlyInfo>
+      <respRate><![CDATA[]]></respRate>
+      <EstSmpErr><![CDATA[]]></EstSmpErr>
+      <dataAppr><![CDATA[]]></dataAppr>
+    </anlyInfo>
+    <stdyClas><![CDATA[]]></stdyClas>
+  </method>
+  <dataAccs>
+    <setAvail>
+      <accsPlac URI=""/>
+      <origArch/>
+      <avlStatus/>
+      <collSize/>
+      <complete/>
+      <fileQnty/>
+      <notes><![CDATA[]]></notes>
+    </setAvail>
+    <useStmt>
+      <restrctn/>
+      <contact affiliation="University of Cape Town" URI="http://support.data1st.org" email="datafirst-support@uct.ac.za">DataFirst</contact>
+      <citReq><![CDATA[Statistics South Africa. Labour Market Dynamics in South Africa 2023 [dataset]. Version 1.1. Pretoria: Statistics South Africa [producer], 2024. Cape Town: DataFirst [distributor], 2026.  DOI: https://doi.org/10.25828/0hyg-ff51]]></citReq>
+      <deposReq><![CDATA[]]></deposReq>
+      <conditions><![CDATA[Public access data for use under a Creative Commons CC-BY (Attribution-only) License]]></conditions>
+      <disclaimer><![CDATA[]]></disclaimer>
+    </useStmt>
+    <notes><![CDATA[]]></notes>
+  </dataAccs>
+  <notes><![CDATA[]]></notes>
+</stdyDscr>
+<fileDscr ID="F1">
+  <fileTxt>
+    <fileName>lmdsa-2023-v1_1-metadata</fileName>
+    <fileCont></fileCont>
+    <dimensns>
+      <caseQnty>0</caseQnty>
+      <varQnty>175</varQnty>
+    </dimensns>
+    <dataChck></dataChck>
+    <dataMsng></dataMsng>
+    <verStmt>
+      <version></version>
+    </verStmt>
+  </fileTxt>
+  <notes></notes>
+</fileDscr>
+<dataDscr>
+<var ID="V1" name="lmd2023_uqno" files="F1" intrvl="contin">
+  <varFormat type="character"/>
+  <location width="18"/>
+  <labl>Unique number</labl>
+  <sumStat type="vald"/>
+</var>
+<var ID="V2" name="lmd2023_personno" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Person number</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V3" name="lmd2023_surveydate" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Survey date</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V4" name="lmd2023_q12nights" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Stayed at least four nights</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V5" name="lmd2023_q13gender" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Gender</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Male</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Female</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V6" name="lmd2023_q15population" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="13"/>
+  <labl>Population group</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Black African</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Coloured</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Indian/Asian</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>White</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V7" name="lmd2023_q16maritalstatus" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="37"/>
+  <labl>Marital status</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl> Married</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Living together like husband and wife</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Widow/Widower</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Divorced or separated</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Never married</labl>
+    <catStat type="stdev"/>
+  </catgry>
+</var>
+<var ID="V8" name="lmd2023_q17education" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="47"/>
+  <labl>Highest education level</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <labl>Grade R/0</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Grade 1/Sub A</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Grade 2/Sub B</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Grade 3/Standard 1</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Grade 4/Standard 2</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Grade 5/Standard 3</labl>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Grade 6/Standard 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Grade 7/Standard 5</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Grade 8/Standard 6/Form 1</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Grade 9/Standard 7/Form 2</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Grade 10/Standard 8/Form 3</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Grade 11/Standard 9/Form 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Grade 12/Standard 10/Form 5/Matric</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>NTC l/N1/NIC/(v) Level 2</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>NTC II/N2/NIC/(v) Level 3</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>NTC III/N3/NIC/(v) Level 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>N4/NTC 4</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>N5/NTC 5</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>N6/NTC 6</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>Certificate with less than Grade 12/Std 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Diploma with less than Grade 12/Std 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Certificate with Grade 12/Std 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Diploma with Grade 12/Std 10</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Higher Diploma</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>Post Higher Diploma (Masters, Doctoral Diploma)</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>Bachelors Degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>Bachelors Degree and Post Graduate Diploma</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>Honours Degree</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>Higher Degree (Masters/Phd)</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+  <catgry>
+    <catValu>98</catValu>
+    <labl>No schooling</labl>
+  </catgry>
+</var>
+<var ID="V9" name="lmd2023_q18field" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="43"/>
+  <labl>Study field</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Agriculture or Renewable natural resources</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Architecture or environmental design</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Arts, Visual or Performing</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Business, commerce and management studies</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Communication</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Computer science</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Education, training or development</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Engineering or engineering technology</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Health care or health sciences</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Home economics</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Industrial arts, traders or technology</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Languages, linguistic or literature</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Law</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Libraries or museums</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Life sciences or physical sciences</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>Mathematical sciences</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>Military sciences</labl>
+  </catgry>
+  <catgry>
+    <catValu>18</catValu>
+    <labl>Philosophy, religion or theology</labl>
+  </catgry>
+  <catgry>
+    <catValu>19</catValu>
+    <labl>Physical education or leisure</labl>
+  </catgry>
+  <catgry>
+    <catValu>20</catValu>
+    <labl>Psychology</labl>
+  </catgry>
+  <catgry>
+    <catValu>21</catValu>
+    <labl>Public administration or social services</labl>
+  </catgry>
+  <catgry>
+    <catValu>22</catValu>
+    <labl>Social sciences or social studies</labl>
+  </catgry>
+  <catgry>
+    <catValu>23</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <catgry>
+    <catValu>24</catValu>
+    <labl>Management</labl>
+  </catgry>
+  <catgry>
+    <catValu>25</catValu>
+    <labl>Marketing</labl>
+  </catgry>
+  <catgry>
+    <catValu>26</catValu>
+    <labl>Information technology and computer science</labl>
+  </catgry>
+  <catgry>
+    <catValu>27</catValu>
+    <labl>Finance, economics and accounting</labl>
+  </catgry>
+  <catgry>
+    <catValu>28</catValu>
+    <labl>Office administration</labl>
+  </catgry>
+  <catgry>
+    <catValu>29</catValu>
+    <labl>Electrical infrastructure construction</labl>
+  </catgry>
+  <catgry>
+    <catValu>30</catValu>
+    <labl>Civil engineering and building construction</labl>
+  </catgry>
+  <catgry>
+    <catValu>31</catValu>
+    <labl>Engineering</labl>
+  </catgry>
+  <catgry>
+    <catValu>32</catValu>
+    <labl>Primary agriculture</labl>
+  </catgry>
+  <catgry>
+    <catValu>33</catValu>
+    <labl>Hospitality</labl>
+  </catgry>
+  <catgry>
+    <catValu>34</catValu>
+    <labl>Tourism</labl>
+  </catgry>
+  <catgry>
+    <catValu>35</catValu>
+    <labl>Safety in society</labl>
+  </catgry>
+  <catgry>
+    <catValu>36</catValu>
+    <labl>Mechatronics</labl>
+  </catgry>
+  <catgry>
+    <catValu>37</catValu>
+    <labl>Education and development</labl>
+  </catgry>
+  <catgry>
+    <catValu>38</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unspecified</labl>
+  </catgry>
+</var>
+<var ID="V10" name="lmd2023_q19atte" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Currently attending educational institution</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V11" name="lmd2023_q110edui" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="124"/>
+  <labl>Education Institution</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Pre-school (including day care, crèche, Grade R and Pre-Grade R in an ECD Centre)</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Ordinary School (including Grade R learners who attend a formal school, Grade 1–12 learners and learners in Special Class)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Special School</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Further Education and Training College (FET)</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Other College</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Higher Education Institution (University/University of Technology)</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Adult basic Education and Training Centre (ABET CENTRE)</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Literacy classes (e.g. KHA RI GUDE, SANLI)</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Home-based education/home schooling</labl>
+  </catgry>
+</var>
+<var ID="V12" name="lmd2023_q20selfrespond" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl> Person himself/herself responding</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V13" name="lmd2023_q24apdwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Paid work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V14" name="lmd2023_q24bownbusns" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Own business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V15" name="lmd2023_q24cunpdwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Unpaid work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V16" name="lmd2023_q25apdwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Have paid work to return to</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V17" name="lmd2023_q25bownbusns" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Have own business to return to</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V18" name="lmd2023_q25cunpdwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Have an unpaid work to return to</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V19" name="lmd2023_q27rsnabsent" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="57"/>
+  <labl> Main reason absent from work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Health reasons</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Vacation leave</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Caring for family or others</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Maternity or paternity leave</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Other family/community obligations</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Strike/Stay-away/Lockout</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Problems with transport</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Bad weather</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Study or training leave</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Unrest (violence)</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Temporarily laid off/Reduction in economic activity</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Seasonal work</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Start a new job/business at a definite date in the future</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Other reason</labl>
+  </catgry>
+</var>
+<var ID="V20" name="lmd2023_q27atime" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="18"/>
+  <labl>Time absent from work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Within 3 months</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>After 3 months</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Not sure to return</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V21" name="lmd2023_q27brecpay" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Receive pay</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V22" name="lmd2023_q31alookwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Look for work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V23" name="lmd2023_q31bstartbusns" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Start business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V24" name="lmd2023_q31ctypwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="23"/>
+  <labl>Working/business arrangement</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Full-time</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Part-time</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Any working arrangement</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V25" name="lmd2023_q3201register" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Registered</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V26" name="lmd2023_q3202enquire" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Enquired</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V27" name="lmd2023_q3203jobads" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Placed adverts</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V28" name="lmd2023_q3204jobsearch" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Search job</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V29" name="lmd2023_q3205assistance" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Sought assistance</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V30" name="lmd2023_q3206startbusns" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Start own business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V31" name="lmd2023_q3207casual" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Casual work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V32" name="lmd2023_q3208finassist" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Financial assistance</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V33" name="lmd2023_q3210nothing" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Nothing</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V34" name="lmd2023_q33havejob" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Have a job or start a business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V35" name="lmd2023_q33awhnstart" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="32"/>
+  <labl>How soon are you expecting to start work or a business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl> Within 1 month or less</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>In more than 1 month to 3 months</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>In more than 3 months</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V36" name="lmd2023_q34wanttowrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Liked to work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V37" name="lmd2023_q35ynotwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="53"/>
+  <labl>Reason for not working</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Scholar or student</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Housewife/homemaker (family considerations/childcare)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Health reasons</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Retired or too old for work</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>No desire to work</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Too young to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Pregnancy</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Disabled or unable to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Other</labl>
+  </catgry>
+</var>
+<var ID="V38" name="lmd2023_q36timeseek" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="31"/>
+  <labl>How long been trying to find work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than 3 months</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>3 months – less than 6 months</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>6 months – less than 9 months</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>9 months – less than 1 year</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>1 year – less than 3 years</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>3 years – 5 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>More than 5 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+</var>
+<var ID="V39" name="lmd2023_q37actpriorjobseek" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="15"/>
+  <labl>Activity before looking for work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Working</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Managing a home</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Going to school</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Other</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V40" name="lmd2023_q38rsnnotseek" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="54"/>
+  <labl>Reason why not look for work or start business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Awaiting the seasonal work</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Waiting to be recalled to former job</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Health reasons</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Pregnancy</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Disabled or unable to work (handicapped)</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Housewife/homemaker (Family considerations/Child care)</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Undergoing training to help find work</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>No jobs available in the area</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Lack of money to pay for transport to look for work</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Unable to find work requiring his/her skills</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Lost hope of finding any kind of work</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>No transport available</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Scholar or student</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Retired</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Too old/young to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>Other reason</labl>
+  </catgry>
+</var>
+<var ID="V41" name="lmd2023_q39joboffer" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Accept job if offered</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V42" name="lmd2023_q310startbusns" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Started business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V43" name="lmd2023_q311rsnnotavailable" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="53"/>
+  <labl>Reason not available for work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>scholar or student</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Housewife/homemaker (Family considerations/Childcare)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Health reasons</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Retired or too old for work</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>No desire to work</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Too young to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Pregnancy</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Disabled or unable to work</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Other</labl>
+  </catgry>
+</var>
+<var ID="V44" name="lmd2023_q311bwhnstart" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="30"/>
+  <labl>How soon can you start work or a business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Within a week</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Within two weeks</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Within four weeks</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Later than four weeks from now</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>No desire to work</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unspecified</labl>
+  </catgry>
+</var>
+<var ID="V45" name="lmd2023_q312everwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Ever worked</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V46" name="lmd2023_q313timeunemploy" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="31"/>
+  <labl>Time since last worked</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than 3 months</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>3 months – less than 6 months</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>6 months – less than 9 months</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>9 months – less than 1 year</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>1 year – less than 3 years</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>3 years – 5 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>More than 5 years</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+</var>
+<var ID="V47" name="lmd2023_q314rsnstopwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="53"/>
+  <labl>Main reason you stopped working</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Health reason</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Caring for own children/relatives</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Pregnancy</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Other family/community responsibilities</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Going to school</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Lost job/job ended/laid off/business sold/closed down</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Changed residence</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Dissatisfied with the job</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Retired</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Other</labl>
+  </catgry>
+  <catgry>
+    <catValu>99</catValu>
+    <labl>Unspecified</labl>
+  </catgry>
+</var>
+<var ID="V48" name="lmd2023_q315prevoccupation" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Previous occupation</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V49" name="lmd2023_q316previndustry" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Previous industry</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V50" name="lmd2023_q317wrk4whom" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="48"/>
+  <labl>Whom did you work for</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Working for someone else for pay</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>An employer (employing one or more employees)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Own account worker (not employing any employees)</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Helping without pay in a household business</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unspecified</labl>
+    <catStat type="stdev"/>
+  </catgry>
+</var>
+<var ID="V51" name="lmd2023_q319aoddjobs" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Odd jobs</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V52" name="lmd2023_q319binhhpers" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Supported by persons in the household</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V53" name="lmd2023_q319cnothhpers" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Supported by persons not in the household</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V54" name="lmd2023_q319dcharity" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Charity</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V55" name="lmd2023_q319euif" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Unemployment Insurance Fund</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V56" name="lmd2023_q319fsavings" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Savings</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V57" name="lmd2023_q319gpension" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Pension</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V58" name="lmd2023_q319hgrants" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Child support grant</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V59" name="lmd2023_q319iwelfare" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Welfare grants</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V60" name="lmd2023_q319jothr" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Other source of support</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V61" name="lmd2023_q41multiplejobs" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>More than one job</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V62" name="lmd2023_q42occupation" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Occupation</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V63" name="lmd2023_q43industry" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Industry</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V64" name="lmd2023_q44yearstart" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Year stated</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V65" name="lmd2023_q44monthstart" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Month started</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V66" name="lmd2023_q45wrk4whom" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="49"/>
+  <labl>Main work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Working for someone else for pay</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>An employer (employing one or more employees)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Own account worker ( not employing any employees)</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Helping without pay in a household business</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V67" name="lmd2023_q46pension" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Contribution to pension or retirement fund</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V68" name="lmd2023_q47pdleave" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Paid leave</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V69" name="lmd2023_q47b1pdsick" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Paid leave sick leave</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V70" name="lmd2023_q47b2maternity" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Maternity/ paternity leave</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V71" name="lmd2023_q47cleave" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Paid vacation leave</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V72" name="lmd2023_q47csick" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Paid sick leave</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V73" name="lmd2023_q47cmaternity" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Maternity/paternity leave</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V74" name="lmd2023_q48uif" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>UIF Deductions</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V75" name="lmd2023_q49medical" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Medical aid or health insurance contribution</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V76" name="lmd2023_q410incometax" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Registered for income tax</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V77" name="lmd2023_q411contracttype" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="18"/>
+  <labl>Employment contract</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>A written contract</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>A verbal agreement</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V78" name="lmd2023_q412contrduration" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="20"/>
+  <labl>Work status</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Limited duration</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Permanent nature</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Unspecified duration</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V79" name="lmd2023_q412bmemunion" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Trade union membership</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V80" name="lmd2023_q412csalincrement" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="57"/>
+  <labl>Salary increment</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Negotiation between myself and employer at company</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Negotiation between union and employer</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Bargaining council or other sector bargaining arrangement</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Employer only</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>No regular annual salary increase</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Other, specify</labl>
+  </catgry>
+</var>
+<var ID="V81" name="lmd2023_q412acontrperiod" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="27"/>
+  <labl>Contract period</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than a year</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>1 year to less than 3 years</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>3 years or more</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Unspecified</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V82" name="lmd2023_q413vat" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Registered for VAT</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V83" name="lmd2023_q414tax" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Registered for income tax</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V84" name="lmd2023_q414abprotect" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Business organisation/association</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V85" name="lmd2023_q415typebusns" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="51"/>
+  <labl>Type of business or enterprise</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>National/provincial/local government</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Government controlled business (e.g. Eskom, Telkom)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>A private enterprise</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Non-profit organisation (NGO/CBO)</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>A private household</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+</var>
+<var ID="V86" name="lmd2023_q416nrworkers" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="27"/>
+  <labl>Number of employees</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>0 employee</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>1 employee</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>between 2 and 4 employees</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>between 5 and 9 employees</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>between 10 and 19 employees</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>between 20 and 49 employees</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>50 or more employees</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Do not know</labl>
+  </catgry>
+</var>
+<var ID="V87" name="lmd2023_q416asatisfied" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Job satisfaction</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V88" name="lmd2023_q418hrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours usually work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V89" name="lmd2023_q419monhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Monday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V90" name="lmd2023_q419tuehrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Tuesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V91" name="lmd2023_q419wedhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Wednesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V92" name="lmd2023_q419thuhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Thursday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V93" name="lmd2023_q419frihrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Friday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V94" name="lmd2023_q419sathrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Saturday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V95" name="lmd2023_q419sunhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week on Sunday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V96" name="lmd2023_q419totalhrs" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked past week in total</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V97" name="lmd2023_q420firsthrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours usually worked in your first job/business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V98" name="lmd2023_q420secondhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours usually worked in your second job/business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V99" name="lmd2023_q420otherhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours usually worked in your all other job/business</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V100" name="lmd2023_q420totalhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked in total</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V101" name="lmd2023_q4211monhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Monday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V102" name="lmd2023_q4211tuehrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Tuesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V103" name="lmd2023_q4211wedhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Wednesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V104" name="lmd2023_q4211thuhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Thursday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V105" name="lmd2023_q4211frihrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Friday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V106" name="lmd2023_q4211sathrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Saturday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V107" name="lmd2023_q4211sunhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job on Sunday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V108" name="lmd2023_q4211totalhrs" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on first job in total</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V109" name="lmd2023_q4212monhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Monday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V110" name="lmd2023_q4212tuehrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Tuesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V111" name="lmd2023_q4212wedhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Wednesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V112" name="lmd2023_q4212thuhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Thursday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V113" name="lmd2023_q4212frihrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Friday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V114" name="lmd2023_q4212sathrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Saturday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V115" name="lmd2023_q4212sunhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job on Sunday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V116" name="lmd2023_q4212totalhrs" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on second job in total</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V117" name="lmd2023_q4213monhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Monday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V118" name="lmd2023_q4213tuehrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Tuesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V119" name="lmd2023_q4213wedhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Wednesday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V120" name="lmd2023_q4213thuhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Thursday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V121" name="lmd2023_q4213frihrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Friday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V122" name="lmd2023_q4213sathrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Saturday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V123" name="lmd2023_q4213sunhrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs on Sunday</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V124" name="lmd2023_q4213totalhrs" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked on all other jobs in total</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V125" name="lmd2023_q422morehrs" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="35"/>
+  <labl>  Liked to work more hours</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes, in the current job</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Yes, in taking an additional job</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Yes, in another job with more hours</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>No</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Do not know</labl>
+    <catStat type="stdev"/>
+  </catgry>
+</var>
+<var ID="V126" name="lmd2023_q423addhrs" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Additional hours</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V127" name="lmd2023_q424wrkxhrs" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Willing to work longer hours</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V128" name="lmd2023_q425startxwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Willing to do extra work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V129" name="lmd2023_q51wrk4whom" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="48"/>
+  <labl>Main work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Working for someone else for pay</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>An employer (employing one or more employees)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Own account worker (not employing any employees)</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Helping without pay in a household business</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V130" name="lmd2023_q52salaryinterval" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="29"/>
+  <labl>Wages or salary interval</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Monthly</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Weekly</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Fortnightly (Every two weeks)</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Daily</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Hourly</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Annually</labl>
+  </catgry>
+</var>
+<var ID="V131" name="lmd2023_q53tipscommission" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Tips or commission</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V132" name="lmd2023_q54a_monthly" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Earnings interval</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V133" name="lmd2023_q56salaryinterval" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="29"/>
+  <labl>Salary category</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Monthly</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Weekly</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Fortnightly (Every two weeks)</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Daily</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Hourly</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Annually</labl>
+  </catgry>
+</var>
+<var ID="V134" name="lmd2023_q57asalarywage" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Do farm work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V135" name="lmd2023_q57a_monthly" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Time to do farm work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V136" name="lmd2023_q58salarycategory" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Fetch water</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V137" name="lmd2023_q59afarmwrk" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Do farm work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V138" name="lmd2023_q59atime" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Time to do farm work</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V139" name="lmd2023_q59bfetchwater" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Fetch water</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V140" name="lmd2023_q59btime" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Time to fetch water</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V141" name="lmd2023_q59cprodhhgoods" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Produce goods</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V142" name="lmd2023_q59ctime" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Time to produce goods for household use</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V143" name="lmd2023_q59dconstruc" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Do construction</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V144" name="lmd2023_q59dtime" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Time to do construction</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V145" name="lmd2023_q59ecatchfood" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Catch food</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Do not know</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V146" name="lmd2023_q59etime" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Time to catch food</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V147" name="lmd2023_q14age" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Age</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V148" name="lmd2023_stratum" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Stratum</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V149" name="lmd2023_status" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="29"/>
+  <labl>Employment status</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Employed</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Unemployed</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Discouraged job seeker</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Other not economically active</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V150" name="lmd2023_status_exp" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="23"/>
+  <labl>Employment status expanded</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Employed</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Unemployed</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Not economically active</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V151" name="lmd2023_inactreason" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="24"/>
+  <labl>Inactivity reason</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Scholar/student</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Home-maker</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Health reasons</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Too young/old/retired</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Discouraged work-seekers</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Other</labl>
+  </catgry>
+</var>
+<var ID="V152" name="lmd2023_unempl_status" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="34"/>
+  <labl>Unemployment status</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Job loser</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Job leaver</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>New entrant</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Re-entrant</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Other – last worked &gt;5 years ago</labl>
+    <catStat type="stdev"/>
+  </catgry>
+</var>
+<var ID="V153" name="lmd2023_indus" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="70"/>
+  <labl>Main industry</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Agriculture, hunting, forestry and fishing</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Mining and quarrying</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Manufacturing</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Electricity, gas and water supply</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Construction</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Wholesale and retail trade</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Transport, storage and communication</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Financial intermediation, insurance, real estate and business services</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Community, social and personal services</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Private households</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Other</labl>
+  </catgry>
+</var>
+<var ID="V154" name="lmd2023_occup" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="49"/>
+  <labl>Main occupation</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Legislators, senior officials and managers</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Professionals</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Technical and associate professionals</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Clerks</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Service workers and shop and market sales workers</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Skilled agricultural and fishery workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Craft and related trades workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Plant and machine operators and assemblers</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Elementary Occupation</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Domestic workers</labl>
+  </catgry>
+</var>
+<var ID="V155" name="lmd2023_previndus" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="70"/>
+  <labl>Previous industry</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Agriculture, hunting, forestry and fishing</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Mining and quarrying</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Manufacturing</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Electricity, gas and water supply</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Construction</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Wholesale and retail trade</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Transport, storage and communication</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Financial intermediation, insurance, real estate and business services</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Community, social and personal services</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Private households</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Other</labl>
+  </catgry>
+</var>
+<var ID="V156" name="lmd2023_prevoccup" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="49"/>
+  <labl>Previous occupation</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Legislators, senior officials and managers</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Professionals</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Technical and associate professionals</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Clerks</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Service workers and shop and market sales workers</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Skilled agricultural and fishery workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Craft and related trades workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Plant and machine operators and assemblers</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Elementary Occupation</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Domestic workers</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Other occupation</labl>
+  </catgry>
+</var>
+<var ID="V157" name="lmd2023_sector1" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="34"/>
+  <labl>Sector one</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Formal sector (non-agricultural)</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Informal sector (non-agricultural)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Agriculture</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Private households</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V158" name="lmd2023_sector2" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="39"/>
+  <labl>Sector two</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Formal sector (including agriculture)</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Informal sector (including agriculture)</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Private households</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V159" name="lmd2023_infempl" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="19"/>
+  <labl>Informal employment</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Formal employment</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Informal employment</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Other</labl>
+    <catStat type="max"/>
+  </catgry>
+</var>
+<var ID="V160" name="lmd2023_long_term_unempl" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="42"/>
+  <labl>Long-term unemployment</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Long-term unemployment (1 year and longer)</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Short-term unemployment (less than 1 year)</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V161" name="lmd2023_at_least_1" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="33"/>
+  <labl>Involvement in at least one non-market activity</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Involved in at least one activity</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Not involved in any activity</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V162" name="lmd2023_underempl" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="17"/>
+  <labl>Underemployment</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Underemployed</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Not underemployed</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V163" name="lmd2023_hrswrk" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Hours worked</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V164" name="lmd2023_education_status" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="27"/>
+  <labl>Education Status</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>No schooling</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Less than primary completed</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Primary completed</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Secondary not completed</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Secondary completed</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Tertiary</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Other</labl>
+  </catgry>
+</var>
+<var ID="V165" name="lmd2023_neet" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="8"/>
+  <labl>Not in employment,education or training</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Yes</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>No</labl>
+    <catStat type="min"/>
+  </catgry>
+</var>
+<var ID="V166" name="lmd2023_graduates" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="16"/>
+  <labl>Graduates</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Less than matric</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Matric</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Other Tertiary</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Graduates</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Other</labl>
+    <catStat type="stdev"/>
+  </catgry>
+</var>
+<var ID="V167" name="lmd2023_age_grp1" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="11"/>
+  <labl>Age group</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Age 00–04</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Age 05–09</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Age 10–14</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Age 15–19</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>Age 20–24</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>Age 25–29</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Age 30–34</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Age 35–39</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Age 40–44</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>Age 45–49</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>Age 50–54</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>Age 55–59</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>Age 60–64</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>Age 65–69</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>Age 70–74</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>Age 75+</labl>
+  </catgry>
+</var>
+<var ID="V168" name="lmd2023_province" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="13"/>
+  <labl>Province</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Western Cape</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Eastern Cape</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Northern Cape</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Free State</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>KwaZulu-Natal</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>North West</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>Gauteng</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>Mpumalanga</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>Limpopo</labl>
+  </catgry>
+</var>
+<var ID="V169" name="lmd2023_metro_code" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="25"/>
+  <labl>Metro/non-metro</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>WC - Non-Metro</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>WC - City of Cape Town</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>EC - Non-Metro</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>EC - Buffalo City</labl>
+    <catStat type="mean"/>
+  </catgry>
+  <catgry>
+    <catValu>5</catValu>
+    <labl>EC - Nelson Mandela Bay</labl>
+    <catStat type="stdev"/>
+  </catgry>
+  <catgry>
+    <catValu>6</catValu>
+    <labl>NC - Non-Metro</labl>
+  </catgry>
+  <catgry>
+    <catValu>7</catValu>
+    <labl>FS - Non-Metro</labl>
+  </catgry>
+  <catgry>
+    <catValu>8</catValu>
+    <labl>FS - Mangaung</labl>
+  </catgry>
+  <catgry>
+    <catValu>9</catValu>
+    <labl>KZN - Non-Metro</labl>
+  </catgry>
+  <catgry>
+    <catValu>10</catValu>
+    <labl>KZN - eThekwini</labl>
+  </catgry>
+  <catgry>
+    <catValu>11</catValu>
+    <labl>NW - Non-Metro</labl>
+  </catgry>
+  <catgry>
+    <catValu>12</catValu>
+    <labl>GP - Non-Metro</labl>
+  </catgry>
+  <catgry>
+    <catValu>13</catValu>
+    <labl>GP - Ekurhuleni</labl>
+  </catgry>
+  <catgry>
+    <catValu>14</catValu>
+    <labl>GP - City of Johannesburg</labl>
+  </catgry>
+  <catgry>
+    <catValu>15</catValu>
+    <labl>GP - City of Tshwane</labl>
+  </catgry>
+  <catgry>
+    <catValu>16</catValu>
+    <labl>MP - Non-Metro</labl>
+  </catgry>
+  <catgry>
+    <catValu>17</catValu>
+    <labl>LP - Non-Metro</labl>
+  </catgry>
+</var>
+<var ID="V170" name="lmd2023_geo_type" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="14"/>
+  <labl>Geography type</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Urban formal</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Urban informal</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Tribal areas</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Rural formal</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V171" name="lmd2023_psuno_seg" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Primary sampling unit</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V172" name="lmd2023_monthly_amount" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Monthly income amount</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V173" name="lmd2023_qtr" files="F1" intrvl="discrete">
+  <varFormat type="numeric"/>
+  <location width="9"/>
+  <labl>Quarter</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+  <catgry>
+    <catValu>1</catValu>
+    <labl>Quarter 1</labl>
+    <catStat type="vald"/>
+  </catgry>
+  <catgry>
+    <catValu>2</catValu>
+    <labl>Quarter 2</labl>
+    <catStat type="min"/>
+  </catgry>
+  <catgry>
+    <catValu>3</catValu>
+    <labl>Quarter 3</labl>
+    <catStat type="max"/>
+  </catgry>
+  <catgry>
+    <catValu>4</catValu>
+    <labl>Quarter 4</labl>
+    <catStat type="mean"/>
+  </catgry>
+</var>
+<var ID="V174" name="lmd2023_weight_qtr" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Weight per quarter</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+<var ID="V175" name="lmd2023_weight" files="F1" intrvl="contin">
+  <varFormat type="numeric"/>
+  <location width="12"/>
+  <labl>Weight</labl>
+  <sumStat type="vald"/>
+  <sumStat type="min">&lt;NA&gt;</sumStat>
+  <sumStat type="max">&lt;NA&gt;</sumStat>
+  <sumStat type="mean">&lt;NA&gt;</sumStat>
+  <sumStat type="stdev">&lt;NA&gt;</sumStat>
+</var>
+</dataDscr></codeBook>
