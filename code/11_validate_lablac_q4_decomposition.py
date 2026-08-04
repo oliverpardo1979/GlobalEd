@@ -97,6 +97,22 @@ def validate() -> dict[str, object]:
     maximum_annualized_growth_error = max(
         maximum_absolute(error) for error in annualized_errors
     )
+    expected_factor = np.where(
+        countries["percent_change"].abs() > 1e-12,
+        (
+            countries["annualized_growth_synthetic_percent"]
+            / countries["percent_change"]
+        ),
+        1 / years,
+    )
+    expected_education_annualized = (
+        countries["education_contribution_percent_initial"]
+        * expected_factor
+    )
+    expected_within_annualized = (
+        countries["within_income_contribution_percent_initial"]
+        * expected_factor
+    )
 
     checks = {
         "country_rows": int(len(countries)),
@@ -165,6 +181,8 @@ def validate() -> dict[str, object]:
                         "annualized_growth_low_percent",
                         "annualized_growth_middle_percent",
                         "annualized_growth_high_percent",
+                        "annualized_education_contribution_percentage_points",
+                        "annualized_within_contribution_percentage_points",
                     ]
                 ].to_numpy()
             ).all()
@@ -183,6 +201,33 @@ def validate() -> dict[str, object]:
         "positive_elapsed_years": bool(years.gt(0).all()),
         "maximum_annualized_growth_error": (
             maximum_annualized_growth_error
+        ),
+        "maximum_annualization_factor_error": maximum_absolute(
+            countries["annualization_factor"] - expected_factor
+        ),
+        "maximum_annualized_education_error": maximum_absolute(
+            countries[
+                "annualized_education_contribution_percentage_points"
+            ]
+            - expected_education_annualized
+        ),
+        "maximum_annualized_within_error": maximum_absolute(
+            countries[
+                "annualized_within_contribution_percentage_points"
+            ]
+            - expected_within_annualized
+        ),
+        "maximum_annualized_decomposition_error": maximum_absolute(
+            countries["annualized_growth_synthetic_percent"]
+            - countries[
+                "annualized_education_contribution_percentage_points"
+            ]
+            - countries[
+                "annualized_within_contribution_percentage_points"
+            ]
+        ),
+        "positive_annualization_factors": bool(
+            countries["annualization_factor"].gt(0).all()
         ),
         "equitylab_exact_set_match": bool(
             source_match["exact_set_match"]
@@ -215,6 +260,11 @@ def validate() -> dict[str, object]:
         and checks["positive_synthetic_incomes"]
         and checks["positive_elapsed_years"]
         and checks["maximum_annualized_growth_error"] <= TOLERANCE
+        and checks["maximum_annualization_factor_error"] <= TOLERANCE
+        and checks["maximum_annualized_education_error"] <= TOLERANCE
+        and checks["maximum_annualized_within_error"] <= TOLERANCE
+        and checks["maximum_annualized_decomposition_error"] <= TOLERANCE
+        and checks["positive_annualization_factors"]
         and checks["equitylab_exact_set_match"]
         and checks["equitylab_only_attached_rows"] == 0
         and checks["equitylab_only_repository_rows"] == 0

@@ -74,6 +74,18 @@ def annualized_growth(
     return 100 * ((final / initial) ** (1 / years) - 1)
 
 
+def annualized_component_factor(
+    total_percent_change: float,
+    annualized_total: float,
+    years: int,
+) -> float:
+    if years <= 0:
+        raise ValueError("Annualization requires a positive interval")
+    if abs(total_percent_change) <= 1e-12:
+        return 1 / years
+    return annualized_total / total_percent_change
+
+
 def format_rate(value: float) -> str:
     rounded = round(value, 1)
     if rounded == 0:
@@ -392,6 +404,19 @@ def build_outputs(
         start_year = int(source0["year"])
         end_year = int(source1["year"])
         years_elapsed = end_year - start_year
+        percent_change = 100 * change / mean0
+        annualized_total = annualized_growth(
+            mean0,
+            mean1,
+            years_elapsed,
+        )
+        annualization_factor = annualized_component_factor(
+            percent_change,
+            annualized_total,
+            years_elapsed,
+        )
+        education_contribution_percent = 100 * education_component / mean0
+        within_contribution_percent = 100 * within_component / mean0
         same_source = bool(
             source0["series"] == source1["series"]
             and source0["survey"] == source1["survey"]
@@ -437,19 +462,22 @@ def build_outputs(
                 source1["worker_reconstruction_error"]
             ),
             "change_usd_2017_ppp": change,
-            "percent_change": 100 * change / mean0,
-            "annualized_growth_synthetic_percent": annualized_growth(
-                mean0,
-                mean1,
-                years_elapsed,
-            ),
+            "percent_change": percent_change,
+            "annualized_growth_synthetic_percent": annualized_total,
+            "annualization_factor": annualization_factor,
             "education_component_usd_2017_ppp": education_component,
             "within_income_component_usd_2017_ppp": within_component,
             "education_contribution_percent_initial": (
-                100 * education_component / mean0
+                education_contribution_percent
             ),
             "within_income_contribution_percent_initial": (
-                100 * within_component / mean0
+                within_contribution_percent
+            ),
+            "annualized_education_contribution_percentage_points": (
+                education_contribution_percent * annualization_factor
+            ),
+            "annualized_within_contribution_percentage_points": (
+                within_contribution_percent * annualization_factor
             ),
             "residual_usd_2017_ppp": (
                 change - education_component - within_component
@@ -839,6 +867,22 @@ def validate(
             .abs()
             .max()
         ),
+        "maximum_annualized_decomposition_error": float(
+            (
+                countries["annualized_growth_synthetic_percent"]
+                - countries[
+                    "annualized_education_contribution_percentage_points"
+                ]
+                - countries[
+                    "annualized_within_contribution_percentage_points"
+                ]
+            )
+            .abs()
+            .max()
+        ),
+        "minimum_annualization_factor": float(
+            countries["annualization_factor"].min()
+        ),
         "maximum_absolute_income_reconstruction_error": float(
             countries[
                 [
@@ -873,6 +917,8 @@ def validate(
         and checks["maximum_country_identity_error"] <= tolerance
         and checks["maximum_group_education_sum_error"] <= tolerance
         and checks["maximum_group_within_sum_error"] <= tolerance
+        and checks["maximum_annualized_decomposition_error"] <= tolerance
+        and checks["minimum_annualization_factor"] > 0
     )
     return {
         "status": "PASS" if passed else "FAIL",

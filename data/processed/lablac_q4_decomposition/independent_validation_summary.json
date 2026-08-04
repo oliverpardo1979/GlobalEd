@@ -21,6 +21,11 @@
     "positive_synthetic_incomes": true,
     "positive_elapsed_years": true,
     "maximum_annualized_growth_error": 2.220446049250313e-14,
+    "maximum_annualization_factor_error": 1.249000902703301e-16,
+    "maximum_annualized_education_error": 1.4432899320127035e-15,
+    "maximum_annualized_within_error": 1.2212453270876722e-15,
+    "maximum_annualized_decomposition_error": 2.6645352591003757e-15,
+    "positive_annualization_factors": true,
     "equitylab_exact_set_match": true,
     "equitylab_only_attached_rows": 0,
     "equitylab_only_repository_rows": 0

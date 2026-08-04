@@ -191,6 +191,21 @@ in each group's employment share by its average income. Both components are
 reported as percentages of initial synthetic income. They add exactly to the
 percentage change in synthetic income before rounding.
 
+The annualized figure rescales these cumulative components so that they add to
+the compound annual growth rate reported in
+Table~\ref{tab:latam_country_annualized_growth}. Let \(C_E\) and \(C_W\)
+denote the education and within-group contributions as percentages of initial
+synthetic income, and let \(g^A\) denote the compound annual growth rate. The
+annualized contribution of component \(k\in\{E,W\}\) is
+\[
+  C_k^A=g^A\frac{C_k}{C_E+C_W}.
+\]
+If the cumulative change is zero, the calculation uses the continuous limit,
+\(C_k/(t_1-t_0)\). This common rescaling preserves the signs and relative
+magnitudes of the two components while making them add exactly to \(g^A\).
+The annualized contributions are accounting allocations in percentage points
+per year, not independently compounded growth rates.
+
 \subsection{Interpretation}
 
 The decomposition is an accounting identity. A positive education component
@@ -216,15 +231,45 @@ The education component is positive in 12 of the 14 economies. It is largest
 in Colombia, where it contributes an amount equivalent to 27.6 percent of
 initial synthetic income, and in Chile, where it contributes 17.5 percent.
 Brazil follows with a 9.3 percent contribution. In Argentina, Bolivia, Brazil,
-Chile, Costa Rica, Paraguay, Peru, and Uruguay, educational upgrading raises
-synthetic income but is partly or fully offset by declining income within the
-education groups.
+Chile, Colombia, Costa Rica, Paraguay, Peru, and Uruguay, educational
+upgrading raises synthetic income but is partly or fully offset by declining
+income within the education groups.
 
 The within-group component is negative in 10 economies. Argentina has the
 largest decline, equivalent to 30.3 percent of initial synthetic income.
 Ecuador and Peru also have large negative within-group components, at 14.2
 and 13.6 percent. In contrast, within-group income raises synthetic income in
 El Salvador, Guatemala, Mexico, and the Dominican Republic.
+
+Figure~\ref{fig:latam_annualized_decomposition} expresses both components in
+percentage points per year. Bars to the right of zero raise annualized
+synthetic mean income growth, while bars to the left reduce it. Black diamonds
+show the total compound annual growth rate.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/latam_annualized_decomposition.pdf}
+\caption{Annualized decomposition of synthetic mean labor income growth}
+\label{fig:latam_annualized_decomposition}
+\begin{minipage}{0.98\textwidth}
+\footnotesize
+\textit{Note:} Contributions are measured in percentage points per year and
+sum to the compound annual growth rate shown by the black diamond. The
+education and within-group components are obtained by the common rescaling
+defined in the text. An asterisk marks Colombia, Ecuador, Paraguay, and
+Uruguay, whose endpoint comparison crosses a change in Tableau series or
+survey identifier. Peru refers to Lima and Callao rather than a national
+estimate.
+\end{minipage}
+\end{figure}
+
+Nine economies combine a positive education contribution with a negative
+within-group contribution. In Brazil, Chile, Colombia, and Costa Rica, the
+education contribution is large enough to prevent annualized synthetic mean
+income from falling. In Argentina, Bolivia, Paraguay, Peru, and Uruguay, total annualized growth
+remains negative; Uruguay's decline is 0.02 percent per year before rounding.
+This is an accounting counterfactual: it does not establish that additional
+schooling caused the change in income.
 
 Two economies do not exhibit the general pattern of educational upgrading.
 In Ecuador, the education component subtracts 3.1 percent of initial income
