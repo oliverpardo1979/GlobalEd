@@ -1,0 +1,117 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\title{Educational Upgrading and Wage Growth: Evidence across Countries}
+\author{Oliver Pardo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper separates changes in average employee wages into two exactly
+additive components: changes in educational attainment and changes in wages
+within educational groups. We combine annual ILOSTAT series on average monthly
+earnings with employee counts for four harmonized education groups. A
+preliminary source-matched audit identifies 117 countries with at least one
+complete observation and 44 countries with at least five observations from the
+same statistical source that pass the initial quality screen. The paper will
+document how the two components vary across countries and over time, without
+interpreting either component as a causal return to education or as a direct
+measure of productivity.
+\end{abstract}
+
+\section{Introduction}
+
+Average wages can rise because workers attain higher levels of education or
+because employees with a given educational attainment receive higher wages.
+These two changes have different interpretations. Educational upgrading changes
+the composition of employment, whereas wage growth within educational groups
+captures changes that occur after holding that composition fixed.
+
+This paper measures the contribution of each component to wage growth across
+countries. It asks three questions. First, how much of the change in average
+real wages is associated with educational upgrading? Second, how much is
+associated with changes in wages within educational groups? Third, how do these
+contributions vary with countries' initial education and income levels and
+across major episodes, including the pandemic and the subsequent recovery?
+
+The analysis uses annual ILOSTAT data for employees. This restriction is
+substantive rather than terminological: earnings refer to employees, so the
+population weights must also refer to employees. We therefore match average
+monthly earnings by education to employment by education and status in
+employment, retaining the employee category and the same country, year, and
+statistical source.
+
+\section{Related literature}
+
+The accounting framework follows the symmetric decomposition proposed by
+\citet{kitagawa1955}. It is related to the broader decomposition literature
+reviewed by \citet{fortinlemieuxfirpo2011}, but differs from regression-based
+Oaxaca--Blinder exercises because it decomposes the observed mean directly.
+The paper also relates to evidence on compositional effects in aggregate wage
+growth \citep{dalyhobijn2017,kouvavasetal2019} and to studies of educational
+upgrading and skill premia.
+
+\section{Data}
+
+\subsection{ILOSTAT earnings and employment}
+
+The remuneration measure is average nominal monthly earnings of employees by
+sex and education. Population weights come from employment by sex, status in
+employment, and education. The baseline sample retains total sex, employees,
+and four aggregate education groups: less than basic, basic, intermediate, and
+advanced.
+
+The two tables are matched by country, year, and source. The initial audit finds
+no duplicate observations at that grain. It also compares the weighted average
+of the four education groups with ILOSTAT's published total and records the
+share of employees whose educational attainment is not stated. Country-years
+with a reconstruction discrepancy above 5 percent or an unknown-education
+share above 5 percent are excluded from the preliminary clean sample.
+
+\subsection{Prices and sample construction}
+
+Nominal earnings will be converted into constant local-currency units using a
+country-specific consumer price index. The decomposition is conducted within
+countries, so purchasing-power-parity conversion is not required for the
+baseline growth estimates. Cross-country figures will report contributions as
+growth rates or shares of the total change.
+
+\section{Method}
+
+\input{tex/shared_decomposition}
+
+\subsection{Comparison windows}
+
+The baseline specification will use source-consistent country panels with at
+least five valid annual observations. Results will be reported for common
+windows when coverage permits and for each country's longest valid interval as
+a robustness exercise. Comparisons will not cross documented breaks in series
+without an explicit sensitivity test.
+
+\section{Results}
+
+\subsection{Educational upgrading}
+
+\subsection{Within-education wage growth}
+
+\subsection{Cross-country heterogeneity}
+
+\subsection{The pandemic and recovery}
+
+\section{Robustness}
+
+\section{Conclusion}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

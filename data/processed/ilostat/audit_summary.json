@@ -1,0 +1,41 @@
+{
+  "raw_rows": {
+    "earnings": 55025,
+    "employment": 743475
+  },
+  "filtered_rows": {
+    "earnings": 6182,
+    "employment": 8924
+  },
+  "duplicate_keys": {
+    "earnings": 0,
+    "employment": 0
+  },
+  "complete_country_source_years": 962,
+  "countries_with_any_complete_year": 117,
+  "countries_by_minimum_years": {
+    "2": 90,
+    "5": 53,
+    "10": 33,
+    "15": 25
+  },
+  "countries_by_minimum_consecutive_run": {
+    "2": 58,
+    "5": 45,
+    "10": 23,
+    "15": 13
+  },
+  "countries_with_latest_year_2019_or_later": 84,
+  "published_total_reconstruction": {
+    "comparisons": 962,
+    "median_absolute_relative_error": 0.005446049547914755,
+    "p90_absolute_relative_error": 0.0470586912375714,
+    "maximum_absolute_relative_error": 0.30056677847346946
+  },
+  "unknown_education_share": {
+    "comparisons": 962,
+    "median": 0.0005334580063394365,
+    "p90": 0.07534709943830457,
+    "maximum": 0.9664457962827436
+  }
+}

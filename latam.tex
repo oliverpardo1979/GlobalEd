@@ -1,0 +1,116 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\title{Educational Upgrading and Labor Income Growth in Latin America}
+\author{Oliver Pardo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper decomposes changes in average monthly labor income in Latin America
+into changes in educational attainment and changes in labor income within
+educational groups. We use harmonized aggregates from the World Bank's LAC
+Equity Lab for 14 countries between 2016 and 2024. Unlike the companion global
+paper, this paper studies all employed workers and therefore includes labor
+income from both employees and self-employed workers. The analysis documents
+whether recent labor-income growth came primarily from educational upgrading or
+from changes in remuneration within education groups and treats the
+decomposition as descriptive rather than causal.
+\end{abstract}
+
+\section{Introduction}
+
+The educational attainment of Latin America's employed population increased
+over recent decades, while the wage premium associated with secondary and
+tertiary education declined in many countries. These two changes can move
+average labor income in opposite directions. A larger share of highly educated
+workers raises average labor income mechanically when those workers earn more,
+but falling remuneration within an educational group can offset that
+composition effect.
+
+This paper measures both components for 14 Latin American countries between
+2016 and 2024. It asks how much of the change in average monthly labor income
+came from changes in the educational composition of employment and how much
+came from changes in labor income within educational groups. It also examines
+whether the relative importance of the components changed during the pandemic
+and the subsequent recovery.
+
+The paper complements the global analysis in two ways. First, LABLAC measures
+labor income for all employed workers rather than wages for employees only.
+Second, its quarterly observations permit a more detailed analysis of recent
+changes. These advantages come with a narrower geographic scope and require
+careful treatment of countries with annual observations, short series, or
+documented survey breaks.
+
+\section{Related literature}
+
+The method follows \citet{kitagawa1955} and the decomposition literature
+reviewed by \citet{fortinlemieuxfirpo2011}. The substantive discussion builds on
+research documenting educational upgrading, changing skill premia, and labor
+income inequality in Latin America
+\citep{gasparinietal2011,azevedoetal2013,messinadasilva2019}.
+
+\section{Data}
+
+\subsection{LAC Equity Lab}
+
+The World Bank's LAC Equity Lab provides mean monthly labor income and worker
+counts for three harmonized educational attainment groups: low, middle, and
+high. The downloaded package covers Argentina, Bolivia, Brazil, Chile,
+Colombia, Costa Rica, the Dominican Republic, Ecuador, El Salvador, Guatemala,
+Mexico, Paraguay, Peru, and Uruguay.
+
+The baseline outcome is monthly labor income in 2017 purchasing-power-parity
+dollars. The worker counts correspond to the same population as the income
+measure. The published aggregate can therefore be closely reconstructed as the
+worker-weighted average of the three education groups. The hourly-wage series
+is not used in the baseline because it covers wage workers, whereas the
+published worker counts cover all employed workers.
+
+\subsection{Annualization and comparability}
+
+Quarterly observations will be aggregated to annual values before the main
+cross-country comparison. Annualization reduces seasonal sensitivity and
+allows countries with different survey frequencies to enter a common design.
+Chile and Guatemala, which have shorter or lower-frequency series, will be
+reported separately when the common-window requirement is not met.
+
+\section{Method}
+
+\input{tex/shared_decomposition}
+
+\subsection{Comparison windows}
+
+The baseline will compare annual averages over a common interval supported by
+the coverage audit. Alternative specifications will use each country's longest
+comparable interval and separate the pandemic contraction from the subsequent
+recovery. Comparisons will not cross a change in survey or series without a
+documented robustness test.
+
+\section{Results}
+
+\subsection{Changes in educational attainment}
+
+\subsection{Changes in labor income within education groups}
+
+\subsection{Country decompositions}
+
+\subsection{Pandemic and recovery}
+
+\section{Robustness}
+
+\section{Conclusion}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}
