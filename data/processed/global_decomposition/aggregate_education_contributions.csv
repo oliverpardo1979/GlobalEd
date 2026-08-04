@@ -1,16 +1,16 @@
 share_jump_screen,education,education_label,education_component_ppp_2021,within_wage_component_ppp_2021,window,aggregation
-baseline_10pp,EDU_AGGREGATE_ADV,Advanced,262.11217177479676,43.59873697204797,2010-2019,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_BAS,Basic,-25.96577605660535,30.120598298073258,2010-2019,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-113.63591029865528,62.948705350579054,2010-2019,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-3.3131209428546975,3.9986618063113006,2010-2019,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_ADV,Advanced,140.95404990190264,48.727359814305245,2010-2019,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_BAS,Basic,-34.80692213264001,45.169128502802245,2010-2019,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-20.73055897188253,49.20121226839733,2010-2019,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-10.380752322099209,9.299504214074481,2010-2019,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_ADV,Advanced,262.60069217065364,43.562077952304676,2010-2019,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_BAS,Basic,-25.95801929853355,29.950361999671063,2010-2019,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-113.94639536580976,62.91351247347256,2010-2019,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-3.300579505214286,3.969796321178478,2010-2019,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_ADV,Advanced,260.06976548862355,37.100556817689665,2010-2019,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_BAS,Basic,-25.41908095586796,26.10718956881344,2010-2019,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-111.92004911040875,61.38826217935333,2010-2019,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-3.5479932680285726,3.2109656662818007,2010-2019,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_ADV,Advanced,139.1754630174285,-0.33243155317826023,2010-2019,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_BAS,Basic,-29.745089636397942,13.548689975128129,2010-2019,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-18.249481216399143,39.08455870753319,2010-2019,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-11.34809617934588,2.8326696003402203,2010-2019,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_ADV,Advanced,260.6344166200523,37.25245443319288,2010-2019,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_BAS,Basic,-25.427029951906373,26.04843128162807,2010-2019,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-112.29112229134036,61.39745829443872,2010-2019,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-3.5281688592570912,3.2041328795676174,2010-2019,changing_employment_weights
 baseline_10pp,EDU_AGGREGATE_ADV,Advanced,92.91093913515247,43.601423149601835,2015-2019,fixed_employment_weights
 baseline_10pp,EDU_AGGREGATE_BAS,Basic,-14.909801975209442,20.747666461067983,2015-2019,fixed_employment_weights
 baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-29.873340167991827,44.78231381075135,2015-2019,fixed_employment_weights
@@ -23,15 +23,15 @@ baseline_10pp,EDU_AGGREGATE_ADV,Advanced,92.94505411335929,43.61261025114379,201
 baseline_10pp,EDU_AGGREGATE_BAS,Basic,-14.911549548533548,20.741891056369308,2015-2019,changing_employment_weights
 baseline_10pp,EDU_AGGREGATE_INT,Intermediate,-29.89627366190847,44.7838279208325,2015-2019,changing_employment_weights
 baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-3.556143994370438,3.6649104780189745,2015-2019,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_ADV,Advanced,48.930327636635404,8.048056664939365,2019-2023,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_BAS,Basic,-17.70176323392211,4.784459728707196,2019-2023,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_INT,Intermediate,6.1861990645550815,0.7297153453187664,2019-2023,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-6.603331257510083,0.1613163016763447,2019-2023,fixed_employment_weights
-baseline_10pp,EDU_AGGREGATE_ADV,Advanced,50.42617560050816,1.0342171124162869,2019-2023,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_BAS,Basic,-14.021757136120339,4.151798965195307,2019-2023,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_INT,Intermediate,1.1264227682314445,0.26347950901025663,2019-2023,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-8.406447948777513,-0.17158511360559991,2019-2023,equal_country_weights
-baseline_10pp,EDU_AGGREGATE_ADV,Advanced,48.94696687102733,8.007445653745005,2019-2023,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_BAS,Basic,-17.698804674248883,4.77799348979608,2019-2023,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_INT,Intermediate,6.178883396223123,0.7171613733701865,2019-2023,changing_employment_weights
-baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-6.607103778276379,0.16292689354347747,2019-2023,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_ADV,Advanced,47.183550051356605,7.055195572592726,2019-2023,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_BAS,Basic,-17.392661649461832,4.6072397248288155,2019-2023,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_INT,Intermediate,6.485660287166823,-0.5489741852866161,2019-2023,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-6.4974949527755825,0.15291162382086027,2019-2023,fixed_employment_weights
+baseline_10pp,EDU_AGGREGATE_ADV,Advanced,34.549219029601744,-45.8236920059111,2019-2023,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_BAS,Basic,-13.396129248659458,-6.537271442805098,2019-2023,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_INT,Intermediate,7.331046214904612,-107.39436596387294,2019-2023,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-7.213846697755445,-0.4433127767934262,2019-2023,equal_country_weights
+baseline_10pp,EDU_AGGREGATE_ADV,Advanced,47.19905414491515,7.01409907930231,2019-2023,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_BAS,Basic,-17.390328336781185,4.599968665573027,2019-2023,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_INT,Intermediate,6.480588475448507,-0.5657726979803013,2019-2023,changing_employment_weights
+baseline_10pp,EDU_AGGREGATE_LTB,Less than basic,-6.5015688817050545,0.1544193956692451,2019-2023,changing_employment_weights

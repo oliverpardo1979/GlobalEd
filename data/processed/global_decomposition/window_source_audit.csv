@@ -1,10 +1,10 @@
-share_jump_screen,window,start_year,end_year,country_code,country,source,source_label,full_window,all_years_clean,stable_currency,stable_reference_period,no_internal_break,stable_education_distribution,max_annual_education_share_change,wdi_complete,eligible,currency_code,reference_period,midpoint_employees_thousands,max_abs_reconstruction_error,max_unknown_education_share,selected
+share_jump_screen,window,start_year,end_year,country_code,country,source,source_label,endpoint_pair,endpoints_clean,stable_currency,stable_reference_period,no_reported_break,stable_education_distribution,max_annual_education_share_change,wdi_complete,eligible,currency_code,reference_period,midpoint_employees_thousands,max_abs_reconstruction_error,max_unknown_education_share,selected
 baseline_10pp,2010-2019,2010,2019,AFG,Afghanistan,BA:15715,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,AFG,Afghanistan,BB:6361,HIES - Households Living Conditions Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,AGO,Angola,BA:13951,LFS - Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,ARG,Argentina,BA:150,"LFS - Permanent Household Survey, Urban",False,False,False,False,False,False,,False,False,,,,,,False
+baseline_10pp,2010-2019,2010,2019,ARG,Argentina,BA:150,"LFS - Permanent Household Survey, Urban",True,True,True,True,True,True,0.014948867655840775,False,False,ARG,Not stated,8431.768,0.002401862177741132,0.0028550862978588094,False
 baseline_10pp,2010-2019,2010,2019,ARM,Armenia,BA:867,LFS - Household Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,ARM,Armenia,BB:173,HIES - Households Living Conditions Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2010-2019,2010,2019,ARM,Armenia,BB:173,HIES - Households Living Conditions Survey,True,False,True,True,True,True,0.0473056959250121,True,False,ARM,Not stated,677.756,0.00017031110635404813,0.0,False
 baseline_10pp,2010-2019,2010,2019,ATG,Antigua and Barbuda,BA:16714,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,AUS,Australia,BB:15747,"HIES - Household, Income and Labour Dynamics Survey",False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,BDI,Burundi,BB:7040,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -27,7 +27,7 @@ baseline_10pp,2010-2019,2010,2019,BRN,Brunei Darussalam,BA:8230,LFS - Labour For
 baseline_10pp,2010-2019,2010,2019,BTN,Bhutan,BA:625,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,BWA,Botswana,BX:15710,HS - Multi-Topic Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,CAN,Canada,BA:147,LFS - Labour Force Survey,True,True,True,True,True,True,0.015390966759944225,True,True,CAN,Not stated,15299.0465,2.128963130746955e-07,0.0,True
-baseline_10pp,2010-2019,2010,2019,CHE,Switzerland,BA:253,LFS - Labour Force Survey,True,False,True,True,True,True,0.02274987033321285,True,False,CHE,Not stated,3777.0975000000003,0.0016498601394918963,0.0037710781049245085,False
+baseline_10pp,2010-2019,2010,2019,CHE,Switzerland,BA:253,LFS - Labour Force Survey,True,False,True,True,True,True,0.02274987033321285,True,False,CHE,Not stated,3777.0975000000003,0.0015581656052081744,0.0035555209684099993,False
 baseline_10pp,2010-2019,2010,2019,CHL,Chile,BX:138,HS - National Survey on Socio-Economic Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,CIV,Côte d'Ivoire,BA:14098,LFS - Regional Integrated Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,CIV,Côte d'Ivoire,BA:7345,LFS - National Survey on the Employment Situation,False,False,False,False,False,False,,True,False,,,,,,False
@@ -37,7 +37,7 @@ baseline_10pp,2010-2019,2010,2019,COD,"Congo, Democratic Republic of the",BA:305
 baseline_10pp,2010-2019,2010,2019,COD,"Congo, Democratic Republic of the",BX:16939,HS - Core Welfare Indicators Questionnaire,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,COG,Congo,BA:2624,LFS - Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,COK,Cook Islands,BA:15665,LFS - Labour Force Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,COL,Colombia,BA:358,LFS - Integrated Household Survey,True,True,True,True,True,True,0.023577196399340306,True,True,COL,Not stated,9618.3055,0.009537110624160624,0.00038506759219801714,True
+baseline_10pp,2010-2019,2010,2019,COL,Colombia,BA:358,LFS - Integrated Household Survey,True,True,True,True,True,True,0.023577196399340306,True,True,COL,Not stated,9618.3055,0.004930244688703503,0.0001692070447465233,True
 baseline_10pp,2010-2019,2010,2019,COL,Colombia,BX:2226,HS - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,COM,Comoros,BA:14125,LFS - National Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,COM,Comoros,BX:13363,HS - Integrated Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -48,11 +48,11 @@ baseline_10pp,2010-2019,2010,2019,CRI,Costa Rica,BX:7407,HS - Household Survey o
 baseline_10pp,2010-2019,2010,2019,DJI,Djibouti,BX:15732,HS - Djiboutian Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,DOM,Dominican Republic,BA:13413,LFS - Continuous National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,DOM,Dominican Republic,BA:3,LFS - National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",True,True,True,True,False,True,0.024377807339180435,True,False,ECU,Not stated,3593.3370000000004,0.009538009696512808,0.0005803634888913046,False
-baseline_10pp,2010-2019,2010,2019,EGY,Egypt,BA:582,LFS - Labour Force Sample Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2010-2019,2010,2019,ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",True,True,True,True,False,True,0.024377807339180435,True,False,ECU,Not stated,3593.3370000000004,0.005564657937649747,0.00028295515423287,False
+baseline_10pp,2010-2019,2010,2019,EGY,Egypt,BA:582,LFS - Labour Force Sample Survey,True,False,True,True,False,False,0.40988621315383045,True,False,EGY,Not stated,14445.516,0.008491652723414228,0.24255018990308486,False
 baseline_10pp,2010-2019,2010,2019,ETH,Ethiopia,BA:1126,LFS - National Labor Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,FJI,Fiji,BA:1135,"LFS - Employment, Unemployment Survey",False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,FRA,France,BA:148,LFS - Employment Survey,True,False,True,True,True,False,0.12246130235161601,True,False,FRA,Not stated,21727.377999999997,0.020754559420943414,0.14936529744255567,False
+baseline_10pp,2010-2019,2010,2019,FRA,France,BA:148,LFS - Employment Survey,True,False,True,True,True,False,0.12246130235161601,True,False,FRA,Not stated,21727.377999999997,0.020754559420943414,0.13434000774051325,False
 baseline_10pp,2010-2019,2010,2019,GBR,United Kingdom of Great Britain and Northern Ireland,BA:666,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,GHA,Ghana,BA:1163,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,GHA,Ghana,BB:16203,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -61,11 +61,11 @@ baseline_10pp,2010-2019,2010,2019,GIN,Guinea,BA:15631,LFS - National Survey on E
 baseline_10pp,2010-2019,2010,2019,GMB,Gambia,BA:7014,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,GNB,Guinea-Bissau,BB:15952,HIES - Harmonized Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,GRC,Greece,BA:317,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,GTM,Guatemala,BA:660,LFS - Employment and Income Survey,True,True,True,True,False,False,0.1611694070681165,True,False,GTM,Not stated,3632.5595,0.0060764924602031934,0.0014905498748177528,False
+baseline_10pp,2010-2019,2010,2019,GTM,Guatemala,BA:660,LFS - Employment and Income Survey,True,True,True,True,False,False,0.1611694070681165,True,False,GTM,Not stated,3632.5595,0.0060764924602031934,0.0012853689171726372,False
 baseline_10pp,2010-2019,2010,2019,GTM,Guatemala,BB:16732,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,GTM,Guatemala,BX:5867,HS - Living Conditions National Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,GUY,Guyana,BA:1214,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,True,True,True,False,False,True,0.026549102595479185,True,False,HND,Not stated,1625.283,0.02817222864634212,0.00796364973689366,False
+baseline_10pp,2010-2019,2010,2019,HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,True,True,True,False,False,True,0.026549102595479185,True,False,HND,Not stated,1625.283,0.01471804358489958,0.006756364381215639,False
 baseline_10pp,2010-2019,2010,2019,IDN,Indonesia,BA:510,LFS - National Labour Force Survey,True,False,True,True,False,True,0.026349642641788018,True,False,IDN,Not stated,53154.382,0.09028242438113275,0.0,False
 baseline_10pp,2010-2019,2010,2019,IND,India,BA:14121,LFS - Periodic Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,IND,India,BX:2228,HS - National Sample Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -82,12 +82,12 @@ baseline_10pp,2010-2019,2010,2019,LBN,Lebanon,BA:14074,LFS - Labour Force Survey
 baseline_10pp,2010-2019,2010,2019,LBR,Liberia,BA:16,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,LBR,Liberia,BB:7322,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,LCA,Saint Lucia,BB:16927,HIES - Survey on Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2010-2019,2010,2019,LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,True,False,True,True,False,True,0.019698824828050354,True,False,LKA,Not stated,4505.7365,0.08127301058431056,0.0003731340133602238,False
 baseline_10pp,2010-2019,2010,2019,LSO,Lesotho,BA:13,LFS - Integrated Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,True,False,True,True,True,True,0.027953417240423495,True,False,MDA,Not stated,744.0385,0.03672724131623676,0.0,False
+baseline_10pp,2010-2019,2010,2019,MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,True,False,True,True,True,True,0.027953417240423495,True,False,MDA,Not stated,744.0385,0.03444527686083762,0.0,False
 baseline_10pp,2010-2019,2010,2019,MDG,Madagascar,BA:7423,LFS - National Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,MDV,Maldives,BB:704,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,MEX,Mexico,BA:463,LFS - National Occupation and Employment Survey,True,False,True,True,True,True,0.008394845224991856,True,False,MEX,Not stated,33934.604,0.05924467436410278,0.0013420159374518585,False
+baseline_10pp,2010-2019,2010,2019,MEX,Mexico,BA:463,LFS - National Occupation and Employment Survey,True,False,True,True,True,True,0.008394845224991856,True,False,MEX,Not stated,33934.604,0.05205537049950695,0.001242324100198844,False
 baseline_10pp,2010-2019,2010,2019,MHL,Marshall Islands,BB:14101,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,MLI,Mali,BA:219,LFS - Continous Household Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,MLI,Mali,BB:16232,HIES - Harmonized Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
@@ -95,7 +95,7 @@ baseline_10pp,2010-2019,2010,2019,MMR,Myanmar,BA:7009,LFS - Labour Force Survey,
 baseline_10pp,2010-2019,2010,2019,MNG,Mongolia,BA:702,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,MOZ,Mozambique,BB:8363,HIES - Household Budget Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,MRT,Mauritania,BB:16077,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2010-2019,2010,2019,MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,True,True,True,True,True,False,0.11491695002304703,True,False,MUS,Not stated,421.4775,0.0015281793478670723,0.000554275874915382,False
 baseline_10pp,2010-2019,2010,2019,MWI,Malawi,BA:1448,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,NAM,Namibia,BA:1468,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,NER,Niger,BB:13367,HIES - National Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
@@ -104,14 +104,14 @@ baseline_10pp,2010-2019,2010,2019,NIC,Nicaragua,BA:692,LFS - Continous Household
 baseline_10pp,2010-2019,2010,2019,NIC,Nicaragua,BB:5868,HIES - National Household Survey on Measuring Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,NPL,Nepal,BA:1510,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,NRU,Naoero,BB:14049,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,PAK,Pakistan,BA:538,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2010-2019,2010,2019,PAK,Pakistan,BA:538,LFS - Labour Force Survey,True,True,True,False,False,True,0.03676726135356412,True,False,PAK,Not stated,20892.180500000002,0.0007523698996429029,0.0,False
 baseline_10pp,2010-2019,2010,2019,PAK,Pakistan,BB:16125,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,PAN,Panama,BA:511,LFS - Labour Market Survey,True,True,True,True,True,True,0.04737099219448837,True,True,PAN,August,1061.7914999999998,0.004116059196455719,0.0023091460540094035,True
+baseline_10pp,2010-2019,2010,2019,PAN,Panama,BA:511,LFS - Labour Market Survey,True,True,True,True,True,True,0.04737099219448837,True,True,PAN,August,1061.7914999999998,0.001598506663556428,0.0023091460540094035,True
 baseline_10pp,2010-2019,2010,2019,PAN,Panama,BB:16128,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,PAN,Panama,BX:16113,HS - Multipurpose Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,PAN,Panama,BX:3055,HS - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,PER,Peru,BA:16208,"LFS - Permanent Employment Survey, National",False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,PER,Peru,BX:375,HS - National Household Survey,True,True,True,True,True,True,0.018559709607954056,True,True,PER,Not stated,7771.461,0.005107786198550315,0.0006296519949703686,True
+baseline_10pp,2010-2019,2010,2019,PER,Peru,BX:375,HS - National Household Survey,True,True,True,True,True,True,0.018559709607954056,True,True,PER,Not stated,7771.461,0.005107786198550315,0.0,True
 baseline_10pp,2010-2019,2010,2019,PHL,Philippines,BA:629,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,PHL,Philippines,BB:16114,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,PLW,Palau,AA:1541,PC - Population Census,False,False,False,False,False,False,,True,False,,,,,,False
@@ -127,7 +127,7 @@ baseline_10pp,2010-2019,2010,2019,SEN,Senegal,BA:13368,LFS - National Employment
 baseline_10pp,2010-2019,2010,2019,SEN,Senegal,BX:1608,HS - Survey To Monitor Poverty,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,SLB,Solomon Islands,BB:14050,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,SLE,Sierra Leone,BX:15953,HS - Integrated Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,SLV,El Salvador,BX:461,HS - Multi-purpose Household Survey,True,True,True,True,True,True,0.03669739877233541,True,True,SLV,Not stated,1582.658,0.00011263025265014062,0.0,True
+baseline_10pp,2010-2019,2010,2019,SLV,El Salvador,BX:461,HS - Multi-purpose Household Survey,True,True,True,True,True,True,0.03669739877233541,True,True,SLV,Not stated,1582.658,4.5799961025699205e-05,0.0,True
 baseline_10pp,2010-2019,2010,2019,SOM,Somalia,BB:16925,HIES - Integrated Household Budget Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,STP,Sao Tome and Principe,BB:16233,HIES - Household Budget Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,SUR,Suriname,BB:15691,HIES - Survey on Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
@@ -146,15 +146,15 @@ baseline_10pp,2010-2019,2010,2019,TON,Tonga,BA:1712,LFS - Labour Force Survey,Fa
 baseline_10pp,2010-2019,2010,2019,TON,Tonga,BB:16119,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,TTO,Trinidad and Tobago,BA:549,LFS - Continuous Sample Survey of the Population,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,TUN,Tunisia,BA:743,LFS - National Population and Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,True,True,True,True,True,True,0.021444173307859138,True,True,TUR,Not stated,16488.627,0.014321324471635808,0.0,True
+baseline_10pp,2010-2019,2010,2019,TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,True,True,True,True,True,True,0.021444173307859138,True,True,TUR,Not stated,16488.627,0.012673479428058921,0.0,True
 baseline_10pp,2010-2019,2010,2019,TZA,"Tanzania, United Republic of",BA:1743,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,TZA,"Tanzania, United Republic of",BB:2542,HIES - National Panel Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,UGA,Uganda,BA:13047,LFS - National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,UGA,Uganda,BB:268,HIES - National Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,URY,Uruguay,BA:348,LFS - Continous Household Survey,True,True,True,True,False,False,0.16246698064209164,True,False,URY,Not stated,1138.4365,0.003909257251182114,0.0,False
-baseline_10pp,2010-2019,2010,2019,USA,United States of America,BA:453,LFS - Current Population Survey,True,True,True,True,True,True,0.007980102663294575,True,True,USA,Not stated,138602.303,0.010266963830194265,0.0,True
+baseline_10pp,2010-2019,2010,2019,UGA,Uganda,BB:268,HIES - National Household Survey,True,True,True,True,True,True,0.045422275213705926,True,True,UGA,Not stated,3199.8255,0.04100851950483402,0.04645470393138476,True
+baseline_10pp,2010-2019,2010,2019,URY,Uruguay,BA:348,LFS - Continous Household Survey,True,True,True,True,False,False,0.16246698064209164,True,False,URY,Not stated,1138.4365,0.0027274788415197256,0.0,False
+baseline_10pp,2010-2019,2010,2019,USA,United States of America,BA:453,LFS - Current Population Survey,True,True,True,True,True,True,0.007980102663294575,True,True,USA,Not stated,138602.303,0.008753499990329533,0.0,True
 baseline_10pp,2010-2019,2010,2019,VEN,"Venezuela, Bolivarian Republic of",BA:382,LFS - Household Sample Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2010-2019,2010,2019,VNM,Viet Nam,BA:1788,LFS - Labour Force Survey,True,True,True,True,True,True,0.08962613011085438,True,True,VNM,Not stated,21272.1855,0.0010396988544746051,0.002725234030086071,True
+baseline_10pp,2010-2019,2010,2019,VNM,Viet Nam,BA:1788,LFS - Labour Force Survey,True,True,True,True,True,True,0.08962613011085438,True,True,VNM,Not stated,21272.1855,0.0007252254520024901,0.002725234030086071,True
 baseline_10pp,2010-2019,2010,2019,VUT,Vanuatu,BB:15632,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,WLF,Wallis and Futuna,BB:16123,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2010-2019,2010,2019,WSM,Samoa,BA:1794,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -180,7 +180,7 @@ baseline_10pp,2015-2019,2015,2019,BGD,Bangladesh,BA:673,LFS - Labour Force Surve
 baseline_10pp,2015-2019,2015,2019,BHS,Bahamas,BA:17,LFS - Labour Force & Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,BIH,Bosnia and Herzegovina,BA:493,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,BIH,Bosnia and Herzegovina,BB:15892,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,BLZ,Belize,BA:934,LFS - Labour Force Survey,True,True,True,True,True,True,0.09721321148424789,True,True,BLZ,Not stated,98.6245,0.046343255754707484,0.02819926483159514,True
+baseline_10pp,2015-2019,2015,2019,BLZ,Belize,BA:934,LFS - Labour Force Survey,True,True,True,True,True,True,0.09721321148424789,True,True,BLZ,Not stated,98.6245,0.031207056239579346,0.02819926483159514,True
 baseline_10pp,2015-2019,2015,2019,BOL,"Bolivia, Plurinational State of",BA:74,LFS - Continuous Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,BOL,"Bolivia, Plurinational State of",BB:15890,HIES - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,BOL,"Bolivia, Plurinational State of",BB:73,HIES - Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -191,7 +191,7 @@ baseline_10pp,2015-2019,2015,2019,BRN,Brunei Darussalam,BA:8230,LFS - Labour For
 baseline_10pp,2015-2019,2015,2019,BTN,Bhutan,BA:625,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,BWA,Botswana,BX:15710,HS - Multi-Topic Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,CAN,Canada,BA:147,LFS - Labour Force Survey,True,True,True,True,True,True,0.015390966759944225,True,True,CAN,Not stated,15726.2805,1.6211304164526857e-07,0.0,True
-baseline_10pp,2015-2019,2015,2019,CHE,Switzerland,BA:253,LFS - Labour Force Survey,True,True,True,True,True,True,0.01620379032702629,True,True,CHE,Not stated,3934.8525000000004,0.0016498601394918963,0.0030494652703621566,True
+baseline_10pp,2015-2019,2015,2019,CHE,Switzerland,BA:253,LFS - Labour Force Survey,True,True,True,True,True,True,0.01620379032702629,True,True,CHE,Not stated,3934.8525000000004,0.0016498601394918963,0.002807125639274062,True
 baseline_10pp,2015-2019,2015,2019,CHL,Chile,BX:138,HS - National Survey on Socio-Economic Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,CIV,Côte d'Ivoire,BA:14098,LFS - Regional Integrated Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,CIV,Côte d'Ivoire,BA:7345,LFS - National Survey on the Employment Situation,False,False,False,False,False,False,,True,False,,,,,,False
@@ -201,7 +201,7 @@ baseline_10pp,2015-2019,2015,2019,COD,"Congo, Democratic Republic of the",BA:305
 baseline_10pp,2015-2019,2015,2019,COD,"Congo, Democratic Republic of the",BX:16939,HS - Core Welfare Indicators Questionnaire,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,COG,Congo,BA:2624,LFS - Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,COK,Cook Islands,BA:15665,LFS - Labour Force Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,COL,Colombia,BA:358,LFS - Integrated Household Survey,True,True,True,True,True,True,0.020053188479139783,True,True,COL,Not stated,10390.526,0.009537110624160624,0.00038506759219801714,True
+baseline_10pp,2015-2019,2015,2019,COL,Colombia,BA:358,LFS - Integrated Household Survey,True,True,True,True,True,True,0.020053188479139783,True,True,COL,Not stated,10390.526,0.0067321690887785935,0.00038506759219801714,True
 baseline_10pp,2015-2019,2015,2019,COL,Colombia,BX:2226,HS - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,COM,Comoros,BA:14125,LFS - National Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,COM,Comoros,BX:13363,HS - Integrated Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -212,11 +212,11 @@ baseline_10pp,2015-2019,2015,2019,CRI,Costa Rica,BX:7407,HS - Household Survey o
 baseline_10pp,2015-2019,2015,2019,DJI,Djibouti,BX:15732,HS - Djiboutian Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,DOM,Dominican Republic,BA:13413,LFS - Continuous National Labour Force Survey,True,False,True,True,True,False,0.10434277804320286,True,False,DOM,Not stated,2080.9,0.09839798980750838,0.30902303513105145,False
 baseline_10pp,2015-2019,2015,2019,DOM,Dominican Republic,BA:3,LFS - National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",True,True,True,True,True,True,0.018011776794878365,True,True,ECU,Not stated,3868.1555,0.002802743329039285,0.0005803634888913046,True
+baseline_10pp,2015-2019,2015,2019,ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",True,True,True,True,True,True,0.018011776794878365,True,True,ECU,Not stated,3868.1555,0.002802743329039285,0.00028295515423287,True
 baseline_10pp,2015-2019,2015,2019,EGY,Egypt,BA:582,LFS - Labour Force Sample Survey,True,False,True,True,False,False,0.40988621315383045,True,False,EGY,Not stated,14780.3655,0.029023595634569684,0.24255018990308486,False
 baseline_10pp,2015-2019,2015,2019,ETH,Ethiopia,BA:1126,LFS - National Labor Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,FJI,Fiji,BA:1135,"LFS - Employment, Unemployment Survey",False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,FRA,France,BA:148,LFS - Employment Survey,True,True,True,True,True,True,0.013193663490612406,True,True,FRA,Not stated,23531.9035,0.0008338710692649922,0.00320899736715214,True
+baseline_10pp,2015-2019,2015,2019,FRA,France,BA:148,LFS - Employment Survey,True,True,True,True,True,True,0.013193663490612406,True,True,FRA,Not stated,23531.9035,0.00012469690529241773,0.00320899736715214,True
 baseline_10pp,2015-2019,2015,2019,GBR,United Kingdom of Great Britain and Northern Ireland,BA:666,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,GHA,Ghana,BA:1163,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,GHA,Ghana,BB:16203,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -225,11 +225,11 @@ baseline_10pp,2015-2019,2015,2019,GIN,Guinea,BA:15631,LFS - National Survey on E
 baseline_10pp,2015-2019,2015,2019,GMB,Gambia,BA:7014,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,GNB,Guinea-Bissau,BB:15952,HIES - Harmonized Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,GRC,Greece,BA:317,LFS - Labour Force Survey,True,True,True,True,True,True,0.020985961712814083,True,True,GRC,Not stated,2389.3355,0.001661106497739683,0.0,True
-baseline_10pp,2015-2019,2015,2019,GTM,Guatemala,BA:660,LFS - Employment and Income Survey,True,True,True,True,True,True,0.018556067484279737,True,True,GTM,Not stated,4135.0815,0.0011005566956877098,0.0004378025863206038,True
+baseline_10pp,2015-2019,2015,2019,GTM,Guatemala,BA:660,LFS - Employment and Income Survey,True,True,True,True,True,True,0.018556067484279737,True,True,GTM,Not stated,4135.0815,0.0005121546064163914,0.0,True
 baseline_10pp,2015-2019,2015,2019,GTM,Guatemala,BB:16732,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,GTM,Guatemala,BX:5867,HS - Living Conditions National Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,GUY,Guyana,BA:1214,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,True,True,True,False,False,True,0.026549102595479185,True,False,HND,Not stated,1779.8745,0.02817222864634212,0.00796364973689366,False
+baseline_10pp,2015-2019,2015,2019,HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,True,True,True,False,False,True,0.026549102595479185,True,False,HND,Not stated,1779.8745,0.01471804358489958,0.006756364381215639,False
 baseline_10pp,2015-2019,2015,2019,IDN,Indonesia,BA:510,LFS - National Labour Force Survey,True,True,True,True,True,True,0.014147762264110339,True,True,IDN,Not stated,60570.415,0.00042847987952836404,0.0,True
 baseline_10pp,2015-2019,2015,2019,IND,India,BA:14121,LFS - Periodic Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,IND,India,BX:2228,HS - National Sample Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -246,20 +246,20 @@ baseline_10pp,2015-2019,2015,2019,LBN,Lebanon,BA:14074,LFS - Labour Force Survey
 baseline_10pp,2015-2019,2015,2019,LBR,Liberia,BA:16,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,LBR,Liberia,BB:7322,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,LCA,Saint Lucia,BB:16927,HIES - Survey on Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,True,False,True,True,True,True,0.01862291112012865,True,False,LKA,Not stated,4564.9005,0.08127301058431056,0.0008884050194451914,False
+baseline_10pp,2015-2019,2015,2019,LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,True,False,True,True,True,True,0.01862291112012865,True,False,LKA,Not stated,4564.9005,0.08127301058431056,0.0007989834510581128,False
 baseline_10pp,2015-2019,2015,2019,LSO,Lesotho,BA:13,LFS - Integrated Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,True,False,True,True,True,True,0.008789623523342005,True,False,MDA,Not stated,654.718,0.03672724131623676,0.0,False
+baseline_10pp,2015-2019,2015,2019,MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,True,False,True,True,True,True,0.008789623523342005,True,False,MDA,Not stated,654.718,0.03444527686083762,0.0,False
 baseline_10pp,2015-2019,2015,2019,MDG,Madagascar,BA:7423,LFS - National Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,MDV,Maldives,BB:704,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,MEX,Mexico,BA:463,LFS - National Occupation and Employment Survey,True,False,True,True,True,True,0.007892866761286699,True,False,MEX,Not stated,35524.6625,0.05924467436410278,0.0013420159374518585,False
+baseline_10pp,2015-2019,2015,2019,MEX,Mexico,BA:463,LFS - National Occupation and Employment Survey,True,False,True,True,True,True,0.007892866761286699,True,False,MEX,Not stated,35524.6625,0.05675866301631742,0.0011714402150389827,False
 baseline_10pp,2015-2019,2015,2019,MHL,Marshall Islands,BB:14101,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,MLI,Mali,BA:219,LFS - Continous Household Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,MLI,Mali,BB:16232,HIES - Harmonized Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,MMR,Myanmar,BA:7009,LFS - Labour Force Survey,False,False,False,False,False,False,,False,False,,,,,,False
+baseline_10pp,2015-2019,2015,2019,MMR,Myanmar,BA:7009,LFS - Labour Force Survey,True,False,True,True,False,False,0.1075990454079429,False,False,MMR,Not stated,7016.7315,0.08134992329986557,0.26992493232605025,False
 baseline_10pp,2015-2019,2015,2019,MNG,Mongolia,BA:702,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,MOZ,Mozambique,BB:8363,HIES - Household Budget Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,MRT,Mauritania,BB:16077,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,True,True,True,True,True,False,0.11491695002304703,True,False,MUS,Not stated,432.41450000000003,0.0016704369421081267,0.000554275874915382,False
+baseline_10pp,2015-2019,2015,2019,MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,True,True,True,True,True,False,0.11491695002304703,True,False,MUS,Not stated,432.41450000000003,0.0005123377933796289,0.000554275874915382,False
 baseline_10pp,2015-2019,2015,2019,MWI,Malawi,BA:1448,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,NAM,Namibia,BA:1468,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,NER,Niger,BB:13367,HIES - National Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
@@ -268,14 +268,14 @@ baseline_10pp,2015-2019,2015,2019,NIC,Nicaragua,BA:692,LFS - Continous Household
 baseline_10pp,2015-2019,2015,2019,NIC,Nicaragua,BB:5868,HIES - National Household Survey on Measuring Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,NPL,Nepal,BA:1510,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,NRU,Naoero,BB:14049,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,PAK,Pakistan,BA:538,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2015-2019,2015,2019,PAK,Pakistan,BA:538,LFS - Labour Force Survey,True,True,True,False,True,True,0.03676726135356412,True,False,PAK,Not stated,22768.432500000003,0.0012170631730809068,0.00023307966358804597,False
 baseline_10pp,2015-2019,2015,2019,PAK,Pakistan,BB:16125,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,PAN,Panama,BA:511,LFS - Labour Market Survey,True,True,True,True,True,True,0.017386828021458633,True,True,PAN,August,1157.8895,0.00236672241200781,0.0,True
+baseline_10pp,2015-2019,2015,2019,PAN,Panama,BA:511,LFS - Labour Market Survey,True,True,True,True,True,True,0.017386828021458633,True,True,PAN,August,1157.8895,0.001598506663556428,0.0,True
 baseline_10pp,2015-2019,2015,2019,PAN,Panama,BB:16128,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,PAN,Panama,BX:16113,HS - Multipurpose Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,PAN,Panama,BX:3055,HS - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,PER,Peru,BA:16208,"LFS - Permanent Employment Survey, National",False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,PER,Peru,BX:375,HS - National Household Survey,True,True,True,True,True,True,0.016731091077440863,True,True,PER,Not stated,8262.879500000001,0.0013272329833748466,0.000439415226118723,True
+baseline_10pp,2015-2019,2015,2019,PER,Peru,BX:375,HS - National Household Survey,True,True,True,True,True,True,0.016731091077440863,True,True,PER,Not stated,8262.879500000001,0.0007318332568052019,0.0,True
 baseline_10pp,2015-2019,2015,2019,PHL,Philippines,BA:629,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,PHL,Philippines,BB:16114,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,PLW,Palau,AA:1541,PC - Population Census,False,False,False,False,False,False,,True,False,,,,,,False
@@ -310,12 +310,12 @@ baseline_10pp,2015-2019,2015,2019,TON,Tonga,BA:1712,LFS - Labour Force Survey,Fa
 baseline_10pp,2015-2019,2015,2019,TON,Tonga,BB:16119,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,TTO,Trinidad and Tobago,BA:549,LFS - Continuous Sample Survey of the Population,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,TUN,Tunisia,BA:743,LFS - National Population and Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,True,True,True,True,True,True,0.021444173307859138,True,True,TUR,Not stated,18521.5035,0.014321324471635808,0.0,True
+baseline_10pp,2015-2019,2015,2019,TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,True,True,True,True,True,True,0.021444173307859138,True,True,TUR,Not stated,18521.5035,0.012058303539778685,0.0,True
 baseline_10pp,2015-2019,2015,2019,TZA,"Tanzania, United Republic of",BA:1743,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,TZA,"Tanzania, United Republic of",BB:2542,HIES - National Panel Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,UGA,Uganda,BA:13047,LFS - National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,UGA,Uganda,BB:268,HIES - National Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2015-2019,2015,2019,URY,Uruguay,BA:348,LFS - Continous Household Survey,True,True,True,True,False,True,0.011123066879740212,True,False,URY,Not stated,1179.9385000000002,0.003909257251182114,0.0,False
+baseline_10pp,2015-2019,2015,2019,URY,Uruguay,BA:348,LFS - Continous Household Survey,True,True,True,True,False,True,0.011123066879740212,True,False,URY,Not stated,1179.9385000000002,0.0012380298938986644,0.0,False
 baseline_10pp,2015-2019,2015,2019,USA,United States of America,BA:453,LFS - Current Population Survey,True,True,True,True,True,True,0.007754881337034614,True,True,USA,Not stated,143589.99699999997,0.008753499990329533,0.0,True
 baseline_10pp,2015-2019,2015,2019,VEN,"Venezuela, Bolivarian Republic of",BA:382,LFS - Household Sample Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2015-2019,2015,2019,VNM,Viet Nam,BA:1788,LFS - Labour Force Survey,True,True,True,True,True,True,0.08962613011085438,True,True,VNM,Not stated,23324.5055,0.0010396988544746051,0.00044276951270942535,True
@@ -330,7 +330,7 @@ baseline_10pp,2015-2019,2015,2019,ZWE,Zimbabwe,BA:1823,LFS - Labour Force Survey
 baseline_10pp,2019-2023,2019,2023,AFG,Afghanistan,BA:15715,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,AFG,Afghanistan,BB:6361,HIES - Households Living Conditions Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,AGO,Angola,BA:13951,LFS - Employment Survey,True,False,True,True,True,False,0.12053066030311965,True,False,AGO,Not stated,1230.484,0.30056677847346946,0.9664457962827436,False
-baseline_10pp,2019-2023,2019,2023,ARG,Argentina,BA:150,"LFS - Permanent Household Survey, Urban",True,True,True,True,True,True,0.017192262821253135,False,False,ARG,Not stated,9344.821,0.007776936844404587,0.0016180369068443366,False
+baseline_10pp,2019-2023,2019,2023,ARG,Argentina,BA:150,"LFS - Permanent Household Survey, Urban",True,True,True,True,True,True,0.017192262821253135,False,False,ARG,Not stated,9344.821,0.0042001616046765215,0.0016180369068443366,False
 baseline_10pp,2019-2023,2019,2023,ARM,Armenia,BA:867,LFS - Household Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,ARM,Armenia,BB:173,HIES - Households Living Conditions Survey,True,False,True,True,True,True,0.05723411376198029,True,False,ARM,Not stated,744.074,0.0007326180074587049,0.0,False
 baseline_10pp,2019-2023,2019,2023,ATG,Antigua and Barbuda,BA:16714,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -341,21 +341,21 @@ baseline_10pp,2019-2023,2019,2023,BFA,Burkina Faso,BA:15678,LFS - Regional Integ
 baseline_10pp,2019-2023,2019,2023,BFA,Burkina Faso,BA:904,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BFA,Burkina Faso,BB:16126,HIES - Harmonized Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BGD,Bangladesh,BA:673,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,BHS,Bahamas,BA:17,LFS - Labour Force & Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,BHS,Bahamas,BA:17,LFS - Labour Force & Household Survey,True,True,True,True,True,True,,True,True,BHS,Not stated,177.82049999999998,0.011551579269232256,0.0,True
 baseline_10pp,2019-2023,2019,2023,BIH,Bosnia and Herzegovina,BA:493,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BIH,Bosnia and Herzegovina,BB:15892,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BLZ,Belize,BA:934,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,BOL,"Bolivia, Plurinational State of",BA:74,LFS - Continuous Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,BOL,"Bolivia, Plurinational State of",BA:74,LFS - Continuous Employment Survey,True,False,True,True,False,True,0.020608662383380605,True,False,BOL,Not stated,1914.263,0.01253126278665091,0.06454700474529916,False
 baseline_10pp,2019-2023,2019,2023,BOL,"Bolivia, Plurinational State of",BB:15890,HIES - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BOL,"Bolivia, Plurinational State of",BB:73,HIES - Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BOL,"Bolivia, Plurinational State of",BX:15722,HS - Survey of Improvement of Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,BRA,Brazil,BX:356,HS - National Household Sample Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,BRA,Brazil,BX:6355,HS - Continuous National Household Sample Survey,True,True,True,True,True,True,0.03245773183439174,True,True,BRA,Not stated,66018.699,0.005828242731800453,0.00043573727076911796,True
+baseline_10pp,2019-2023,2019,2023,BRA,Brazil,BX:6355,HS - Continuous National Household Sample Survey,True,True,True,True,True,True,0.03245773183439174,True,True,BRA,Not stated,66018.699,0.004593760089851634,0.00043573727076911796,True
 baseline_10pp,2019-2023,2019,2023,BRN,Brunei Darussalam,BA:8230,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,BTN,Bhutan,BA:625,LFS - Labour Force Survey,True,False,True,True,True,True,0.08555881870214374,True,False,BTN,Not stated,116.2935,0.023469476214392417,0.0676203226078246,False
+baseline_10pp,2019-2023,2019,2023,BTN,Bhutan,BA:625,LFS - Labour Force Survey,True,False,True,True,True,True,0.08555881870214374,True,False,BTN,Not stated,116.2935,0.01647390444250963,0.05903528722320669,False
 baseline_10pp,2019-2023,2019,2023,BWA,Botswana,BX:15710,HS - Multi-Topic Household Survey,True,True,True,True,True,True,0.029612607055235995,True,True,BWA,Not stated,543.949,0.011815725069060033,0.0,True
 baseline_10pp,2019-2023,2019,2023,CAN,Canada,BA:147,LFS - Labour Force Survey,True,True,True,True,True,True,0.015296194944883101,True,True,CAN,Not stated,16969.688000000002,9.51222169828578e-08,0.0,True
-baseline_10pp,2019-2023,2019,2023,CHE,Switzerland,BA:253,LFS - Labour Force Survey,True,True,True,True,True,True,0.014753746584704353,True,True,CHE,Not stated,4015.5405,0.004187451252740803,0.006567193773357207,True
+baseline_10pp,2019-2023,2019,2023,CHE,Switzerland,BA:253,LFS - Labour Force Survey,True,True,True,True,True,True,0.014753746584704353,True,True,CHE,Not stated,4015.5405,0.0040325475687084415,0.006544480896243648,True
 baseline_10pp,2019-2023,2019,2023,CHL,Chile,BX:138,HS - National Survey on Socio-Economic Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,CIV,Côte d'Ivoire,BA:14098,LFS - Regional Integrated Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,CIV,Côte d'Ivoire,BA:7345,LFS - National Survey on the Employment Situation,False,False,False,False,False,False,,True,False,,,,,,False
@@ -364,8 +364,8 @@ baseline_10pp,2019-2023,2019,2023,CMR,Cameroon,BX:7419,HS - Household Survey,Fal
 baseline_10pp,2019-2023,2019,2023,COD,"Congo, Democratic Republic of the",BA:3051,LFS - Survey on Employment and household's living conditions,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,COD,"Congo, Democratic Republic of the",BX:16939,HS - Core Welfare Indicators Questionnaire,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,COG,Congo,BA:2624,LFS - Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,COK,Cook Islands,BA:15665,LFS - Labour Force Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,COL,Colombia,BA:358,LFS - Integrated Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,COK,Cook Islands,BA:15665,LFS - Labour Force Survey,True,False,True,True,True,True,,False,False,COK,Not stated,6.697000000000001,0.006266899505470969,0.0,False
+baseline_10pp,2019-2023,2019,2023,COL,Colombia,BA:358,LFS - Integrated Household Survey,True,True,True,True,False,True,0.06434325421498022,True,False,COL,Not stated,11410.7,0.0061504932092622325,4.9261610680142395e-05,False
 baseline_10pp,2019-2023,2019,2023,COL,Colombia,BX:2226,HS - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,COM,Comoros,BA:14125,LFS - National Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,COM,Comoros,BX:13363,HS - Integrated Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -374,13 +374,13 @@ baseline_10pp,2019-2023,2019,2023,CRI,Costa Rica,BA:12883,LFS - Continuous Emplo
 baseline_10pp,2019-2023,2019,2023,CRI,Costa Rica,BX:142,HS - National Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,CRI,Costa Rica,BX:7407,HS - Household Survey of Multiple Purposes,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,DJI,Djibouti,BX:15732,HS - Djiboutian Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,DOM,Dominican Republic,BA:13413,LFS - Continuous National Labour Force Survey,True,False,True,True,False,True,0.017515883303091756,True,False,DOM,Not stated,1864.95,0.0986599507249832,0.3386656607132355,False
+baseline_10pp,2019-2023,2019,2023,DOM,Dominican Republic,BA:13413,LFS - Continuous National Labour Force Survey,True,False,True,True,False,True,0.017515883303091756,True,False,DOM,Not stated,1864.95,0.09839798980750838,0.3348733264461253,False
 baseline_10pp,2019-2023,2019,2023,DOM,Dominican Republic,BA:3,LFS - National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,EGY,Egypt,BA:582,LFS - Labour Force Sample Survey,True,False,True,True,True,False,0.3970023582248057,True,False,EGY,Not stated,17555.325,0.015490798353548288,0.24255018990308486,False
+baseline_10pp,2019-2023,2019,2023,ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",True,True,True,True,True,True,0.023631090089645868,True,True,ECU,Not stated,3893.9295,0.002802743329039285,0.00028295515423287,True
+baseline_10pp,2019-2023,2019,2023,EGY,Egypt,BA:582,LFS - Labour Force Sample Survey,True,False,True,True,True,False,0.3970023582248057,True,False,EGY,Not stated,17555.325,0.008491652723414228,0.24255018990308486,False
 baseline_10pp,2019-2023,2019,2023,ETH,Ethiopia,BA:1126,LFS - National Labor Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,FJI,Fiji,BA:1135,"LFS - Employment, Unemployment Survey",False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,FRA,France,BA:148,LFS - Employment Survey,True,False,True,True,True,True,0.015230588947837409,True,False,FRA,Not stated,24193.54,0.007553141179059925,0.014631237454248283,False
+baseline_10pp,2019-2023,2019,2023,FRA,France,BA:148,LFS - Employment Survey,True,False,True,True,True,True,0.015230588947837409,True,False,FRA,Not stated,24193.54,0.00538192484947375,0.010986843390278783,False
 baseline_10pp,2019-2023,2019,2023,GBR,United Kingdom of Great Britain and Northern Ireland,BA:666,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,GHA,Ghana,BA:1163,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,GHA,Ghana,BB:16203,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -393,7 +393,7 @@ baseline_10pp,2019-2023,2019,2023,GTM,Guatemala,BA:660,LFS - Employment and Inco
 baseline_10pp,2019-2023,2019,2023,GTM,Guatemala,BB:16732,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,GTM,Guatemala,BX:5867,HS - Living Conditions National Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,GUY,Guyana,BA:1214,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,True,True,True,True,True,True,0.08568265354139837,True,True,HND,Second quarter,2109.0255,0.022091140701633375,0.009493304666195568,True
 baseline_10pp,2019-2023,2019,2023,IDN,Indonesia,BA:510,LFS - National Labour Force Survey,True,True,True,True,False,True,0.017591868305613642,True,False,IDN,Not stated,63697.8355,0.00042847987952836404,0.0,False
 baseline_10pp,2019-2023,2019,2023,IND,India,BA:14121,LFS - Periodic Labour Force Survey,True,True,True,True,True,True,0.014286184974274696,True,True,IND,Not stated,103930.56,0.00034015461249741223,0.00018740283683043771,True
 baseline_10pp,2019-2023,2019,2023,IND,India,BX:2228,HS - National Sample Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -403,16 +403,16 @@ baseline_10pp,2019-2023,2019,2023,KEN,Kenya,BB:7021,HIES - Household Budget Surv
 baseline_10pp,2019-2023,2019,2023,KEN,Kenya,BX:3465,HS - Continuous household survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,KHM,Cambodia,BA:1321,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,KHM,Cambodia,BB:3064,HIES - Household Socio-Economic Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,KIR,Kiribati,BB:15723,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,KIR,Kiribati,BB:15723,HIES - Household Income and Expenditure Survey,True,False,True,True,True,True,,True,False,KIR,Not stated,19.055,0.013596185313363983,0.010571698558941649,False
 baseline_10pp,2019-2023,2019,2023,KOS,Kosovo,BB:16127,HIES - Living Standards Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,LAO,Lao People's Democratic Republic,BA:6651,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,LBN,Lebanon,BA:14074,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,LBR,Liberia,BA:16,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,LBR,Liberia,BB:7322,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,LCA,Saint Lucia,BB:16927,HIES - Survey on Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,True,False,True,True,True,True,0.016236023766828228,True,False,LKA,Not stated,4731.3095,0.11393926516569483,0.0008317597919050657,False
+baseline_10pp,2019-2023,2019,2023,LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,True,False,True,True,True,True,0.016236023766828228,True,False,LKA,Not stated,4731.3095,0.11077618375292672,0.0007543801302024584,False
 baseline_10pp,2019-2023,2019,2023,LSO,Lesotho,BA:13,LFS - Integrated Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,True,False,True,True,True,True,0.01251276834051801,True,False,MDA,Not stated,692.189,0.051634278420091606,0.0,False
+baseline_10pp,2019-2023,2019,2023,MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,True,False,True,True,True,True,0.01251276834051801,True,False,MDA,Not stated,692.189,0.05071825346201633,0.0,False
 baseline_10pp,2019-2023,2019,2023,MDG,Madagascar,BA:7423,LFS - National Survey on Employment and the Informal Sector,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,MDV,Maldives,BB:704,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,MEX,Mexico,BA:463,LFS - National Occupation and Employment Survey,True,False,True,True,False,True,0.019848872111624227,True,False,MEX,Not stated,38775.1095,0.05205537049950695,0.0011714402150389827,False
@@ -423,7 +423,7 @@ baseline_10pp,2019-2023,2019,2023,MMR,Myanmar,BA:7009,LFS - Labour Force Survey,
 baseline_10pp,2019-2023,2019,2023,MNG,Mongolia,BA:702,LFS - Labour Force Survey,True,True,True,True,True,True,0.03362104030969776,True,True,MNG,Not stated,733.363,0.007962089164332407,0.0,True
 baseline_10pp,2019-2023,2019,2023,MOZ,Mozambique,BB:8363,HIES - Household Budget Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,MRT,Mauritania,BB:16077,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,True,True,True,True,False,False,0.20344445085942076,True,False,MUS,Not stated,261.6015,0.0010938364142545761,0.0019609895847962026,False
+baseline_10pp,2019-2023,2019,2023,MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,True,True,True,True,False,False,0.20344445085942076,True,False,MUS,Not stated,261.6015,0.0005123377933796289,0.000554275874915382,False
 baseline_10pp,2019-2023,2019,2023,MWI,Malawi,BA:1448,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,NAM,Namibia,BA:1468,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,NER,Niger,BB:13367,HIES - National Survey on Household Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
@@ -434,7 +434,7 @@ baseline_10pp,2019-2023,2019,2023,NPL,Nepal,BA:1510,LFS - Labour Force Survey,Fa
 baseline_10pp,2019-2023,2019,2023,NRU,Naoero,BB:14049,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,PAK,Pakistan,BA:538,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,PAK,Pakistan,BB:16125,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,PAN,Panama,BA:511,LFS - Labour Market Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,PAN,Panama,BA:511,LFS - Labour Market Survey,True,True,True,False,False,True,0.0466044676674075,True,False,PAN,August,1175.213,0.001598506663556428,0.0,False
 baseline_10pp,2019-2023,2019,2023,PAN,Panama,BB:16128,HIES - Living Standards Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,PAN,Panama,BX:16113,HS - Multipurpose Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,PAN,Panama,BX:3055,HS - Continuous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -451,11 +451,11 @@ baseline_10pp,2019-2023,2019,2023,PSE,"Palestine, State of",BA:592,LFS - Labour 
 baseline_10pp,2019-2023,2019,2023,RWA,Rwanda,BA:1590,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,RWA,Rwanda,BB:763,HIES - Integrated Household Survey on Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,SDN,Sudan,BA:1603,LFS - Labor Market Panel Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,SEN,Senegal,BA:13368,LFS - National Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,SEN,Senegal,BA:13368,LFS - National Employment Survey,True,False,True,True,True,True,0.01935878159285688,True,False,SEN,Not stated,1682.475,0.14725409690455063,0.006421013780899421,False
 baseline_10pp,2019-2023,2019,2023,SEN,Senegal,BX:1608,HS - Survey To Monitor Poverty,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,SLB,Solomon Islands,BB:14050,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,SLE,Sierra Leone,BX:15953,HS - Integrated Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,SLV,El Salvador,BX:461,HS - Multi-purpose Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
+baseline_10pp,2019-2023,2019,2023,SLV,El Salvador,BX:461,HS - Multi-purpose Household Survey,True,True,True,True,True,True,0.01475117167918144,True,True,SLV,Not stated,1809.723,0.004262785109234136,0.013648312713279875,True
 baseline_10pp,2019-2023,2019,2023,SOM,Somalia,BB:16925,HIES - Integrated Household Budget Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,STP,Sao Tome and Principe,BB:16233,HIES - Household Budget Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,SUR,Suriname,BB:15691,HIES - Survey on Living Conditions,False,False,False,False,False,False,,True,False,,,,,,False
@@ -474,7 +474,7 @@ baseline_10pp,2019-2023,2019,2023,TON,Tonga,BA:1712,LFS - Labour Force Survey,Fa
 baseline_10pp,2019-2023,2019,2023,TON,Tonga,BB:16119,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,TTO,Trinidad and Tobago,BA:549,LFS - Continuous Sample Survey of the Population,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,TUN,Tunisia,BA:743,LFS - National Population and Employment Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,True,True,True,True,True,True,0.020652582710639744,True,True,TUR,Not stated,20873.941,0.012441453040239038,0.0,True
+baseline_10pp,2019-2023,2019,2023,TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,True,True,True,True,True,True,0.020652582710639744,True,True,TUR,Not stated,20873.941,0.011742506566576178,0.0,True
 baseline_10pp,2019-2023,2019,2023,TZA,"Tanzania, United Republic of",BA:1743,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,TZA,"Tanzania, United Republic of",BB:2542,HIES - National Panel Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,UGA,Uganda,BA:13047,LFS - National Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
@@ -482,12 +482,12 @@ baseline_10pp,2019-2023,2019,2023,UGA,Uganda,BB:268,HIES - National Household Su
 baseline_10pp,2019-2023,2019,2023,URY,Uruguay,BA:348,LFS - Continous Household Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,USA,United States of America,BA:453,LFS - Current Population Survey,True,True,True,True,False,True,0.025224861060333614,True,False,USA,Not stated,149589.908,0.008753499990329533,0.0,False
 baseline_10pp,2019-2023,2019,2023,VEN,"Venezuela, Bolivarian Republic of",BA:382,LFS - Household Sample Survey,False,False,False,False,False,False,,False,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,VNM,Viet Nam,BA:1788,LFS - Labour Force Survey,True,True,True,True,True,True,0.056962604889880086,True,True,VNM,Not stated,26741.388,0.00137066744261232,0.0,True
+baseline_10pp,2019-2023,2019,2023,VNM,Viet Nam,BA:1788,LFS - Labour Force Survey,True,True,True,True,True,True,0.056962604889880086,True,True,VNM,Not stated,26741.388,6.338402669235055e-05,0.0,True
 baseline_10pp,2019-2023,2019,2023,VUT,Vanuatu,BB:15632,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,WLF,Wallis and Futuna,BB:16123,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,WSM,Samoa,BA:1794,LFS - Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,WSM,Samoa,BB:7015,HIES - Household Income and Expenditure Survey,False,False,False,False,False,False,,True,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,YEM,Yemen,BA:13360,LFS - Labour Force Survey,False,False,False,False,False,False,,False,False,,,,,,False
 baseline_10pp,2019-2023,2019,2023,ZAF,South Africa,BA:595,LFS - Quarterly Labour Force Survey,False,False,False,False,False,False,,True,False,,,,,,False
-baseline_10pp,2019-2023,2019,2023,ZMB,Zambia,BA:2212,LFS - Labour Force Survey,True,False,True,True,True,True,0.07653098518560222,True,False,ZMB,Not stated,1558.6970000000001,0.08670589351528155,0.11818582826625697,False
+baseline_10pp,2019-2023,2019,2023,ZMB,Zambia,BA:2212,LFS - Labour Force Survey,True,False,True,True,True,True,0.07653098518560222,True,False,ZMB,Not stated,1558.6970000000001,0.0721918115937944,0.10993553941935419,False
 baseline_10pp,2019-2023,2019,2023,ZWE,Zimbabwe,BA:1823,LFS - Labour Force Survey,False,False,False,False,False,False,,False,False,,,,,,False

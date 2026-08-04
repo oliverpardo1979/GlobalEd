@@ -315,38 +315,43 @@ def build_window_source_audit(
     rows: list[dict[str, object]] = []
 
     for start_year, end_year in WINDOWS:
-        expected_years = set(range(start_year, end_year + 1))
         for (country_code, source), source_data in quality.groupby(
             ["ref_area", "source"], sort=False
         ):
             window = source_data[
                 source_data["time"].between(start_year, end_year)
             ].sort_values("time")
-            years = set(window["time"].astype(int))
-            full_window = years == expected_years
-            all_years_clean = bool(
-                full_window and window["clean_year"].all()
+            endpoints = window[
+                window["time"].isin([start_year, end_year])
+            ].sort_values("time")
+            endpoint_years = set(endpoints["time"].astype(int))
+            endpoint_pair = endpoint_years == {start_year, end_year}
+            endpoints_clean = bool(
+                endpoint_pair and endpoints["clean_year"].all()
             )
             stable_currency = bool(
-                full_window
-                and window["currency_code"].notna().all()
-                and window["currency_code"].nunique() == 1
+                endpoint_pair
+                and endpoints["currency_code"].notna().all()
+                and endpoints["currency_code"].nunique() == 1
             )
             stable_reference_period = bool(
-                full_window and window["reference_period"].nunique() == 1
+                endpoint_pair
+                and endpoints["reference_period"].nunique() == 1
             )
-            no_internal_break = bool(
-                full_window
+            no_reported_break = bool(
+                endpoint_pair
                 and not window.loc[
                     window["time"].gt(start_year), "break_flag"
                 ].any()
             )
+
             composition = cells[
                 (cells["ref_area"] == country_code)
                 & (cells["source"] == source)
                 & cells["time"].between(start_year, end_year)
             ][["time", "education", "employees_thousands"]].copy()
-            if full_window and not composition.empty:
+            max_annual_share_change = np.nan
+            if endpoint_pair and not composition.empty:
                 composition["education_share"] = (
                     composition["employees_thousands"]
                     / composition.groupby("time")[
@@ -358,15 +363,21 @@ def build_window_source_audit(
                     columns="education",
                     values="education_share",
                 ).sort_index()
-                max_annual_share_change = float(
-                    share_panel.diff().abs().max().max()
+                consecutive_year = (
+                    share_panel.index.to_series().diff().eq(1)
                 )
-            else:
-                max_annual_share_change = np.nan
+                consecutive_changes = (
+                    share_panel.diff().abs().loc[consecutive_year]
+                )
+                if not consecutive_changes.empty:
+                    max_annual_share_change = float(
+                        consecutive_changes.max().max()
+                    )
             stable_education_distribution = bool(
-                full_window
+                endpoint_pair
                 and (
                     maximum_annual_share_change is None
+                    or np.isnan(max_annual_share_change)
                     or max_annual_share_change
                     <= maximum_annual_share_change
                 )
@@ -377,7 +388,9 @@ def build_window_source_audit(
                 (country_code, end_year),
                 (country_code, PPP_YEAR),
             ]
-            complete_cpi = all(key in cpi_lookup.index for key in required_wdi_keys)
+            complete_cpi = all(
+                key in cpi_lookup.index for key in required_wdi_keys
+            )
             complete_ppp = (country_code, PPP_YEAR) in ppp_lookup.index
             wdi_complete = bool(complete_cpi and complete_ppp)
 
@@ -390,11 +403,11 @@ def build_window_source_audit(
                     "country": source_data["country"].iloc[0],
                     "source": source,
                     "source_label": source_data["source_label"].iloc[0],
-                    "full_window": full_window,
-                    "all_years_clean": all_years_clean,
+                    "endpoint_pair": endpoint_pair,
+                    "endpoints_clean": endpoints_clean,
                     "stable_currency": stable_currency,
                     "stable_reference_period": stable_reference_period,
-                    "no_internal_break": no_internal_break,
+                    "no_reported_break": no_reported_break,
                     "stable_education_distribution": (
                         stable_education_distribution
                     ),
@@ -403,46 +416,49 @@ def build_window_source_audit(
                     ),
                     "wdi_complete": wdi_complete,
                     "eligible": (
-                        full_window
-                        and all_years_clean
+                        endpoint_pair
+                        and endpoints_clean
                         and stable_currency
                         and stable_reference_period
-                        and no_internal_break
+                        and no_reported_break
                         and stable_education_distribution
                         and wdi_complete
                     ),
                     "currency_code": (
-                        window["currency_code"].iloc[0]
-                        if full_window and len(window)
+                        endpoints["currency_code"].iloc[0]
+                        if endpoint_pair
                         else np.nan
                     ),
                     "reference_period": (
-                        window["reference_period"].iloc[0]
-                        if full_window and len(window)
+                        endpoints["reference_period"].iloc[0]
+                        if endpoint_pair
                         else np.nan
                     ),
                     "midpoint_employees_thousands": (
                         float(
-                            window.loc[
-                                window["time"].isin(
-                                    [start_year, end_year]
-                                ),
-                                "stated_education_employees",
+                            endpoints[
+                                "stated_education_employees"
                             ].mean()
                         )
-                        if full_window
+                        if endpoint_pair
                         else np.nan
                     ),
                     "max_abs_reconstruction_error": (
                         float(
-                            window["relative_reconstruction_error"].abs().max()
+                            endpoints[
+                                "relative_reconstruction_error"
+                            ].abs().max()
                         )
-                        if full_window
+                        if endpoint_pair
                         else np.nan
                     ),
                     "max_unknown_education_share": (
-                        float(window["unknown_education_share"].max())
-                        if full_window
+                        float(
+                            endpoints[
+                                "unknown_education_share"
+                            ].max()
+                        )
+                        if endpoint_pair
                         else np.nan
                     ),
                 }
@@ -743,41 +759,46 @@ def build_coverage_summary(source_audit: pd.DataFrame) -> pd.DataFrame:
             {
                 "window": window,
                 "country_source_series": int(len(audit)),
-                "sources_with_full_window": int(audit["full_window"].sum()),
-                "sources_with_clean_years": int(
-                    (audit["full_window"] & audit["all_years_clean"]).sum()
+                "sources_with_endpoint_pair": int(
+                    audit["endpoint_pair"].sum()
+                ),
+                "sources_with_clean_endpoints": int(
+                    (
+                        audit["endpoint_pair"]
+                        & audit["endpoints_clean"]
+                    ).sum()
                 ),
                 "sources_with_stable_currency": int(
                     (
-                        audit["full_window"]
-                        & audit["all_years_clean"]
+                        audit["endpoint_pair"]
+                        & audit["endpoints_clean"]
                         & audit["stable_currency"]
                     ).sum()
                 ),
                 "sources_with_stable_reference_period": int(
                     (
-                        audit["full_window"]
-                        & audit["all_years_clean"]
+                        audit["endpoint_pair"]
+                        & audit["endpoints_clean"]
                         & audit["stable_currency"]
                         & audit["stable_reference_period"]
                     ).sum()
                 ),
-                "sources_without_internal_break": int(
+                "sources_without_reported_break": int(
                     (
-                        audit["full_window"]
-                        & audit["all_years_clean"]
+                        audit["endpoint_pair"]
+                        & audit["endpoints_clean"]
                         & audit["stable_currency"]
                         & audit["stable_reference_period"]
-                        & audit["no_internal_break"]
+                        & audit["no_reported_break"]
                     ).sum()
                 ),
                 "sources_with_stable_education_distribution": int(
                     (
-                        audit["full_window"]
-                        & audit["all_years_clean"]
+                        audit["endpoint_pair"]
+                        & audit["endpoints_clean"]
                         & audit["stable_currency"]
                         & audit["stable_reference_period"]
-                        & audit["no_internal_break"]
+                        & audit["no_reported_break"]
                         & audit["stable_education_distribution"]
                     ).sum()
                 ),
@@ -839,10 +860,12 @@ Window & Countries & Total change & Education & Within-group wages
 \begin{{minipage}}{{0.96\textwidth}}
 \textit{{Notes:}} Nominal monthly earnings are converted to constant 2021
 international dollars with national consumer price indexes and the World
-Bank private-consumption PPP for 2021. The table holds country weights fixed
-at each country's average number of employees at the two endpoints. Total
-change equals the education and within-group wage contributions before
-rounding. Changes are cumulative over each window, not annual rates.
+Bank private-consumption PPP for 2021. Each country must be observed in the
+first and last year of the window; intervening years are not required. The
+table holds country weights fixed at each country's average number of
+employees at the two endpoints. Total change equals the education and
+within-group wage contributions before rounding. Changes are cumulative over
+each window, not annual rates.
 \end{{minipage}}
 \end{{table}}
 """

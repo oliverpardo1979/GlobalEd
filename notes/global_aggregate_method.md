@@ -14,8 +14,8 @@ A second specification allows country employment weights to change. It adds a
 between-country composition term and is an exact decomposition of the change
 in the covered-country mean wage.
 
-The estimates are not labeled as a world aggregate. The common-window samples
-contain 8 countries in 2010--2019, 17 in 2015--2019, and 11 in 2019--2023
+The estimates are not labeled as a world aggregate. The endpoint-pair samples
+contain 9 countries in 2010--2019, 17 in 2015--2019, and 15 in 2019--2023
 after the baseline quality screen.
 
 ## Price and currency conversion
@@ -36,23 +36,27 @@ comparison concerns the purchasing power of employee earnings.
 
 Each country-source series must:
 
-- contain every year in the comparison window;
-- contain four mutually exclusive education groups;
-- use the same ILOSTAT source throughout the window;
-- keep the reported currency marker and data-reference period unchanged;
-- contain no internally reported break in series;
-- reconstruct the published total wage within 5 percent in every year;
-- have at most 5 percent of employees with education not stated;
-- have positive wages and employee counts;
-- have CPI observations at both endpoints and in 2021, plus a 2021 PPP;
-- contain no one-year change above 10 percentage points in any education
-  share.
+- contain the first and last year of the comparison window;
+- contain four mutually exclusive education groups at both endpoints;
+- use the same ILOSTAT source at both endpoints;
+- keep the reported currency marker and data-reference period unchanged
+  between the endpoints;
+- contain no internally reported break in the available observations between
+  the endpoints;
+- reconstruct the published total wage within 5 percent at both endpoints;
+- have at most 5 percent of employees with education not stated at both
+  endpoints;
+- have positive wages and employee counts at both endpoints;
+- have CPI observations at both endpoints and in 2021, plus a 2021 PPP.
 
-The last rule addresses unreported classification breaks. Brazil illustrates
-the risk: between 2015 and 2016, the share with less than basic education falls
-from 36.5 to 7.3 percent and the advanced share rises from 5.0 to 19.8
-percent, although ILOSTAT does not mark a break. Results are also produced
-without this screen and with a stricter 5-point threshold.
+Intervening years are not required. When they are available, the baseline
+screen rejects a series if an education share changes by more than 10
+percentage points between two consecutive observed years. This auxiliary
+rule addresses unreported classification breaks. Brazil illustrates the risk:
+between 2015 and 2016, the share with less than basic education falls from
+36.5 to 7.3 percent and the advanced share rises from 5.0 to 19.8 percent,
+although ILOSTAT does not mark a break. Results are also produced without this
+screen and with a stricter 5-point threshold.
 
 ## Preliminary aggregate results
 
@@ -69,6 +73,14 @@ although the total change is not. Without the education-share jump screen, the
 educational upgrading and 2.2 percent from within-group wages. Under the
 stricter 5-point screen, the total is 6.0 percent, split into 1.8 and 4.2
 percent.
+
+The endpoint-pair design adds Uganda to 2010--2019 and the Bahamas, Ecuador,
+El Salvador, and Honduras to 2019--2023 relative to the balanced-panel
+version. Uganda's estimated real mean wage falls 65.5 percent, and the
+Bahamas' falls 60.8 percent. Their midpoint employment shares are only 1.5
+and 0.07 percent, so the fixed-weight aggregate is not dominated by these
+observations. Equal-country-weight results are more sensitive and should be
+reported with that caveat.
 
 ## Reproducible outputs
 

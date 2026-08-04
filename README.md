@@ -25,7 +25,7 @@ because the populations and remuneration concepts differ.
   coverage and reconstruction diagnostics.
 - `code/03_download_wdi.py` downloads CPI and PPP series from the World Bank
   Indicators API.
-- `code/04_global_sample_decomposition.py` builds common country panels and
+- `code/04_global_sample_decomposition.py` builds country endpoint pairs and
   estimates the national and aggregate decompositions.
 - `code/05_validate_global_decomposition.py` independently validates keys,
   population shares, component sums, sample selection, and exact additivity.
@@ -54,7 +54,7 @@ global manuscript. The validation script must finish with `status: PASS`.
 The preferred estimate is an employment-weighted average of within-country
 changes with country weights held fixed. A second exact decomposition allows
 country employment shares to change and adds a between-country composition
-component. These are aggregates for the countries covered by each common
+component. These are aggregates for the countries covered by each endpoint-pair
 window, not estimates for the world as a whole.
 
 ## Overleaf

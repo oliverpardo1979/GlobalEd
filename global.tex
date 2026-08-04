@@ -20,7 +20,7 @@ This paper separates changes in average employee wages into changes in
 educational attainment and changes in wages within education groups. We
 combine annual ILOSTAT series on average monthly earnings and employee counts
 for four harmonized education groups with World Bank price and
-purchasing-power-parity data. The common 2015--2019 window contains 17
+purchasing-power-parity data. The 2015--2019 endpoint-pair sample contains 17
 countries after source-consistency and data-quality screens. With country
 weights fixed, the covered-country mean real wage rises 6.2 percent.
 Educational upgrading contributes an amount equivalent to 1.7 percent of the
@@ -52,9 +52,10 @@ The analysis uses annual ILOSTAT data for employees
 refers to employees, so its population weights must also refer to employees.
 We match average monthly earnings by education to employment by education and
 status in employment, retaining the same country, year, and statistical
-source. The aggregate estimates are reported as results for the
-covered-country sample because the available balanced panels do not represent
-the world as a whole.
+source. A comparison requires the same country and source in the first and
+last year, but does not require observations in every intervening year. The
+aggregate estimates are reported for the covered-country sample because the
+available endpoint pairs do not represent the world as a whole.
 
 \section{Related literature}
 
@@ -99,21 +100,23 @@ country \(c\) in year \(t\), the conversion is
 Private-consumption PPP is preferred to GDP PPP because the comparison
 concerns the purchasing power of employee earnings.
 
-\subsection{Common-window samples}
+\subsection{Endpoint-pair samples}
 
-A country-source series must contain every year in the comparison window and
-pass the quality screen in every year. The reconstructed total must be within
-5 percent of ILOSTAT's published total, and employees with education not
-stated may account for at most 5 percent of the total. The source, reported
-currency marker, and data-reference period must remain unchanged, and the
-window cannot cross a break reported by ILOSTAT.
+A country-source series must contain the first and last year of a comparison
+window. Both endpoints must contain the four education groups and pass the
+quality screen. At each endpoint, the reconstructed total must be within 5
+percent of ILOSTAT's published total, and employees with education not stated
+may account for at most 5 percent of the total. The reported currency marker
+and data-reference period must agree across the two endpoints.
 
-ILOSTAT does not mark every apparent classification break. The baseline
-therefore excludes a series if any education group's employment share changes
-by more than 10 percentage points in one year. Results are also calculated
-without this screen and with a stricter 5-point threshold. After the baseline
-screen, the common samples contain 8 countries in 2010--2019, 17 in
-2015--2019, and 11 in 2019--2023.
+Observations in intervening years are not required. When they are available,
+they are used only to reject a comparison that crosses a break reported by
+ILOSTAT or displays an apparent classification discontinuity. The baseline
+excludes a series if any observed consecutive-year change in an education
+group's employment share exceeds 10 percentage points. Results are also
+calculated without this screen and with a stricter 5-point threshold. After
+the baseline screen, the endpoint-pair samples contain 9 countries in
+2010--2019, 17 in 2015--2019, and 15 in 2019--2023.
 
 \section{Method}
 
@@ -125,9 +128,9 @@ screen, the common samples contain 8 countries in 2010--2019, 17 in
 
 The 2010--2019 window measures longer-run change before the pandemic but has
 the narrowest coverage. The 2015--2019 window is the baseline because it
-preserves a common pre-pandemic interval while more than doubling the number
-of countries. The 2019--2023 window describes the combined pandemic and
-recovery period. Comparisons do not cross reported breaks in series.
+preserves a common pre-pandemic interval and expands coverage from 9 to 17
+countries. The 2019--2023 window describes the combined pandemic and recovery
+period. Comparisons do not cross reported breaks in series.
 
 \section{Results}
 
@@ -156,13 +159,13 @@ close to 1.7 and 4.4 percent, while the changing country mix subtracts 1.1
 percent. This last component records changes in countries' shares of sample
 employment. It does not identify migration or any other single mechanism.
 
-The longer 2010--2019 window produces an 8.0 percent fixed-weight increase,
-split into 3.7 percent from educational upgrading and 4.3 percent from wage
-changes within education groups. This estimate covers only eight countries,
+The longer 2010--2019 window produces a 7.7 percent fixed-weight increase,
+split into 3.7 percent from educational upgrading and 4.0 percent from wage
+changes within education groups. This estimate covers only nine countries,
 and the United States accounts for about two-thirds of their initial
-employment. The 2019--2023 fixed-weight increase is 3.6 percent among 11
-countries. Educational upgrading contributes 2.5 percent and within-group
-wage changes contribute 1.1 percent.
+employment. The 2019--2023 fixed-weight increase is 3.3 percent among 15
+countries. Educational upgrading contributes 2.4 percent and within-group
+wage changes contribute 0.9 percent.
 
 \subsection{Country heterogeneity}
 
@@ -190,13 +193,25 @@ changes. The baseline 10-point screen therefore changes the attribution more
 than the total. This sensitivity is reported explicitly rather than treating
 the unmarked break as observed educational upgrading.
 
+The endpoint-pair design also admits large wage changes that ILOSTAT does not
+flag as breaks. The estimated real mean wage falls 65.5 percent in Uganda
+between 2010 and 2019 and 60.8 percent in the Bahamas between 2019 and 2023.
+The available source notes do not establish whether these declines are
+economic or reflect unreported measurement changes. Their effects on the
+fixed-weight aggregates are limited because their midpoint employment shares
+are 1.5 and 0.07 percent, respectively. The equal-country-weight estimate for
+2019--2023 is instead \(-8.2\) percent, compared with 3.3 percent under fixed
+employment weights. Comparisons across weighting schemes therefore remain
+sensitive to large changes in small countries.
+
 \section{Conclusion}
 
-For the 17 countries observed consistently between 2015 and 2019, wage changes
-within education groups account for most of the increase in the fixed-weight
-mean real wage. Educational upgrading remains positive, but contributes less
-than one-third of the total increase. The relative contribution of educational
-upgrading is larger in the smaller 2010--2019 and 2019--2023 samples.
+For the 17 countries with comparable observations in 2015 and 2019, wage
+changes within education groups account for most of the increase in the
+fixed-weight mean real wage. Educational upgrading remains positive, but
+contributes less than one-third of the total increase. The relative
+contribution of educational upgrading is larger in the 2010--2019 and
+2019--2023 endpoint-pair samples.
 
 These estimates establish that the decomposition can be aggregated across
 countries without losing exact additivity. They do not yet establish a world

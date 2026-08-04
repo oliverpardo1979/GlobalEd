@@ -98,11 +98,11 @@ def validate() -> dict[str, object]:
         (
             ~selected[
                 [
-                    "full_window",
-                    "all_years_clean",
+                    "endpoint_pair",
+                    "endpoints_clean",
                     "stable_currency",
                     "stable_reference_period",
-                    "no_internal_break",
+                    "no_reported_break",
                     "stable_education_distribution",
                     "wdi_complete",
                     "eligible",
