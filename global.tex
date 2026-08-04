@@ -16,39 +16,45 @@
 \maketitle
 
 \begin{abstract}
-This paper separates changes in average employee wages into two exactly
-additive components: changes in educational attainment and changes in wages
-within educational groups. We combine annual ILOSTAT series on average monthly
-earnings with employee counts for four harmonized education groups. A
-preliminary source-matched audit identifies 117 countries with at least one
-complete observation and 44 countries with at least five observations from the
-same statistical source that pass the initial quality screen. The paper will
-document how the two components vary across countries and over time, without
-interpreting either component as a causal return to education or as a direct
-measure of productivity.
+This paper separates changes in average employee wages into changes in
+educational attainment and changes in wages within education groups. We
+combine annual ILOSTAT series on average monthly earnings and employee counts
+for four harmonized education groups with World Bank price and
+purchasing-power-parity data. The common 2015--2019 window contains 17
+countries after source-consistency and data-quality screens. With country
+weights fixed, the covered-country mean real wage rises 6.2 percent.
+Educational upgrading contributes an amount equivalent to 1.7 percent of the
+initial mean wage, while wage changes within education groups contribute 4.4
+percent. Allowing country employment shares to change lowers the observed
+increase to 5.0 percent because the between-country composition component
+subtracts 1.1 percent. These are accounting results for the covered-country
+sample, not causal returns to education or estimates for the world as a whole.
 \end{abstract}
 
 \section{Introduction}
 
 Average wages can rise because workers attain higher levels of education or
 because employees with a given educational attainment receive higher wages.
-These two changes have different interpretations. Educational upgrading changes
-the composition of employment, whereas wage growth within educational groups
-captures changes that occur after holding that composition fixed.
+Educational upgrading changes the composition of employment. Wage growth
+within education groups changes the remuneration attached to the observed
+education categories. The two components are exactly additive but have
+different economic interpretations.
 
-This paper measures the contribution of each component to wage growth across
-countries. It asks three questions. First, how much of the change in average
-real wages is associated with educational upgrading? Second, how much is
-associated with changes in wages within educational groups? Third, how do these
-contributions vary with countries' initial education and income levels and
-across major episodes, including the pandemic and the subsequent recovery?
+This paper measures both contributions within countries and for a common
+international sample. It asks three questions. First, how much of each
+country's change in average real wages is associated with educational
+upgrading? Second, how much is associated with wage changes within education
+groups? Third, what do these components imply for the covered-country mean
+when country weights are held fixed or allowed to change?
 
-The analysis uses annual ILOSTAT data for employees. This restriction is
-substantive rather than terminological: earnings refer to employees, so the
-population weights must also refer to employees. We therefore match average
-monthly earnings by education to employment by education and status in
-employment, retaining the employee category and the same country, year, and
-statistical source.
+The analysis uses annual ILOSTAT data for employees
+\citep{ilostat2026}. This restriction is substantive: the earnings series
+refers to employees, so its population weights must also refer to employees.
+We match average monthly earnings by education to employment by education and
+status in employment, retaining the same country, year, and statistical
+source. The aggregate estimates are reported as results for the
+covered-country sample because the available balanced panels do not represent
+the world as a whole.
 
 \section{Related literature}
 
@@ -70,48 +76,133 @@ employment, and education. The baseline sample retains total sex, employees,
 and four aggregate education groups: less than basic, basic, intermediate, and
 advanced.
 
-The two tables are matched by country, year, and source. The initial audit finds
-no duplicate observations at that grain. It also compares the weighted average
-of the four education groups with ILOSTAT's published total and records the
-share of employees whose educational attainment is not stated. Country-years
-with a reconstruction discrepancy above 5 percent or an unknown-education
-share above 5 percent are excluded from the preliminary clean sample.
+The two tables are matched by country, year, and source. The initial audit
+finds no duplicate observations at that grain. It also compares the weighted
+average of the four education groups with ILOSTAT's published total and
+records the share of employees whose education is not stated.
 
-\subsection{Prices and sample construction}
+\subsection{Prices and international comparability}
 
-Nominal earnings will be converted into constant local-currency units using a
-country-specific consumer price index. The decomposition is conducted within
-countries, so purchasing-power-parity conversion is not required for the
-baseline growth estimates. Cross-country figures will report contributions as
-growth rates or shares of the total change.
+Nominal earnings are converted to constant 2021 international dollars with
+the national consumer price index and the 2021 private-consumption
+purchasing-power-parity conversion factor from the World Development
+Indicators \citep{worldbank2026wdi,worldbank2026cpi,worldbank2026ppp}. For
+country \(c\) in year \(t\), the conversion is
+\begin{equation}
+  r_{ce,t}^{2021\,PPP}
+  =
+  r_{ce,t}^{nominal}
+  \frac{CPI_{c,2021}}{CPI_{c,t}}
+  \frac{1}{PPP_{c,2021}}.
+  \label{eq:ppp_conversion}
+\end{equation}
+Private-consumption PPP is preferred to GDP PPP because the comparison
+concerns the purchasing power of employee earnings.
+
+\subsection{Common-window samples}
+
+A country-source series must contain every year in the comparison window and
+pass the quality screen in every year. The reconstructed total must be within
+5 percent of ILOSTAT's published total, and employees with education not
+stated may account for at most 5 percent of the total. The source, reported
+currency marker, and data-reference period must remain unchanged, and the
+window cannot cross a break reported by ILOSTAT.
+
+ILOSTAT does not mark every apparent classification break. The baseline
+therefore excludes a series if any education group's employment share changes
+by more than 10 percentage points in one year. Results are also calculated
+without this screen and with a stricter 5-point threshold. After the baseline
+screen, the common samples contain 8 countries in 2010--2019, 17 in
+2015--2019, and 11 in 2019--2023.
 
 \section{Method}
 
 \input{tex/shared_decomposition}
 
+\input{tex/global_aggregate_decomposition}
+
 \subsection{Comparison windows}
 
-The baseline specification will use source-consistent country panels with at
-least five valid annual observations. Results will be reported for common
-windows when coverage permits and for each country's longest valid interval as
-a robustness exercise. Comparisons will not cross documented breaks in series
-without an explicit sensitivity test.
+The 2010--2019 window measures longer-run change before the pandemic but has
+the narrowest coverage. The 2015--2019 window is the baseline because it
+preserves a common pre-pandemic interval while more than doubling the number
+of countries. The 2019--2023 window describes the combined pandemic and
+recovery period. Comparisons do not cross reported breaks in series.
 
 \section{Results}
 
-\subsection{Educational upgrading}
+\subsection{Aggregate decomposition for the covered countries}
 
-\subsection{Within-education wage growth}
+Table~\ref{tab:global_sample_decomposition} reports the aggregate
+decompositions. Every component is expressed as a percentage of the initial
+mean wage, so the components add to the reported total before rounding.
 
-\subsection{Cross-country heterogeneity}
+\input{tables/global_sample_decomposition}
 
-\subsection{The pandemic and recovery}
+Between 2015 and 2019, the fixed-employment-weight mean wage rises 6.2
+percent. Educational upgrading contributes 1.7 percent of the initial mean,
+or about 28 percent of the total increase. Wage changes within
+country--education cells contribute 4.4 percent, or about 72 percent of the
+increase. With equal country weights, the total increase is 7.2 percent:
+educational upgrading contributes 1.7 percent and within-group wage changes
+contribute 5.6 percent.
 
-\section{Robustness}
+Allowing employment weights to change reduces the 2015--2019 increase from
+6.2 to 5.0 percent. The educational-upgrading and within-group wage components
+remain close to 1.7 and 4.4 percent, while the changing country mix subtracts
+1.1 percent. This last component records changes in countries' shares of
+sample employment. It does not identify migration or any other single
+mechanism.
+
+The longer 2010--2019 window produces an 8.0 percent fixed-weight increase,
+split into 3.7 percent from educational upgrading and 4.3 percent from wage
+changes within education groups. This estimate covers only eight countries,
+and the United States accounts for about two-thirds of their initial
+employment. The 2019--2023 fixed-weight increase is 3.6 percent among 11
+countries. Educational upgrading contributes 2.5 percent and within-group
+wage changes contribute 1.1 percent.
+
+\subsection{Country heterogeneity}
+
+The aggregate results combine substantially different country experiences.
+The fixed-employment specification gives more weight to countries with more
+employees, while the equal-weight specification describes the mean country.
+The difference between the two is therefore informative about sample
+concentration, but neither weighting scheme turns the available countries into
+a representative world sample.
+
+\section{Robustness and data-quality sensitivity}
+
+The attribution between components is sensitive to unreported education
+classification breaks. Brazil illustrates the problem in the 2015--2019
+window: the share of employees with less than basic education falls from 36.5
+percent in 2015 to 7.3 percent in 2016, while the advanced share rises from
+5.0 to 19.8 percent. ILOSTAT does not flag that change as a break.
+
+Without the education-share jump screen, the 2015--2019 fixed-weight increase
+is 6.4 percent, but educational upgrading contributes 4.2 percent and
+within-group wage changes contribute 2.2 percent. Under the stricter
+5-percentage-point screen, the total increase is 6.0 percent, split into 1.8
+percent from educational upgrading and 4.2 percent from within-group wage
+changes. The baseline 10-point screen therefore changes the attribution more
+than the total. This sensitivity is reported explicitly rather than treating
+the unmarked break as observed educational upgrading.
 
 \section{Conclusion}
 
+For the 17 countries observed consistently between 2015 and 2019, wage changes
+within education groups account for most of the increase in the fixed-weight
+mean real wage. Educational upgrading remains positive, but contributes less
+than one-third of the total increase. The relative contribution of educational
+upgrading is larger in the smaller 2010--2019 and 2019--2023 samples.
+
+These estimates establish that the decomposition can be aggregated across
+countries without losing exact additivity. They do not yet establish a world
+result. Expanding country coverage and resolving unreported classification
+breaks are necessary before interpreting the covered-country estimates as
+evidence about global wage growth.
+
 \bibliographystyle{apalike}
-\bibliography{references}
+\bibliography{references,references_data}
 
 \end{document}

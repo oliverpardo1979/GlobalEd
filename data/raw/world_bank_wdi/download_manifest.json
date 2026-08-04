@@ -1,0 +1,37 @@
+{
+  "downloaded_at_utc": "2026-08-04T00:28:36.819504+00:00",
+  "source": "World Bank Indicators API v2",
+  "year_range_requested": [
+    1990,
+    2025
+  ],
+  "indicators": [
+    {
+      "indicator": "FP.CPI.TOTL",
+      "label": "Consumer price index (2010 = 100)",
+      "rows": 6239,
+      "countries": 192,
+      "first_year": 1990,
+      "last_year": 2025,
+      "api_pages": 1
+    },
+    {
+      "indicator": "PA.NUS.PRVT.PP",
+      "label": "PPP conversion factor, private consumption (LCU per international dollar)",
+      "rows": 6354,
+      "countries": 209,
+      "first_year": 1990,
+      "last_year": 2025,
+      "api_pages": 1
+    },
+    {
+      "indicator": "PA.NUS.PPP",
+      "label": "PPP conversion factor, GDP (LCU per international dollar)",
+      "rows": 7043,
+      "countries": 205,
+      "first_year": 1990,
+      "last_year": 2025,
+      "api_pages": 1
+    }
+  ]
+}

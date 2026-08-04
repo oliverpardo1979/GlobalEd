@@ -1,0 +1,51 @@
+{
+  "ppp_year": 2021,
+  "quality_thresholds": {
+    "maximum_absolute_reconstruction_error": 0.05,
+    "maximum_unknown_education_share": 0.05,
+    "maximum_annual_education_share_change": 0.1
+  },
+  "windows": [
+    {
+      "share_jump_screen": "baseline_10pp",
+      "window": "2010-2019",
+      "country_source_series": 164,
+      "sources_with_full_window": 17,
+      "sources_with_clean_years": 12,
+      "sources_with_stable_currency": 12,
+      "sources_with_stable_reference_period": 11,
+      "sources_without_internal_break": 8,
+      "sources_with_stable_education_distribution": 8,
+      "eligible_sources_with_wdi": 8,
+      "selected_countries": 8
+    },
+    {
+      "share_jump_screen": "baseline_10pp",
+      "window": "2015-2019",
+      "country_source_series": 164,
+      "sources_with_full_window": 26,
+      "sources_with_clean_years": 21,
+      "sources_with_stable_currency": 21,
+      "sources_with_stable_reference_period": 20,
+      "sources_without_internal_break": 19,
+      "sources_with_stable_education_distribution": 17,
+      "eligible_sources_with_wdi": 17,
+      "selected_countries": 17
+    },
+    {
+      "share_jump_screen": "baseline_10pp",
+      "window": "2019-2023",
+      "country_source_series": 164,
+      "sources_with_full_window": 25,
+      "sources_with_clean_years": 15,
+      "sources_with_stable_currency": 15,
+      "sources_with_stable_reference_period": 15,
+      "sources_without_internal_break": 12,
+      "sources_with_stable_education_distribution": 12,
+      "eligible_sources_with_wdi": 11,
+      "selected_countries": 11
+    }
+  ],
+  "maximum_absolute_country_residual": 8.526512829121202e-13,
+  "maximum_absolute_aggregate_residual": 7.105427357601002e-13
+}

@@ -7,8 +7,10 @@ decomposition but study different populations.
 
 - `main.tex` compiles the global paper, whose source is `global.tex`.
 - `latam.tex` compiles the Latin American paper.
-- `tex/shared_decomposition.tex` contains the accounting identity used by both
-  papers.
+- `tex/shared_decomposition.tex` contains the two-part accounting identity used
+  by both papers.
+- `tex/global_aggregate_decomposition.tex` extends the identity across
+  countries and adds the between-country composition term.
 
 The global paper studies monthly wages of employees using annual ILOSTAT data.
 The Latin American paper studies monthly labor income of all employed workers
@@ -21,13 +23,39 @@ because the populations and remuneration concepts differ.
 - `code/01_download_ilostat.R` downloads the two annual ILOSTAT tables.
 - `code/02_audit_ilostat_global.py` matches the ILOSTAT tables and creates
   coverage and reconstruction diagnostics.
-- `data/raw/world_bank_lablac/` contains the original LABLAC package and the
-  extracted source files.
-- `data/raw/ilostat/` contains the compressed ILOSTAT downloads.
-- `data/processed/ilostat/` contains the global coverage audit outputs.
+- `code/03_download_wdi.py` downloads CPI and PPP series from the World Bank
+  Indicators API.
+- `code/04_global_sample_decomposition.py` builds common country panels and
+  estimates the national and aggregate decompositions.
+- `code/05_validate_global_decomposition.py` independently validates keys,
+  population shares, component sums, sample selection, and exact additivity.
 
-The ILOSTAT downloader requires the R package `Rilostat`. The audit scripts
-require Python and `pandas`.
+Raw inputs are stored under `data/raw/`. Processed ILOSTAT diagnostics are
+stored under `data/processed/ilostat/`, and the global decomposition outputs
+are stored under `data/processed/global_decomposition/`.
+
+The ILOSTAT downloader requires the R package `Rilostat`. The Python scripts
+require `pandas` and `numpy`.
+
+## Reproducing the global aggregate
+
+Starting from the downloaded ILOSTAT files:
+
+```text
+python code/03_download_wdi.py
+python code/04_global_sample_decomposition.py
+python code/05_validate_global_decomposition.py
+```
+
+The decomposition script generates
+`tables/global_sample_decomposition.tex`, which is included directly in the
+global manuscript. The validation script must finish with `status: PASS`.
+
+The preferred estimate is an employment-weighted average of within-country
+changes with country weights held fixed. A second exact decomposition allows
+country employment shares to change and adds a between-country composition
+component. These are aggregates for the countries covered by each common
+window, not estimates for the world as a whole.
 
 ## Overleaf
 
@@ -37,5 +65,6 @@ document in Overleaf.
 
 ## Research design
 
-`notes/two_paper_design.md` records the distinction between the two papers,
-their preliminary coverage, and the decisions that must remain separate.
+- `notes/two_paper_design.md` records the distinction between the two papers.
+- `notes/global_aggregate_method.md` records the aggregate estimand, quality
+  screen, preliminary results, sensitivities, and reproducible outputs.
