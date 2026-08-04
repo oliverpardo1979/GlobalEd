@@ -62,6 +62,25 @@ def latex_escape(value: object) -> str:
     return text
 
 
+def annualized_growth(
+    initial: float,
+    final: float,
+    years: int,
+) -> float:
+    if initial <= 0 or final <= 0:
+        raise ValueError("Annualized growth requires positive endpoints")
+    if years <= 0:
+        raise ValueError("Annualized growth requires a positive interval")
+    return 100 * ((final / initial) ** (1 / years) - 1)
+
+
+def format_rate(value: float) -> str:
+    rounded = round(value, 1)
+    if rounded == 0:
+        rounded = 0.0
+    return f"{rounded:.1f}"
+
+
 def parse_q4(frame: pd.DataFrame) -> pd.DataFrame:
     result = frame[frame["Period"].str.endswith("-Q4", na=False)].copy()
     parsed = result["Period"].str.extract(r"^(\d{4})-Q4$")
@@ -372,6 +391,7 @@ def build_outputs(
         source1 = source_by_endpoint.loc["final"]
         start_year = int(source0["year"])
         end_year = int(source1["year"])
+        years_elapsed = end_year - start_year
         same_source = bool(
             source0["series"] == source1["series"]
             and source0["survey"] == source1["survey"]
@@ -380,6 +400,7 @@ def build_outputs(
             "country": country,
             "start_year": start_year,
             "end_year": end_year,
+            "years_elapsed": years_elapsed,
             "start_period": source0["period"],
             "end_period": source1["period"],
             "start_series": int(source0["series"]),
@@ -417,6 +438,11 @@ def build_outputs(
             ),
             "change_usd_2017_ppp": change,
             "percent_change": 100 * change / mean0,
+            "annualized_growth_synthetic_percent": annualized_growth(
+                mean0,
+                mean1,
+                years_elapsed,
+            ),
             "education_component_usd_2017_ppp": education_component,
             "within_income_component_usd_2017_ppp": within_component,
             "education_contribution_percent_initial": (
@@ -438,6 +464,13 @@ def build_outputs(
             )
             row[f"income_{label}_1_usd_2017_ppp"] = float(
                 r1.loc[education]
+            )
+            row[f"annualized_growth_{label}_percent"] = (
+                annualized_growth(
+                    float(r0.loc[education]),
+                    float(r1.loc[education]),
+                    years_elapsed,
+                )
             )
             education_group_component = float(
                 ((r0.loc[education] + r1.loc[education]) / 2)
@@ -650,6 +683,53 @@ def format_group_income_table(countries: pd.DataFrame) -> str:
     return "\n".join(lines)
 
 
+def format_annualized_growth_table(countries: pd.DataFrame) -> str:
+    lines = [
+        r"\begin{table}[htbp]",
+        r"\centering",
+        (
+            r"\caption{Annualized growth in monthly labor income "
+            r"by educational attainment}"
+        ),
+        r"\label{tab:latam_country_annualized_growth}",
+        r"\small",
+        r"\begin{tabular}{lrrrrr}",
+        r"\toprule",
+        r"Economy & Period & Total & Low & Middle & High \\",
+        r"\midrule",
+    ]
+    for row in countries.itertuples(index=False):
+        lines.append(
+            f"{latex_escape(row.country)} & "
+            f"{row.start_year}--{row.end_year} & "
+            f"{format_rate(row.annualized_growth_synthetic_percent)} & "
+            f"{format_rate(row.annualized_growth_low_percent)} & "
+            f"{format_rate(row.annualized_growth_middle_percent)} & "
+            f"{format_rate(row.annualized_growth_high_percent)} \\\\"
+        )
+    lines.extend(
+        [
+            r"\bottomrule",
+            r"\end{tabular}",
+            r"\begin{minipage}{0.98\textwidth}",
+            r"\footnotesize",
+            (
+                r"\textit{Note:} Compound annual growth rates, in percent "
+                r"per year, between the initial and final fourth-quarter "
+                r"observations. Total refers to synthetic mean monthly labor "
+                r"income; Low, Middle, and High refer to the mean monthly "
+                r"income of each education group. All underlying income "
+                r"values are measured in 2017 PPP US dollars per employed "
+                r"person per month. Rates use only the two endpoints."
+            ),
+            r"\end{minipage}",
+            r"\end{table}",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
 def format_decomposition_table(countries: pd.DataFrame) -> str:
     lines = [
         r"\begin{table}[htbp]",
@@ -838,6 +918,9 @@ def main() -> None:
     )
     (TABLE_DIR / "latam_country_education_incomes.tex").write_text(
         format_group_income_table(countries), encoding="utf-8"
+    )
+    (TABLE_DIR / "latam_country_annualized_growth.tex").write_text(
+        format_annualized_growth_table(countries), encoding="utf-8"
     )
     (TABLE_DIR / "latam_country_decomposition.tex").write_text(
         format_decomposition_table(countries), encoding="utf-8"

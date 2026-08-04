@@ -68,6 +68,35 @@ def validate() -> dict[str, object]:
         how="outer",
         validate="one_to_one",
     )
+    years = countries["end_year"] - countries["start_year"]
+    annualized_total_expected = 100 * (
+        (
+            countries["synthetic_income_1_usd_2017_ppp"]
+            / countries["synthetic_income_0_usd_2017_ppp"]
+        )
+        ** (1 / years)
+        - 1
+    )
+    annualized_errors = [
+        countries["annualized_growth_synthetic_percent"]
+        - annualized_total_expected
+    ]
+    for label in ["low", "middle", "high"]:
+        annualized_expected = 100 * (
+            (
+                countries[f"income_{label}_1_usd_2017_ppp"]
+                / countries[f"income_{label}_0_usd_2017_ppp"]
+            )
+            ** (1 / years)
+            - 1
+        )
+        annualized_errors.append(
+            countries[f"annualized_growth_{label}_percent"]
+            - annualized_expected
+        )
+    maximum_annualized_growth_error = max(
+        maximum_absolute(error) for error in annualized_errors
+    )
 
     checks = {
         "country_rows": int(len(countries)),
@@ -132,6 +161,10 @@ def validate() -> dict[str, object]:
                         "percent_change",
                         "education_contribution_percent_initial",
                         "within_income_contribution_percent_initial",
+                        "annualized_growth_synthetic_percent",
+                        "annualized_growth_low_percent",
+                        "annualized_growth_middle_percent",
+                        "annualized_growth_high_percent",
                     ]
                 ].to_numpy()
             ).all()
@@ -146,6 +179,10 @@ def validate() -> dict[str, object]:
             .gt(0)
             .all()
             .all()
+        ),
+        "positive_elapsed_years": bool(years.gt(0).all()),
+        "maximum_annualized_growth_error": (
+            maximum_annualized_growth_error
         ),
         "equitylab_exact_set_match": bool(
             source_match["exact_set_match"]
@@ -176,6 +213,8 @@ def validate() -> dict[str, object]:
         and checks["maximum_group_within_sum_error"] <= TOLERANCE
         and checks["finite_country_results"]
         and checks["positive_synthetic_incomes"]
+        and checks["positive_elapsed_years"]
+        and checks["maximum_annualized_growth_error"] <= TOLERANCE
         and checks["equitylab_exact_set_match"]
         and checks["equitylab_only_attached_rows"] == 0
         and checks["equitylab_only_repository_rows"] == 0

@@ -19,6 +19,8 @@
     "maximum_group_within_sum_error": 1.4210854715202004e-14,
     "finite_country_results": true,
     "positive_synthetic_incomes": true,
+    "positive_elapsed_years": true,
+    "maximum_annualized_growth_error": 2.220446049250313e-14,
     "equitylab_exact_set_match": true,
     "equitylab_only_attached_rows": 0,
     "equitylab_only_repository_rows": 0

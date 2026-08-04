@@ -126,6 +126,33 @@ education groups. That distinction motivates the decomposition.
 
 \input{tables/latam_country_education_incomes}
 
+\subsection{Annualized income growth}
+
+The endpoint intervals are not identical across economies. To place their
+income changes on a common annual basis,
+Table~\ref{tab:latam_country_annualized_growth} reports the compound annual
+growth rate for synthetic mean income and for mean income within each
+education group. For any income measure \(x\), the rate is
+\[
+  g_x=100\left[
+    \left(\frac{x_{t_1}}{x_{t_0}}\right)^{1/(t_1-t_0)}-1
+  \right].
+\]
+Both endpoints refer to the fourth quarter, so \(t_1-t_0\) is the number of
+full years between observations. The rate summarizes the change between the
+two endpoints; it is not an average of observed annual growth rates.
+
+\input{tables/latam_country_annualized_growth}
+
+Synthetic mean income grows in 8 of the 14 economies. El Salvador records the
+highest annualized growth rate, 3.0 percent per year, followed by Colombia at
+2.7 percent. Argentina records the largest annualized decline, 4.5 percent
+per year. Positive within-group income growth is less common: it occurs in 7
+economies for the low education group and in only 3 economies for both the
+middle and high education groups. The contrast between total and
+within-group growth anticipates the role of changing educational composition
+in the decomposition.
+
 \section{Decomposition}
 
 \subsection{Endpoint construction and weights}
