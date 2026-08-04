@@ -789,27 +789,31 @@ def build_coverage_summary(source_audit: pd.DataFrame) -> pd.DataFrame:
 
 
 def format_table(aggregates: pd.DataFrame) -> str:
-    labels = {
-        "fixed_employment_weights": "Fixed employment weights",
-        "equal_country_weights": "Equal country weights",
-        "changing_employment_weights": "Changing employment weights",
-    }
+    baseline = aggregates[
+        aggregates["aggregation"] == "fixed_employment_weights"
+    ]
     rows = []
-    for row in aggregates.itertuples():
+    for row in baseline.itertuples():
+        education_share = (
+            100
+            * row.education_component_ppp_2021
+            / row.change_ppp_2021
+        )
+        within_share = (
+            100
+            * row.within_wage_component_ppp_2021
+            / row.change_ppp_2021
+        )
         rows.append(
             " & ".join(
                 [
                     row.window.replace("-", "--"),
-                    labels[row.aggregation],
                     f"{row.n_countries}",
                     f"{row.percent_change:.1f}",
                     f"{row.education_contribution_percent_initial:.1f}",
                     f"{row.within_wage_contribution_percent_initial:.1f}",
-                    (
-                        f"{row.country_composition_contribution_percent_initial:.1f}"
-                        if row.aggregation == "changing_employment_weights"
-                        else "---"
-                    ),
+                    f"{education_share:.0f}",
+                    f"{within_share:.0f}",
                 ]
             )
             + r" \\"
@@ -818,13 +822,15 @@ def format_table(aggregates: pd.DataFrame) -> str:
     body = "\n".join(rows)
     return rf"""\begin{{table}}[htbp]
 \centering
-\caption{{Aggregate decomposition of real monthly wage growth}}
+\caption{{Baseline decomposition of real monthly wage growth}}
 \label{{tab:global_sample_decomposition}}
 \resizebox{{\textwidth}}{{!}}{{%
-\begin{{tabular}}{{llrrrrr}}
+\begin{{tabular}}{{lrrrrrr}}
 \toprule
-Window & Country weights & Countries & Total & Education & Within wage & Country mix \\
- & & & \multicolumn{{4}}{{c}}{{Percent of initial mean wage}} \\
+Window & Countries & Total change & Education & Within-group wages
+& Education share & Within-group share \\
+& & \multicolumn{{3}}{{c}}{{Percent of initial mean wage}}
+& \multicolumn{{2}}{{c}}{{Percent of total change}} \\
 \midrule
 {body}
 \bottomrule
@@ -833,10 +839,10 @@ Window & Country weights & Countries & Total & Education & Within wage & Country
 \begin{{minipage}}{{0.96\textwidth}}
 \textit{{Notes:}} Nominal monthly earnings are converted to constant 2021
 international dollars with national consumer price indexes and the World
-Bank private-consumption PPP for 2021. Fixed employment weights use each
-country's average number of employees at the two endpoints. Changing weights
-allow each country's share of sample employment to vary and therefore add the
-country-mix component. Components are exactly additive before rounding.
+Bank private-consumption PPP for 2021. The table holds country weights fixed
+at each country's average number of employees at the two endpoints. Total
+change equals the education and within-group wage contributions before
+rounding. Changes are cumulative over each window, not annual rates.
 \end{{minipage}}
 \end{{table}}
 """
