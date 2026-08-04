@@ -542,8 +542,10 @@ def format_income_table(countries: pd.DataFrame) -> str:
             r"\footnotesize",
             (
                 r"\textit{Note:} All observations are fourth-quarter "
-                r"values in 2017 PPP dollars. Published income is LABLAC's "
-                r"reported total. Synthetic income weights the three "
+                r"values measured in 2017 PPP US dollars per employed person "
+                r"per month; they are not current US dollars or local currency. "
+                r"Published income is LABLAC's reported total. Synthetic income "
+                r"weights the three "
                 r"education-group means with the published number of "
                 r"workers in each group."
             ),
@@ -635,8 +637,10 @@ def format_group_income_table(countries: pd.DataFrame) -> str:
             r"\begin{minipage}{0.98\textwidth}",
             r"\footnotesize",
             (
-                r"\textit{Note:} Mean monthly labor income in 2017 PPP "
-                r"dollars. All observations correspond to the fourth quarter."
+                r"\textit{Note:} Mean monthly labor income is measured in "
+                r"2017 PPP US dollars per employed person per month; values "
+                r"are not current US dollars or local currency. All observations "
+                r"correspond to the fourth quarter."
             ),
             r"\end{minipage}",
             r"\end{table}",
@@ -681,7 +685,9 @@ def format_decomposition_table(countries: pd.DataFrame) -> str:
             r"\footnotesize",
             (
                 r"\textit{Note:} Total change, education, and within-group "
-                r"components are percentages of initial synthetic income. "
+                r"components are percentages of initial synthetic monthly income. "
+                r"The underlying income measure is 2017 PPP US dollars per "
+                r"employed person per month. "
                 r"The two components add to total change before rounding. "
                 r"``Same source'' indicates that the Tableau series and "
                 r"survey identifiers are unchanged across endpoints."
