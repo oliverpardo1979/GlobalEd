@@ -1,0 +1,160 @@
+ref_area,country,source,source_label,n_years,first_year,last_year,longest_consecutive_run
+AFG,Afghanistan,BA:15715,LFS - Labour Force Survey,1,2020,2020,1
+AFG,Afghanistan,BB:6361,HIES - Households Living Conditions Survey,1,2014,2014,1
+AGO,Angola,BA:13951,LFS - Employment Survey,6,2019,2024,6
+ARG,Argentina,BA:150,"LFS - Permanent Household Survey, Urban",19,2004,2025,9
+ARM,Armenia,BA:867,LFS - Household Labour Force Survey,2,2015,2017,1
+ARM,Armenia,BB:173,HIES - Households Living Conditions Survey,6,2007,2023,2
+ATG,Antigua and Barbuda,BA:16714,LFS - Labour Force Survey,2,2018,2023,1
+BDI,Burundi,BB:7040,HIES - Living Standards Survey,2,2014,2020,1
+BEN,Benin,BB:426,HIES - Monitoring Survey of the Modular and Integrated Survey of Household Living Conditions,3,2011,2022,1
+BFA,Burkina Faso,BA:15678,LFS - Regional Integrated Survey on Employment and the Informal Sector,2,2018,2023,1
+BFA,Burkina Faso,BA:904,LFS - Labour Force Survey,2,2024,2025,2
+BFA,Burkina Faso,BB:16126,HIES - Harmonized Survey on Household Living Conditions,2,2019,2022,1
+BGD,Bangladesh,BA:673,LFS - Labour Force Survey,5,2013,2024,3
+BHS,Bahamas,BA:17,LFS - Labour Force & Household Survey,2,2019,2023,1
+BIH,Bosnia and Herzegovina,BA:493,LFS - Labour Force Survey,16,2006,2024,11
+BIH,Bosnia and Herzegovina,BB:15892,HIES - Living Standards Survey,1,2001,2001,1
+BLZ,Belize,BA:934,LFS - Labour Force Survey,6,2014,2019,6
+BOL,"Bolivia, Plurinational State of",BA:74,LFS - Continuous Employment Survey,9,2016,2025,5
+BOL,"Bolivia, Plurinational State of",BB:15890,HIES - Continuous Household Survey,5,1991,2004,3
+BOL,"Bolivia, Plurinational State of",BB:73,HIES - Household Survey,12,1999,2020,5
+BOL,"Bolivia, Plurinational State of",BX:15722,HS - Survey of Improvement of Living Conditions,3,2000,2002,3
+BRA,Brazil,BX:356,HS - National Household Sample Survey,17,1989,2011,9
+BRA,Brazil,BX:6355,HS - Continuous National Household Sample Survey,14,2012,2025,14
+BRN,Brunei Darussalam,BA:8230,LFS - Labour Force Survey,1,2014,2014,1
+BTN,Bhutan,BA:625,LFS - Labour Force Survey,8,2018,2025,8
+BWA,Botswana,BX:15710,HS - Multi-Topic Household Survey,6,2019,2024,6
+CAN,Canada,BA:147,LFS - Labour Force Survey,29,1997,2025,29
+CHE,Switzerland,BA:253,LFS - Labour Force Survey,17,1991,2025,12
+CHL,Chile,BX:138,HS - National Survey on Socio-Economic Conditions,5,1998,2009,1
+CIV,Côte d'Ivoire,BA:14098,LFS - Regional Integrated Survey on Employment and the Informal Sector,1,2017,2017,1
+CIV,Côte d'Ivoire,BA:7345,LFS - National Survey on the Employment Situation,3,2012,2019,2
+CIV,Côte d'Ivoire,BB:16197,HIES - Living Standards Measurement Survey,1,2022,2022,1
+CMR,Cameroon,BX:7419,HS - Household Survey,1,2014,2014,1
+COD,"Congo, Democratic Republic of the",BA:3051,LFS - Survey on Employment and household's living conditions,2,2005,2012,1
+COD,"Congo, Democratic Republic of the",BX:16939,HS - Core Welfare Indicators Questionnaire,1,2016,2016,1
+COG,Congo,BA:2624,LFS - Employment Survey,1,2009,2009,1
+COK,Cook Islands,BA:15665,LFS - Labour Force Survey,1,2023,2023,1
+COL,Colombia,BA:358,LFS - Integrated Household Survey,18,2007,2025,13
+COL,Colombia,BX:2226,HS - Continuous Household Survey,4,2002,2005,4
+COM,Comoros,BA:14125,LFS - National Survey on Employment and the Informal Sector,2,2014,2021,1
+COM,Comoros,BX:13363,HS - Integrated Household Survey,1,2004,2004,1
+CPV,Cape Verde,BA:7395,LFS - Continuous Multi-Objective Survey Employment and Labor Market Statistics,1,2015,2015,1
+CRI,Costa Rica,BA:12883,LFS - Continuous Employment Survey,9,2017,2025,9
+CRI,Costa Rica,BX:142,HS - National Household Survey,1,2010,2010,1
+CRI,Costa Rica,BX:7407,HS - Household Survey of Multiple Purposes,7,2001,2007,7
+DJI,Djibouti,BX:15732,HS - Djiboutian Household Survey,1,2017,2017,1
+DOM,Dominican Republic,BA:13413,LFS - Continuous National Labour Force Survey,11,2015,2025,11
+DOM,Dominican Republic,BA:3,LFS - National Labour Force Survey,15,2000,2014,15
+ECU,Ecuador,BA:19,"LFS - National Survey on Employment, Unemployment and Underemployment",23,2001,2025,17
+EGY,Egypt,BA:582,LFS - Labour Force Sample Survey,15,2008,2024,6
+ETH,Ethiopia,BA:1126,LFS - National Labor Force Survey,3,2005,2021,1
+FJI,Fiji,BA:1135,"LFS - Employment, Unemployment Survey",4,2005,2024,1
+FRA,France,BA:148,LFS - Employment Survey,16,2005,2020,16
+GBR,United Kingdom of Great Britain and Northern Ireland,BA:666,LFS - Labour Force Survey,20,2005,2025,14
+GHA,Ghana,BA:1163,LFS - Labour Force Survey,1,2015,2015,1
+GHA,Ghana,BB:16203,HIES - Household Income and Expenditure Survey,3,2022,2024,3
+GHA,Ghana,BB:3078,HIES - Living Standards Survey,4,1991,2017,1
+GIN,Guinea,BA:15631,LFS - National Survey on Employment and the Informal Sector,1,2019,2019,1
+GMB,Gambia,BA:7014,LFS - Labour Force Survey,2,2012,2018,1
+GNB,Guinea-Bissau,BB:15952,HIES - Harmonized Survey on Household Living Conditions,2,2019,2022,1
+GRC,Greece,BA:317,LFS - Labour Force Survey,6,2015,2020,6
+GTM,Guatemala,BA:660,LFS - Employment and Income Survey,16,2002,2024,10
+GTM,Guatemala,BB:16732,HIES - Household Income and Expenditure Survey,1,2023,2023,1
+GTM,Guatemala,BX:5867,HS - Living Conditions National Survey,1,2006,2006,1
+GUY,Guyana,BA:1214,LFS - Labour Force Survey,4,2018,2021,4
+HND,Honduras,BX:504,HS - Continous Multi-Purpose Household Survey,20,2005,2025,15
+IDN,Indonesia,BA:510,LFS - National Labour Force Survey,28,1996,2023,28
+IND,India,BA:14121,LFS - Periodic Labour Force Survey,8,2018,2025,8
+IND,India,BX:2228,HS - National Sample Survey,3,2005,2012,1
+JAM,Jamaica,BA:65,LFS - Labour Force Survey,7,2008,2014,7
+JOR,Jordan,BA:682,LFS - Employment and Unemployment Survey,8,2017,2024,8
+KEN,Kenya,BB:7021,HIES - Household Budget Survey,2,2005,2016,1
+KEN,Kenya,BX:3465,HS - Continuous household survey,1,2019,2019,1
+KHM,Cambodia,BA:1321,LFS - Labour Force Survey,4,2000,2019,2
+KHM,Cambodia,BB:3064,HIES - Household Socio-Economic Survey,16,1996,2023,5
+KIR,Kiribati,BB:15723,HIES - Household Income and Expenditure Survey,2,2019,2023,1
+KOS,Kosovo,BB:16127,HIES - Living Standards Survey,1,2000,2000,1
+LAO,Lao People's Democratic Republic,BA:6651,LFS - Labour Force Survey,3,2010,2022,1
+LBN,Lebanon,BA:14074,LFS - Labour Force Survey,1,2019,2019,1
+LBR,Liberia,BA:16,LFS - Labour Force Survey,2,2010,2017,1
+LBR,Liberia,BB:7322,HIES - Household Income and Expenditure Survey,2,2014,2016,1
+LCA,Saint Lucia,BB:16927,HIES - Survey on Living Conditions,1,2016,2016,1
+LKA,Sri Lanka,BA:1359,LFS - Labour Force Survey,14,2010,2024,12
+LSO,Lesotho,BA:13,LFS - Integrated Labour Force Survey,2,2019,2024,1
+MDA,Republic of Moldova,BA:571,LFS - Labour Force Survey,12,2007,2025,6
+MDG,Madagascar,BA:7423,LFS - National Survey on Employment and the Informal Sector,2,2012,2015,1
+MDV,Maldives,BB:704,HIES - Household Income and Expenditure Survey,2,2016,2019,1
+MEX,Mexico,BA:463,LFS - National Occupation and Employment Survey,25,2002,2026,25
+MHL,Marshall Islands,BB:14101,HIES - Household Income and Expenditure Survey,1,2019,2019,1
+MLI,Mali,BA:219,LFS - Continous Household Employment Survey,10,2013,2024,6
+MLI,Mali,BB:16232,HIES - Harmonized Survey on Household Living Conditions,1,2019,2019,1
+MMR,Myanmar,BA:7009,LFS - Labour Force Survey,5,2015,2020,4
+MNG,Mongolia,BA:702,LFS - Labour Force Survey,7,2019,2025,7
+MOZ,Mozambique,BB:8363,HIES - Household Budget Survey,1,2022,2022,1
+MRT,Mauritania,BB:16077,HIES - Living Standards Survey,1,2019,2019,1
+MUS,Mauritius,BA:82,LFS - Continuous Multi-Purpose Household Survey,23,2001,2024,13
+MWI,Malawi,BA:1448,LFS - Labour Force Survey,1,2013,2013,1
+NAM,Namibia,BA:1468,LFS - Labour Force Survey,5,2012,2018,3
+NER,Niger,BB:13367,HIES - National Survey on Household Living Conditions,4,2011,2022,1
+NGA,Nigeria,BB:16750,HIES - Living Standards Survey,1,2019,2019,1
+NIC,Nicaragua,BA:692,LFS - Continous Household Survey,1,2012,2012,1
+NIC,Nicaragua,BB:5868,HIES - National Household Survey on Measuring Living Conditions,2,2005,2014,1
+NPL,Nepal,BA:1510,LFS - Labour Force Survey,2,2008,2017,1
+NRU,Naoero,BB:14049,HIES - Household Income and Expenditure Survey,1,2006,2006,1
+PAK,Pakistan,BA:538,LFS - Labour Force Survey,13,2006,2025,6
+PAK,Pakistan,BB:16125,HIES - Household Income and Expenditure Survey,4,2005,2020,1
+PAN,Panama,BA:511,LFS - Labour Market Survey,15,2010,2025,12
+PAN,Panama,BB:16128,HIES - Living Standards Survey,3,1997,2008,1
+PAN,Panama,BX:16113,HS - Multipurpose Household Survey,1,2022,2022,1
+PAN,Panama,BX:3055,HS - Continuous Household Survey,3,2006,2009,2
+PER,Peru,BA:16208,"LFS - Permanent Employment Survey, National",4,2022,2025,4
+PER,Peru,BX:375,HS - National Household Survey,24,1997,2021,23
+PHL,Philippines,BA:629,LFS - Labour Force Survey,4,2017,2023,3
+PHL,Philippines,BB:16114,HIES - Household Income and Expenditure Survey,1,2003,2003,1
+PLW,Palau,AA:1541,PC - Population Census,1,2000,2000,1
+PLW,Palau,BB:14046,HIES - Household Income and Expenditure Survey,1,2023,2023,1
+PRI,Puerto Rico,AA:1553,PC - Population Census,2,2015,2020,1
+PRT,Portugal,BA:199,LFS - Employment Survey,1,2025,2025,1
+PRY,Paraguay,BX:534,HS - Continous Household Survey,19,1998,2017,17
+PSE,"Palestine, State of",BA:592,LFS - Labour Force Survey,10,2015,2025,8
+RWA,Rwanda,BA:1590,LFS - Labour Force Survey,5,2017,2024,4
+RWA,Rwanda,BB:763,HIES - Integrated Household Survey on Living Conditions,1,2014,2014,1
+SDN,Sudan,BA:1603,LFS - Labor Market Panel Survey,2,2011,2022,1
+SEN,Senegal,BA:13368,LFS - National Employment Survey,4,2019,2024,3
+SEN,Senegal,BX:1608,HS - Survey To Monitor Poverty,1,2011,2011,1
+SLE,Sierra Leone,BX:15953,HS - Integrated Household Survey,1,2018,2018,1
+SLV,El Salvador,BX:461,HS - Multi-purpose Household Survey,15,2010,2025,10
+STP,Sao Tome and Principe,BB:16233,HIES - Household Budget Survey,1,2017,2017,1
+SUR,Suriname,BB:15691,HIES - Survey on Living Conditions,1,2016,2016,1
+SWZ,Eswatini,BA:1672,LFS - Labour Force Survey,3,2016,2023,1
+TCD,Chad,BB:15712,HIES - Modular and Integrated Household Survey on Living Conditions,2,2018,2022,1
+TGO,Togo,BA:14123,LFS - Regional Integrated Survey on Employment and the Informal Sector,1,2017,2017,1
+TGO,Togo,BB:16196,HIES - Living Standards Measurement Survey,2,2019,2022,1
+TGO,Togo,BX:686,HS - Questionnaire on Indicators of Well-being,2,2011,2015,1
+THA,Thailand,BA:741,LFS - Labour Force Survey,12,2014,2025,12
+THA,Thailand,BB:15893,HIES - Household Socio-Economic Survey,3,2000,2013,1
+TJK,Tajikistan,BB:2229,HIES - Living Standards Survey,3,2003,2009,1
+TKL,Tokelau,BB:16122,HIES - Household Income and Expenditure Survey,1,2016,2016,1
+TLS,Timor-Leste,BA:3050,LFS - Labour Force Survey,4,2010,2021,1
+TLS,Timor-Leste,BB:7029,HIES - Living Standards Survey,2,2001,2007,1
+TON,Tonga,BA:1712,LFS - Labour Force Survey,2,2018,2023,1
+TTO,Trinidad and Tobago,BA:549,LFS - Continuous Sample Survey of the Population,7,2010,2016,7
+TUN,Tunisia,BA:743,LFS - National Population and Employment Survey,1,2019,2019,1
+TUR,Türkiye,BA:622,LFS - Household Labour Force Survey,21,2005,2025,21
+TZA,"Tanzania, United Republic of",BA:1743,LFS - Labour Force Survey,4,2001,2024,1
+TZA,"Tanzania, United Republic of",BB:2542,HIES - National Panel Survey,2,2010,2012,1
+UGA,Uganda,BA:13047,LFS - National Labour Force Survey,3,2012,2021,1
+UGA,Uganda,BB:268,HIES - National Household Survey,4,2010,2019,2
+URY,Uruguay,BA:348,LFS - Continous Household Survey,22,1998,2019,22
+USA,United States of America,BA:453,LFS - Current Population Survey,32,1994,2025,32
+VEN,"Venezuela, Bolivarian Republic of",BA:382,LFS - Household Sample Survey,6,2005,2017,2
+VNM,Viet Nam,BA:1788,LFS - Labour Force Survey,15,2010,2024,15
+VUT,Vanuatu,BB:15632,HIES - Household Income and Expenditure Survey,1,2010,2010,1
+WLF,Wallis and Futuna,BB:16123,HIES - Household Income and Expenditure Survey,1,2019,2019,1
+WSM,Samoa,BA:1794,LFS - Labour Force Survey,3,2012,2022,1
+YEM,Yemen,BA:13360,LFS - Labour Force Survey,1,2014,2014,1
+ZAF,South Africa,BA:595,LFS - Quarterly Labour Force Survey,13,2000,2015,8
+ZMB,Zambia,BA:2212,LFS - Labour Force Survey,8,2017,2024,8
+ZWE,Zimbabwe,BA:1823,LFS - Labour Force Survey,5,2011,2023,3

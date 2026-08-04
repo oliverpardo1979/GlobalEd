@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-09,
+  "checks": {
+    "duplicate_country_keys": 0,
+    "duplicate_group_keys": 0,
+    "duplicate_aggregate_keys": 0,
+    "maximum_share_sum_error": 3.3306690738754696e-16,
+    "maximum_education_group_sum_error": 5.684341886080802e-14,
+    "maximum_within_group_sum_error": 2.2737367544323206e-13,
+    "maximum_country_identity_error": 8.526512829121202e-13,
+    "maximum_aggregate_identity_error": 7.105427357601002e-13,
+    "selected_quality_failures": 0,
+    "selected_sample_mismatch": 0,
+    "finite_country_values": true,
+    "positive_country_mean_wages": true
+  }
+}
