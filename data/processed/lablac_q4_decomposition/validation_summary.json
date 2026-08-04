@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-09,
+  "checks": {
+    "countries": 14,
+    "selected_endpoints": 28,
+    "all_endpoints_q4": true,
+    "two_endpoints_per_country": true,
+    "maximum_share_sum_error": 1.1102230246251565e-16,
+    "maximum_country_identity_error": 2.2737367544323206e-13,
+    "maximum_group_education_sum_error": 3.552713678800501e-15,
+    "maximum_group_within_sum_error": 3.552713678800501e-15,
+    "maximum_absolute_income_reconstruction_error": 0.041832277080939013,
+    "maximum_absolute_worker_reconstruction_error": 0.0037634225105314103,
+    "countries_with_source_change": 4
+  }
+}

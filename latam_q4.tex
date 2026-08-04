@@ -1,0 +1,242 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+
+\title{Educational Upgrading and Labor Income Growth in Latin America}
+\author{Oliver Pardo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper decomposes changes in average monthly labor income into changes in
+the educational composition of employment and changes in income within
+education groups. For each of 14 Latin American economies in the World Bank's
+LAC Equity Lab, we compare the oldest and newest available fourth-quarter
+observations. The endpoints usually correspond to 2016 and 2023, although
+coverage differs by economy. The education component is positive in 12 of the
+14 economies, while within-group income changes are negative in 10. Synthetic
+mean income increases in 8 economies and falls in 6. These are country-level
+accounting decompositions, not causal estimates of the return to education.
+Four comparisons cross documented survey-series changes and should be
+interpreted with additional caution.
+\end{abstract}
+
+\section{Introduction}
+
+Average labor income can change for two distinct reasons. First, the
+educational composition of employment can change. Second, the mean income
+received by workers with a given educational attainment can rise or fall.
+The first channel measures educational upgrading; the second measures changes
+within education groups. Distinguishing the two is useful because an increase
+in average labor income need not imply that workers at each educational level
+are receiving higher income.
+
+This paper measures both contributions for 14 Latin American economies
+covered by the World Bank's LAC Equity Lab. For each economy, the comparison
+uses the oldest and newest available fourth-quarter observation. Restricting
+the analysis to the fourth quarter holds the observed season fixed and
+prevents differences in quarterly coverage from entering the decomposition.
+The approach also gives each economy its longest available comparison instead
+of imposing a common window that would exclude countries.
+
+The decomposition follows the symmetric method associated with
+\citet{kitagawa1955} and the broader decomposition literature reviewed by
+\citet{fortinlemieuxfirpo2011}. The exercise is related to work documenting
+educational upgrading and changing skill premia in Latin America
+\citep{gasparinietal2011,azevedoetal2013,messinadasilva2019}. Its contribution
+is narrower: it applies one exact accounting identity to the longest
+fourth-quarter comparison available for each economy and reports both the
+underlying descriptive statistics and the country-level results.
+
+\section{Descriptive statistics}
+
+\subsection{Data and educational groups}
+
+The LAC Equity Lab reports mean monthly labor income and the number of workers
+by educational attainment \citep{lablac}. Monthly labor income is expressed in
+2017 purchasing-power-parity dollars and covers employed people aged 15 or
+older with coherent reported income. The worker counts refer to the employed
+population, not to the labor force, which would also include unemployed
+people.
+
+LABLAC harmonizes educational attainment into three groups. \emph{Low}
+education includes people who never attended school, completed primary
+education, or did not complete secondary education. \emph{Middle} education
+includes people who completed secondary education or began but did not
+complete higher education. \emph{High} education includes people who
+completed higher education. The three groups are used consistently in the
+income and worker-count tables.
+
+The downloaded data contain Argentina, Bolivia, Brazil, Chile, Colombia,
+Costa Rica, the Dominican Republic, Ecuador, El Salvador, Guatemala, Mexico,
+Paraguay, Peru (Lima and Callao), and Uruguay. Peru is a subnational
+observation and should not be interpreted as a national estimate. The initial
+year is 2016 for every economy except Paraguay, whose first usable fourth
+quarter is 2017. The final year is 2023 for most economies, 2024 for Costa
+Rica and Ecuador, and 2022 for Guatemala.
+
+\subsection{Income levels}
+
+Table~\ref{tab:latam_country_income_descriptives} reports two income measures.
+The published total is LABLAC's mean for all workers with coherent reported
+income. The synthetic mean weights the three education-group income means
+with their shares of published workers. The decomposition uses the synthetic
+mean because it is exactly consistent with the observed education shares.
+
+\input{tables/latam_country_income_descriptives}
+
+The two measures are close but are not identical. Across the 28 selected
+endpoints, the largest absolute difference between synthetic and published
+income is 4.2 percent. The difference arises because the education-group
+worker counts include all workers in each group, whereas the income means use
+workers with coherent reported income. The synthetic measure therefore
+defines the estimand; the published total is a diagnostic.
+
+\subsection{Educational composition and group income}
+
+Table~\ref{tab:latam_country_education_shares} reports the observed composition
+of employment. The share with low education falls in 11 of the 14 economies.
+The largest reductions occur in Chile, Colombia, Bolivia, Brazil, Costa Rica,
+and Paraguay. Ecuador and Guatemala move in the opposite direction: the low
+education share rises by 4.0 and 7.0 percentage points, respectively.
+
+\input{tables/latam_country_education_shares}
+
+The high education share rises in 13 economies. Colombia records the largest
+increase, 15.8 percentage points, followed by Chile with 10.7 points. Ecuador
+is the only economy in which the high education share falls. Colombia and
+Ecuador also cross documented series changes, so those movements combine
+changes in the employed population with possible effects from survey
+comparability.
+
+Table~\ref{tab:latam_country_education_incomes} reports mean monthly labor
+income for each education group. High-education workers receive more than
+middle- and low-education workers in every selected endpoint. The table also
+shows that educational upgrading can coexist with falling income within the
+education groups. That distinction motivates the decomposition.
+
+\input{tables/latam_country_education_incomes}
+
+\section{Decomposition}
+
+\subsection{Endpoint construction and weights}
+
+For each economy, the calculation selects the oldest and newest available
+fourth-quarter observation with positive income and worker counts for all
+three education groups. If more than one Tableau source is present in an
+endpoint, the calculation selects the complete source that most closely
+reproduces the values displayed in the Equity Lab workbook. It then uses the
+worker counts reported for that same source.
+
+The education weights are observed rather than inferred from the published
+total income. With three education groups, the published total supplies the
+identity
+\[
+  R_t=s_{L,t}r_{L,t}+s_{M,t}r_{M,t}+s_{H,t}r_{H,t},
+\]
+while the shares also satisfy
+\[
+  s_{L,t}+s_{M,t}+s_{H,t}=1.
+\]
+These are only two independent equations for three unknown shares. Therefore,
+the three weights cannot be recovered uniquely from total income and the
+three group means. We instead calculate each share directly from LABLAC's
+reported worker counts:
+\[
+  s_{g,t}=\frac{N_{g,t}}{\sum_j N_{j,t}}.
+\]
+
+\input{tex/shared_decomposition}
+
+The within-group term in
+Equation~\eqref{eq:symmetric_decomposition} weights the change in each group's
+income by its average employment share. The education term weights the change
+in each group's employment share by its average income. Both components are
+reported as percentages of initial synthetic income. They add exactly to the
+percentage change in synthetic income before rounding.
+
+\subsection{Interpretation}
+
+The decomposition is an accounting identity. A positive education component
+means that employment shifted toward education groups with higher average
+income. It does not identify the causal return to schooling. A positive
+within-group component means that income rose, on average, within the
+education groups after holding their employment shares fixed. It need not
+measure productivity because income within a group can also change with
+hours, occupations, sectors, formality, labor demand, selection into
+employment, and survey coverage.
+
+\section{Results}
+
+Table~\ref{tab:latam_country_decomposition} reports one decomposition for each
+economy. Synthetic mean income rises in 8 economies and falls in 6. El
+Salvador records the largest increase, 22.9 percent, followed by Colombia with
+20.7 percent. Argentina records the largest decline, 27.6 percent, followed by
+Ecuador with 17.2 percent and Peru (Lima and Callao) with 10.8 percent.
+
+\input{tables/latam_country_decomposition}
+
+The education component is positive in 12 of the 14 economies. It is largest
+in Colombia, where it contributes an amount equivalent to 27.6 percent of
+initial synthetic income, and in Chile, where it contributes 17.5 percent.
+Brazil follows with a 9.3 percent contribution. In Argentina, Bolivia, Brazil,
+Chile, Costa Rica, Paraguay, Peru, and Uruguay, educational upgrading raises
+synthetic income but is partly or fully offset by declining income within the
+education groups.
+
+The within-group component is negative in 10 economies. Argentina has the
+largest decline, equivalent to 30.3 percent of initial synthetic income.
+Ecuador and Peru also have large negative within-group components, at 14.2
+and 13.6 percent. In contrast, within-group income raises synthetic income in
+El Salvador, Guatemala, Mexico, and the Dominican Republic.
+
+Two economies do not exhibit the general pattern of educational upgrading.
+In Ecuador, the education component subtracts 3.1 percent of initial income
+because employment shifts toward the low education group. In Guatemala, it
+subtracts 2.5 percent for the same reason. Guatemala uses the same survey
+series at both endpoints. Ecuador does not, so its result cannot be separated
+from the documented change in series using these aggregates alone.
+
+Four comparisons cross a Tableau series change: Colombia, Ecuador, Paraguay,
+and Uruguay. Their decompositions remain exact descriptions of the published
+endpoint aggregates, but part of the measured change may reflect differences
+in survey design or processing. Colombia's large positive education
+component and Ecuador's negative component therefore require particular
+caution. The remaining ten comparisons retain the same survey and series
+identifiers at both endpoints.
+
+\section{Conclusion}
+
+The country-level evidence shows a broad increase in the educational
+attainment of employed workers. The education component raises synthetic mean
+labor income in 12 of 14 economies. However, income within education groups
+falls in 10 economies and offsets part of the contribution from educational
+upgrading. As a result, synthetic mean income rises in only 8 economies.
+
+The distinction matters for interpreting changes in average labor income.
+Educational upgrading can raise the average even when workers within each
+education group receive less. Conversely, El Salvador, Mexico, Guatemala,
+and the Dominican Republic combine positive within-group income changes with
+different movements in educational composition.
+
+These results do not establish why income changed within an education group
+or what caused employment to shift across groups. They also do not support a
+single aggregate estimate for Latin America because countries have different
+endpoint years, Peru covers only Lima and Callao, and four comparisons cross
+survey-series changes. The results instead provide a transparent
+country-by-country accounting of how educational composition and
+within-group income jointly determine the observed change in average labor
+income.
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

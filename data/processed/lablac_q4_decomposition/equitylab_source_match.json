@@ -1,0 +1,19 @@
+{
+  "attached_file": "EquityLAB.xlsx",
+  "attached_sha256": "fe33d859261deaa6bcae941a0f476092fa91def14bfa912a52490637180b7a67",
+  "repository_file": "data/raw/world_bank_lablac/Wage-tableau.xlsx",
+  "comparison_rule": [
+    "Pais",
+    "Period",
+    "Indicator_ESP",
+    "Category_ESP",
+    "maximum Value"
+  ],
+  "attached_rows": 10240,
+  "attached_unique_rows": 10240,
+  "projected_repository_rows": 10240,
+  "projected_repository_unique_rows": 10240,
+  "exact_set_match": true,
+  "only_attached_count": 0,
+  "only_repository_count": 0
+}

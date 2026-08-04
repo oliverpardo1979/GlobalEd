@@ -1,0 +1,85 @@
+country,year,endpoint,education,education_label,share,income_usd_2017_ppp
+Argentina,2016,initial,Educational attainment - high,High,0.22927029546576824,1994.7
+Argentina,2016,initial,Educational attainment - low,Low,0.36039573020672105,863.3
+Argentina,2016,initial,Educational attainment - middle,Middle,0.4103339743275107,1214.5
+Argentina,2023,final,Educational attainment - high,High,0.2550282895299315,1410.0
+Argentina,2023,final,Educational attainment - low,Low,0.29855400844522134,622.2
+Argentina,2023,final,Educational attainment - middle,Middle,0.4464177020248471,834.1
+Bolivia,2016,initial,Educational attainment - high,High,0.06055083845539593,1588.3
+Bolivia,2016,initial,Educational attainment - low,Low,0.5742220854710873,801.4
+Bolivia,2016,initial,Educational attainment - middle,Middle,0.36522707607351673,1159.0
+Bolivia,2023,final,Educational attainment - high,High,0.077472832167492,1548.8
+Bolivia,2023,final,Educational attainment - low,Low,0.4737282700371418,759.6
+Bolivia,2023,final,Educational attainment - middle,Middle,0.44879889779536625,1030.9
+Brazil,2016,initial,Educational attainment - high,High,0.16858176115180154,2124.8
+Brazil,2016,initial,Educational attainment - low,Low,0.4261226063567618,523.1
+Brazil,2016,initial,Educational attainment - middle,Middle,0.40529563249143663,766.6
+Brazil,2023,final,Educational attainment - high,High,0.2163746409353918,1944.3
+Brazil,2023,final,Educational attainment - low,Low,0.33029622329505925,535.2
+Brazil,2023,final,Educational attainment - middle,Middle,0.4533291357695489,759.3
+Chile,2016,initial,Educational attainment - high,High,0.14128164691712677,2659.8
+Chile,2016,initial,Educational attainment - low,Low,0.3193950042830254,632.2
+Chile,2016,initial,Educational attainment - middle,Middle,0.5393233487998478,1080.4
+Chile,2023,final,Educational attainment - high,High,0.24842979344410487,2336.6
+Chile,2023,final,Educational attainment - low,Low,0.19847251443745523,673.7
+Chile,2023,final,Educational attainment - middle,Middle,0.55309769211844,1019.0
+Colombia,2016,initial,Educational attainment - high,High,0.13742929618206035,1897.0
+Colombia,2016,initial,Educational attainment - low,Low,0.46090104809003685,459.2
+Colombia,2016,initial,Educational attainment - middle,Middle,0.40166965572790275,687.6
+Colombia,2023,final,Educational attainment - high,High,0.29556194994470536,1743.1
+Colombia,2023,final,Educational attainment - low,Low,0.34851329138230935,440.3
+Colombia,2023,final,Educational attainment - middle,Middle,0.35592475867298523,659.1
+Costa Rica,2016,initial,Educational attainment - high,High,0.13144330771613932,2950.7
+Costa Rica,2016,initial,Educational attainment - low,Low,0.5451007904304727,854.9
+Costa Rica,2016,initial,Educational attainment - middle,Middle,0.3234559018533881,1374.2
+Costa Rica,2024,final,Educational attainment - high,High,0.16483380549844906,2681.2
+Costa Rica,2024,final,Educational attainment - low,Low,0.4489176505494102,838.2
+Costa Rica,2024,final,Educational attainment - middle,Middle,0.3862485439521408,1258.7
+Dominican Republic,2016,initial,Educational attainment - high,High,0.13360862835613027,1627.8
+Dominican Republic,2016,initial,Educational attainment - low,Low,0.5525313653616271,640.4
+Dominican Republic,2016,initial,Educational attainment - middle,Middle,0.31386000628224264,725.5
+Dominican Republic,2023,final,Educational attainment - high,High,0.14990235173029828,1533.2
+Dominican Republic,2023,final,Educational attainment - low,Low,0.484387273501716,648.2
+Dominican Republic,2023,final,Educational attainment - middle,Middle,0.36571037476798574,797.0
+Ecuador,2016,initial,Educational attainment - high,High,0.17542670575172858,1603.5
+Ecuador,2016,initial,Educational attainment - low,Low,0.4440357157155224,577.0
+Ecuador,2016,initial,Educational attainment - middle,Middle,0.38053757853274905,790.1
+Ecuador,2024,final,Educational attainment - high,High,0.15015358220779285,1268.6
+Ecuador,2024,final,Educational attainment - low,Low,0.4837331654945493,500.8
+Ecuador,2024,final,Educational attainment - middle,Middle,0.3661132522976579,712.8
+El Salvador,2016,initial,Educational attainment - high,High,0.04173545948935386,1207.6
+El Salvador,2016,initial,Educational attainment - low,Low,0.7523041755000461,465.1
+El Salvador,2016,initial,Educational attainment - middle,Middle,0.20596036501060005,772.8
+El Salvador,2023,final,Educational attainment - high,High,0.06381135819928446,1302.8
+El Salvador,2023,final,Educational attainment - low,Low,0.72623989961701,586.7
+El Salvador,2023,final,Educational attainment - middle,Middle,0.20994874218370554,848.9
+Guatemala,2016,initial,Educational attainment - high,High,0.047277637577005455,1526.4
+Guatemala,2016,initial,Educational attainment - low,Low,0.7214468940518772,453.9
+Guatemala,2016,initial,Educational attainment - middle,Middle,0.2312754683711173,907.4
+Guatemala,2022,final,Educational attainment - high,High,0.058990576997547436,1556.3
+Guatemala,2022,final,Educational attainment - low,Low,0.7912254018853488,534.9
+Guatemala,2022,final,Educational attainment - middle,Middle,0.14978402111710376,763.1
+Mexico,2016,initial,Educational attainment - high,High,0.16689011547006177,1173.9
+Mexico,2016,initial,Educational attainment - low,Low,0.6170656358232,491.7
+Mexico,2016,initial,Educational attainment - middle,Middle,0.21604424870673827,652.1
+Mexico,2023,final,Educational attainment - high,High,0.2120901501553724,1122.3
+Mexico,2023,final,Educational attainment - low,Low,0.533335160194984,544.3
+Mexico,2023,final,Educational attainment - middle,Middle,0.25457468964964364,667.7
+Paraguay,2017,initial,Educational attainment - high,High,0.1258772976141039,1949.7
+Paraguay,2017,initial,Educational attainment - low,Low,0.5608225318595617,751.4
+Paraguay,2017,initial,Educational attainment - middle,Middle,0.3133001705263344,1061.7
+Paraguay,2023,final,Educational attainment - high,High,0.17292452798089125,1553.5
+Paraguay,2023,final,Educational attainment - low,Low,0.46699421906314115,786.7
+Paraguay,2023,final,Educational attainment - middle,Middle,0.36008125295596755,994.8
+Peru (Lima and Callao),2016,initial,Educational attainment - high,High,0.31150853962285946,1507.1
+Peru (Lima and Callao),2016,initial,Educational attainment - low,Low,0.17450689152630922,548.0
+Peru (Lima and Callao),2016,initial,Educational attainment - middle,Middle,0.5139845688508313,699.4
+Peru (Lima and Callao),2023,final,Educational attainment - high,High,0.34631639257775937,1239.6
+Peru (Lima and Callao),2023,final,Educational attainment - low,Low,0.15975667636708815,485.2
+Peru (Lima and Callao),2023,final,Educational attainment - middle,Middle,0.49392693105515245,644.5
+Uruguay,2016,initial,Educational attainment - high,High,0.13602020143341587,2216.4
+Uruguay,2016,initial,Educational attainment - low,Low,0.6409071765192829,861.2
+Uruguay,2016,initial,Educational attainment - middle,Middle,0.22307262204730127,1237.1
+Uruguay,2023,final,Educational attainment - high,High,0.16761816863339707,2253.7
+Uruguay,2023,final,Educational attainment - low,Low,0.6030486818211783,785.7
+Uruguay,2023,final,Educational attainment - middle,Middle,0.22933314954542458,1204.2
