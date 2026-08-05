@@ -33,11 +33,26 @@ because the populations and remuneration concepts differ.
   pairs and estimates the Latin American decompositions.
 - `code/07_validate_lablac_decomposition.py` validates the LABLAC samples,
   reconstruction errors, component sums, and exact additivity.
+- `code/10_lablac_q4_country_decomposition.py` estimates the country results
+  from the oldest and newest complete fourth-quarter observations.
+- `code/11_validate_lablac_q4_decomposition.py` independently validates the
+  fourth-quarter country decompositions.
+- `code/12_plot_lablac_q4_annualized_decomposition.R` generates the annualized
+  country decomposition figure.
+- `code/13_lablac_q4_regional_decomposition.py` estimates the common-window
+  2017-Q4--2022-Q4 aggregate for all 14 covered economies.
+- `code/14_validate_lablac_q4_regional_decomposition.py` independently
+  validates the regional weights, identities, annualization, and pooled means.
+- `code/15_plot_lablac_q4_regional_decomposition.R` generates the annualized
+  regional decomposition figure.
 
 Raw inputs are stored under `data/raw/`. Processed ILOSTAT diagnostics are
 stored under `data/processed/ilostat/`. The global and LABLAC decomposition
 outputs are stored under `data/processed/global_decomposition/` and
-`data/processed/lablac_decomposition/`, respectively.
+`data/processed/lablac_decomposition/`, respectively. The fourth-quarter
+country and common-window regional outputs are stored under
+`data/processed/lablac_q4_decomposition/` and
+`data/processed/lablac_q4_regional_decomposition/`.
 
 The ILOSTAT downloader requires the R package `Rilostat`. The Python scripts
 require `pandas`, `numpy`, and `openpyxl`.
@@ -56,16 +71,29 @@ The decomposition script generates
 `tables/global_sample_decomposition.tex`, which is included directly in the
 global manuscript. The validation script must finish with `status: PASS`.
 
-To reproduce the Latin American decomposition:
+To reproduce the original comparable-source Latin American windows:
 
 ```text
 python code/06_lablac_decomposition.py
 python code/07_validate_lablac_decomposition.py
 ```
 
-The first script generates `tables/latam_sample_decomposition.tex`, which is
-included directly in the Latin American manuscript. Its validation script
-must also finish with `status: PASS`.
+To reproduce the fourth-quarter country results, the common-window regional
+aggregate, and both figures used in the Latin American paper:
+
+```text
+python code/10_lablac_q4_country_decomposition.py
+python code/11_validate_lablac_q4_decomposition.py
+Rscript code/12_plot_lablac_q4_annualized_decomposition.R
+python code/13_lablac_q4_regional_decomposition.py
+python code/14_validate_lablac_q4_regional_decomposition.py
+Rscript code/15_plot_lablac_q4_regional_decomposition.R
+```
+
+Both Python validation scripts must finish with `status: PASS`. The regional
+baseline fixes economy weights in proportion to each economy's average
+employment in 2017 and 2022. The observed-weight and equal-economy estimates
+are reported as sensitivity exercises.
 
 The preferred estimate is an employment-weighted average of within-country
 changes with country weights held fixed. A second exact decomposition allows
@@ -77,7 +105,8 @@ window, not estimates for the world as a whole.
 
 The default Overleaf main document is `main.tex`, which compiles the global
 paper. To compile the Latin American paper, select `latam.tex` as the main
-document in Overleaf.
+document in Overleaf. Both annualized decomposition figures are included in
+that manuscript.
 
 ## Research design
 

@@ -1,0 +1,85 @@
+country,period,series,survey,education,income_usd_2017_ppp,year,workers,payroll,endpoint,education_label
+Argentina,2017-Q4,1,EPHC-S2,Educational attainment - high,1983.8,2017,2791509.0,5537795554.2,initial,High
+Argentina,2017-Q4,1,EPHC-S2,Educational attainment - low,922.2,2017,4176994.0,3852023866.8,initial,Low
+Argentina,2017-Q4,1,EPHC-S2,Educational attainment - middle,1238.1,2017,4912960.0,6082735776.0,initial,Middle
+Bolivia,2017-Q4,1,ECE,Educational attainment - high,1543.4,2017,318367.0,491367627.8,initial,High
+Bolivia,2017-Q4,1,ECE,Educational attainment - low,819.1,2017,2867285.0,2348593143.5,initial,Low
+Bolivia,2017-Q4,1,ECE,Educational attainment - middle,1137.1,2017,1998025.0,2271954227.5,initial,Middle
+Brazil,2017-Q4,2,PNADC,Educational attainment - high,2142.7,2017,15909747.0,34089814896.899998,initial,High
+Brazil,2017-Q4,2,PNADC,Educational attainment - low,529.9,2017,38466570.0,20383435443.0,initial,Low
+Brazil,2017-Q4,2,PNADC,Educational attainment - middle,766.5,2017,37714651.0,28908279991.5,initial,Middle
+Chile,2017-Q4,2,NENE,Educational attainment - high,2695.7,2017,1337261.0,3604854477.7,initial,High
+Chile,2017-Q4,2,NENE,Educational attainment - low,665.8,2017,2520398.0,1678080988.3999999,initial,Low
+Chile,2017-Q4,2,NENE,Educational attainment - middle,1081.5,2017,4570443.0,4942934104.5,initial,Middle
+Colombia,2017-Q4,1,GEIH,Educational attainment - high,1858.0,2017,3106031.0,5771005598.0,initial,High
+Colombia,2017-Q4,1,GEIH,Educational attainment - low,469.3,2017,10215722.0,4794238334.6,initial,Low
+Colombia,2017-Q4,1,GEIH,Educational attainment - middle,699.3,2017,9282803.0,6491464137.9,initial,Middle
+Costa Rica,2017-Q4,1,ECE,Educational attainment - high,2891.0,2017,260151.0,752096541.0,initial,High
+Costa Rica,2017-Q4,1,ECE,Educational attainment - low,843.0,2017,1137057.0,958539051.0,initial,Low
+Costa Rica,2017-Q4,1,ECE,Educational attainment - middle,1410.9,2017,596507.0,841611726.3000001,initial,Middle
+Dominican Republic,2017-Q4,1,ECFNT,Educational attainment - high,1683.6,2017,571367.0,961953481.1999999,initial,High
+Dominican Republic,2017-Q4,1,ECFNT,Educational attainment - low,615.9,2017,2468972.0,1520639854.8,initial,Low
+Dominican Republic,2017-Q4,1,ECFNT,Educational attainment - middle,740.0,2017,1387635.0,1026849900.0,initial,Middle
+Ecuador,2017-Q4,1,ENEMDU,Educational attainment - high,1497.7,2017,931639.0,1395315730.3,initial,High
+Ecuador,2017-Q4,1,ENEMDU,Educational attainment - low,616.0,2017,2159306.0,1330132496.0,initial,Low
+Ecuador,2017-Q4,1,ENEMDU,Educational attainment - middle,816.2,2017,2079219.0,1697058547.8000002,initial,Middle
+El Salvador,2017-Q4,1,EHPM,Educational attainment - high,1358.2,2017,106643.0,144842522.6,initial,High
+El Salvador,2017-Q4,1,EHPM,Educational attainment - low,491.2,2017,2039345.0,1001726264.0,initial,Low
+El Salvador,2017-Q4,1,EHPM,Educational attainment - middle,793.2,2017,545442.0,432644594.40000004,initial,Middle
+Guatemala,2017-Q4,1,ENEI,Educational attainment - high,1853.4,2017,297635.0,551636709.0,initial,High
+Guatemala,2017-Q4,1,ENEI,Educational attainment - low,424.9,2017,5148580.0,2187631642.0,initial,Low
+Guatemala,2017-Q4,1,ENEI,Educational attainment - middle,853.5,2017,1510412.0,1289136642.0,initial,Middle
+Mexico,2017-Q4,1,ENOE,Educational attainment - high,1103.8,2017,9049020.0,9988308276.0,initial,High
+Mexico,2017-Q4,1,ENOE,Educational attainment - low,487.6,2017,31299808.0,15261786380.800001,initial,Low
+Mexico,2017-Q4,1,ENOE,Educational attainment - middle,625.6,2017,11760037.0,7357079147.2,initial,Middle
+Paraguay,2017-Q4,2,EPHC,Educational attainment - high,1949.7,2017,384660.0,749971602.0,initial,High
+Paraguay,2017-Q4,2,EPHC,Educational attainment - low,751.4,2017,1713780.0,1287734292.0,initial,Low
+Paraguay,2017-Q4,2,EPHC,Educational attainment - middle,1061.7,2017,957393.0,1016464148.1,initial,Middle
+Peru (Lima and Callao),2017-Q4,1,EPE,Educational attainment - high,1450.2,2017,1533087.0,2223282767.4,initial,High
+Peru (Lima and Callao),2017-Q4,1,EPE,Educational attainment - low,571.6,2017,797573.0,455892726.8,initial,Low
+Peru (Lima and Callao),2017-Q4,1,EPE,Educational attainment - middle,703.9,2017,2556231.0,1799331000.8999999,initial,Middle
+Uruguay,2017-Q4,1,ECH,Educational attainment - high,2252.5,2017,245940.0,553979850.0,initial,High
+Uruguay,2017-Q4,1,ECH,Educational attainment - low,866.8,2017,1053041.0,912775938.8,initial,Low
+Uruguay,2017-Q4,1,ECH,Educational attainment - middle,1349.6,2017,347237.0,468631055.2,initial,Middle
+Argentina,2022-Q4,1,EPHC-S2,Educational attainment - high,1505.4,2022,3247042.0,4888097026.8,final,High
+Argentina,2022-Q4,1,EPHC-S2,Educational attainment - low,680.2,2022,4099460.0,2788452692.0,final,Low
+Argentina,2022-Q4,1,EPHC-S2,Educational attainment - middle,874.5,2022,5708095.0,4991729077.5,final,Middle
+Bolivia,2022-Q4,1,ECE,Educational attainment - high,1513.0,2022,431278.0,652523614.0,final,High
+Bolivia,2022-Q4,1,ECE,Educational attainment - low,763.4,2022,3188234.0,2433897835.6,final,Low
+Bolivia,2022-Q4,1,ECE,Educational attainment - middle,1030.4,2022,2811141.0,2896599686.4,final,Middle
+Brazil,2022-Q4,2,PNADC,Educational attainment - high,1895.6,2022,20892594.0,39604001186.4,final,High
+Brazil,2022-Q4,2,PNADC,Educational attainment - low,538.0,2022,34222839.0,18411887382.0,final,Low
+Brazil,2022-Q4,2,PNADC,Educational attainment - middle,740.1,2022,44144879.0,32671624947.9,final,Middle
+Chile,2022-Q4,2,NENE,Educational attainment - high,2282.3,2022,2088911.0,4767521575.3,final,High
+Chile,2022-Q4,2,NENE,Educational attainment - low,659.3,2022,1956529.0,1289939569.6999998,final,Low
+Chile,2022-Q4,2,NENE,Educational attainment - middle,994.5,2022,4959219.0,4931943295.5,final,Middle
+Colombia,2022-Q4,2,GEIH,Educational attainment - high,1721.4,2022,6425550.0,11060941770.0,final,High
+Colombia,2022-Q4,2,GEIH,Educational attainment - low,441.5,2022,8073362.0,3564389323.0,final,Low
+Colombia,2022-Q4,2,GEIH,Educational attainment - middle,628.1,2022,7814802.0,4908477136.2,final,Middle
+Costa Rica,2022-Q4,1,ECE,Educational attainment - high,2324.8,2022,334776.0,778287244.8000001,final,High
+Costa Rica,2022-Q4,1,ECE,Educational attainment - low,709.7,2022,1085094.0,770091211.8000001,final,Low
+Costa Rica,2022-Q4,1,ECE,Educational attainment - middle,1051.2,2022,752145.0,790654824.0,final,Middle
+Dominican Republic,2022-Q4,1,ECFNT,Educational attainment - high,1390.2,2022,703180.0,977560836.0,final,High
+Dominican Republic,2022-Q4,1,ECFNT,Educational attainment - low,610.5,2022,2288272.0,1396990056.0,final,Low
+Dominican Republic,2022-Q4,1,ECFNT,Educational attainment - middle,714.7,2022,1786039.0,1276482073.3000002,final,Middle
+Ecuador,2022-Q4,2,ENEMDU,Educational attainment - high,1359.4,2022,1203212.0,1635646392.8000002,final,High
+Ecuador,2022-Q4,2,ENEMDU,Educational attainment - low,510.1,2022,3856939.0,1967424583.9,final,Low
+Ecuador,2022-Q4,2,ENEMDU,Educational attainment - middle,694.3,2022,3113964.0,2162025205.2,final,Middle
+El Salvador,2022-Q4,1,EHPM,Educational attainment - high,1163.0,2022,161280.0,187568640.0,final,High
+El Salvador,2022-Q4,1,EHPM,Educational attainment - low,541.9,2022,2066465.0,1119817383.5,final,Low
+El Salvador,2022-Q4,1,EHPM,Educational attainment - middle,773.3,2022,642131.0,496559902.29999995,final,Middle
+Guatemala,2022-Q4,1,ENEI,Educational attainment - high,1556.3,2022,409929.0,637972502.6999999,final,High
+Guatemala,2022-Q4,1,ENEI,Educational attainment - low,534.9,2022,5498272.0,2941025692.7999997,final,Low
+Guatemala,2022-Q4,1,ENEI,Educational attainment - middle,763.1,2022,1040858.0,794278739.8000001,final,Middle
+Mexico,2022-Q4,1,ENOE,Educational attainment - high,1026.6,2022,11783193.0,12096625933.8,final,High
+Mexico,2022-Q4,1,ENOE,Educational attainment - low,526.8,2022,31637992.0,16666894185.599998,final,Low
+Mexico,2022-Q4,1,ENOE,Educational attainment - middle,639.3,2022,14799226.0,9461145181.8,final,Middle
+Paraguay,2022-Q4,3,EPHC,Educational attainment - high,1671.2,2022,481046.0,803924075.2,final,High
+Paraguay,2022-Q4,3,EPHC,Educational attainment - low,676.1,2022,1375370.0,929887657.0,final,Low
+Paraguay,2022-Q4,3,EPHC,Educational attainment - middle,897.1,2022,959810.0,861045551.0,final,Middle
+Peru (Lima and Callao),2022-Q4,1,EPE,Educational attainment - high,1217.7,2022,1694539.0,2063440140.3000002,final,High
+Peru (Lima and Callao),2022-Q4,1,EPE,Educational attainment - low,485.1,2022,822380.0,398936538.0,final,Low
+Peru (Lima and Callao),2022-Q4,1,EPE,Educational attainment - middle,623.5,2022,2540400.0,1583939400.0,final,Middle
+Uruguay,2022-Q4,4,ECH,Educational attainment - high,2129.3,2022,289883.0,617247871.9000001,final,High
+Uruguay,2022-Q4,4,ECH,Educational attainment - low,826.1,2022,972149.0,803092288.9,final,Low
+Uruguay,2022-Q4,4,ECH,Educational attainment - middle,1094.0,2022,389513.0,426127222.0,final,Middle

@@ -21,12 +21,15 @@ the educational composition of employment and changes in income within
 education groups. For each of 14 Latin American economies in the World Bank's
 LAC Equity Lab, we compare the oldest and newest available fourth-quarter
 observations. The endpoints usually correspond to 2016 and 2023, although
-coverage differs by economy. The education component is positive in 12 of the
-14 economies, while within-group income changes are negative in 10. Synthetic
-mean income increases in 8 economies and falls in 6. These are country-level
-accounting decompositions, not causal estimates of the return to education.
-Four comparisons cross documented survey-series changes and should be
-interpreted with additional caution.
+coverage differs by economy. We also aggregate all 14 economies over the
+common 2017-Q4--2022-Q4 window. With economy weights
+fixed in proportion to each economy's average employment, educational upgrading contributes 1.35 percentage points
+per year to synthetic mean income growth, while income changes within
+education groups subtract 1.47 points. Synthetic mean income consequently
+falls 0.12 percent per year. The decompositions are accounting identities,
+not causal estimates of the return to education. Four comparisons cross
+documented survey-series changes and should be interpreted with additional
+caution.
 \end{abstract}
 
 \section{Introduction}
@@ -46,6 +49,12 @@ the analysis to the fourth quarter holds the observed season fixed and
 prevents differences in quarterly coverage from entering the decomposition.
 The approach also gives each economy its longest available comparison instead
 of imposing a common window that would exclude countries.
+
+The aggregate exercise answers a different question. It imposes the common
+2017-Q4--2022-Q4 window, for which all 14 economies have complete observations,
+and measures the change in synthetic mean income across the covered
+economies. We report fixed employment weights as the baseline, observed
+endpoint-specific employment weights, and equal weights by economy.
 
 The decomposition follows the symmetric method associated with
 \citet{kitagawa1955} and the broader decomposition literature reviewed by
@@ -82,7 +91,9 @@ Paraguay, Peru (Lima and Callao), and Uruguay. Peru is a subnational
 observation and should not be interpreted as a national estimate. The initial
 year is 2016 for every economy except Paraguay, whose first usable fourth
 quarter is 2017. The final year is 2023 for most economies, 2024 for Costa
-Rica and Ecuador, and 2022 for Guatemala.
+Rica and Ecuador, and 2022 for Guatemala. All 14 economies have complete
+fourth-quarter observations in both 2017 and 2022. These two years therefore
+define the common window used for the aggregate results.
 
 \subsection{Income levels}
 
@@ -206,6 +217,16 @@ magnitudes of the two components while making them add exactly to \(g^A\).
 The annualized contributions are accounting allocations in percentage points
 per year, not independently compounded growth rates.
 
+\input{tex/shared_aggregate_decomposition}
+
+The common-window baseline fixes each economy's weight at its average number
+of workers in 2017 and 2022. Brazil and Mexico jointly account for 64.8
+percent of this weight. The changing-weight specification instead uses each
+economy's observed employment share at each endpoint and adds the
+between-economy composition component in
+Equation~\eqref{eq:global_symmetric_decomposition}. The equal-weight
+specification describes the average economy rather than the average worker.
+
 \subsection{Interpretation}
 
 The decomposition is an accounting identity. A positive education component
@@ -218,6 +239,8 @@ hours, occupations, sectors, formality, labor demand, selection into
 employment, and survey coverage.
 
 \section{Results}
+
+\subsection{Country results}
 
 Table~\ref{tab:latam_country_decomposition} reports one decomposition for each
 economy. Synthetic mean income rises in 8 economies and falls in 6. El
@@ -286,6 +309,67 @@ component and Ecuador's negative component therefore require particular
 caution. The remaining ten comparisons retain the same survey and series
 identifiers at both endpoints.
 
+\subsection{Common-window aggregate}
+
+Table~\ref{tab:latam_regional_descriptives} reports the descriptive statistics
+for the 14 economies over the common 2017-Q4--2022-Q4 window. The number of
+employed workers represented by the published weights rises from 223.1
+million to 242.8 million. The share with low education falls from 47.5 to
+41.7 percent, while the share with high education rises from 16.5 to 20.7
+percent.
+
+\input{tables/latam_regional_descriptives}
+
+Mean income is nearly unchanged for the low education group, increasing 0.07
+percent per year. It falls 1.52 percent per year for the middle education
+group and 2.34 percent for the high education group. These pooled group means
+combine income changes within economies with changes in the economies where
+workers in each education group are observed. The aggregate decomposition
+therefore uses the within-economy cells rather than treating the pooled group
+means as pure within-group income changes.
+
+Table~\ref{tab:latam_regional_decomposition} reports the common-window
+decomposition. In the baseline, fixed employment weights produce a synthetic
+mean income of 849 dollars in 2017 and 844 dollars in 2022, a decline of 0.12
+percent per year. Educational upgrading contributes 1.35 percentage points
+per year, but income changes within economy--education cells subtract 1.47
+points. The increase in educational attainment almost offsets the decline in
+income within the education groups, but does not fully compensate for it.
+
+\input{tables/latam_regional_decomposition}
+
+Using observed employment weights changes the result only slightly. Synthetic
+mean income falls 0.15 percent per year, including a negative
+between-economy composition contribution of 0.03 percentage points. Giving
+each economy equal weight produces a larger decline of 1.20 percent per year:
+educational upgrading contributes 1.00 point and within-group income changes
+subtract 2.21 points. Brazil and Mexico therefore affect the magnitude of the
+employment-weighted estimate, but the sign of the total change and the
+contrast between the two main components are unchanged.
+
+Figure~\ref{fig:latam_regional_annualized_decomposition} presents the three
+aggregate specifications in annualized terms. Bars to the right of zero raise
+synthetic mean income growth, bars to the left reduce it, and black diamonds
+show total compound annual growth.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/latam_regional_annualized_decomposition.pdf}
+\caption{Annualized aggregate decomposition, 2017-Q4--2022-Q4}
+\label{fig:latam_regional_annualized_decomposition}
+\begin{minipage}{0.98\textwidth}
+\footnotesize
+\textit{Note:} Contributions are measured in percentage points per year and
+sum to the compound annual growth rate shown by the black diamond. Fixed
+employment weights are proportional to each economy's average number of
+workers across the two endpoints. Observed employment weights add the
+between-economy composition component. Equal weights describe the average
+economy. The sample contains 14 economies; Peru refers to Lima and Callao.
+Colombia, Ecuador, Paraguay, and Uruguay cross a Tableau series or survey
+change.
+\end{minipage}
+\end{figure}
+
 \section{Conclusion}
 
 The country-level evidence shows a broad increase in the educational
@@ -301,13 +385,16 @@ and the Dominican Republic combine positive within-group income changes with
 different movements in educational composition.
 
 These results do not establish why income changed within an education group
-or what caused employment to shift across groups. They also do not support a
-single aggregate estimate for Latin America because countries have different
-endpoint years, Peru covers only Lima and Callao, and four comparisons cross
-survey-series changes. The results instead provide a transparent
-country-by-country accounting of how educational composition and
-within-group income jointly determine the observed change in average labor
-income.
+or what caused employment to shift across groups. They also do not provide a
+representative estimate for Latin America. The common-window aggregate covers
+the 14 economies in the Equity Lab data, Peru covers only Lima and Callao,
+and four comparisons cross survey-series changes. For this covered sample
+between 2017 and 2022, educational upgrading adds 1.35 percentage points per
+year to synthetic mean income growth, while income changes within the
+education groups subtract 1.47 points. The resulting decline of 0.12 percent
+per year shows that the increase in educational attainment was large enough
+to offset most, but not all, of the decline in income within the education
+groups.
 
 \bibliographystyle{apalike}
 \bibliography{references}

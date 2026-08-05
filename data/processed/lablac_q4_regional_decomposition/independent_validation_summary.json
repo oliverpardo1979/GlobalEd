@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-09,
+  "checks": {
+    "countries": 14,
+    "cells": 84,
+    "endpoint_years": [
+      2017,
+      2022
+    ],
+    "three_groups_per_country_endpoint": true,
+    "maximum_recomputation_error": 5.684341886080801e-13,
+    "maximum_aggregate_identity_error": 3.0242475190789264e-13,
+    "maximum_cagr_error": 2.220446049250313e-16,
+    "maximum_annualized_additivity_error": 7.022160630754115e-15,
+    "country_weight_sum_0_error": 8.881784197001252e-16,
+    "country_weight_sum_1_error": 8.881784197001252e-16,
+    "midpoint_weight_sum_error": 9.992007221626409e-16,
+    "equal_weight_sum_error": 4.440892098500626e-16,
+    "education_share_sum_0_error": 0.0,
+    "education_share_sum_1_error": 2.220446049250313e-16,
+    "source_change_countries": [
+      "Colombia",
+      "Ecuador",
+      "Paraguay",
+      "Uruguay"
+    ],
+    "all_values_positive": true
+  },
+  "recomputation_errors": {
+    "pooled_initial_income_error": 1.1368683772161603e-13,
+    "pooled_final_income_error": -2.2737367544323206e-13,
+    "fixed_initial_mean_error": 5.684341886080801e-13,
+    "fixed_final_mean_error": 5.684341886080801e-13,
+    "fixed_education_error": 3.552713678800501e-14,
+    "fixed_within_error": -7.105427357601002e-14,
+    "equal_initial_mean_error": 2.2737367544323206e-13,
+    "equal_final_mean_error": 4.547473508864641e-13,
+    "changing_education_error": 3.552713678800501e-14,
+    "changing_within_error": -7.815970093361102e-14,
+    "changing_country_composition_error": -1.2256862191861728e-13,
+    "total_initial_payroll_error": 0.0,
+    "total_final_payroll_error": 0.0
+  }
+}

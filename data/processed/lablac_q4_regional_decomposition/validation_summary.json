@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-09,
+  "checks": {
+    "countries": 14,
+    "selected_endpoints": 28,
+    "selected_cells": 84,
+    "all_endpoints_q4": true,
+    "endpoint_years": [
+      2017,
+      2022
+    ],
+    "three_education_cells_per_endpoint": true,
+    "positive_incomes_and_workers": true,
+    "maximum_aggregate_identity_error": 3.0242475190789264e-13,
+    "maximum_annualized_identity_error": 6.8833827526759706e-15,
+    "maximum_regional_share_sum_error": 0.0,
+    "changing_weight_income_0_reconciliation_error": 1.1368683772161603e-13,
+    "changing_weight_income_1_reconciliation_error": -2.2737367544323206e-13,
+    "countries_with_source_change": 4
+  }
+}
